@@ -1,0 +1,25 @@
+.list-group {
+  --bs-list-group-border-width: 0;
+  --bs-list-group-active-color: var(--bra-green-dark);
+  --bs-list-group-active-bg: var(--bra-green-light-25);
+  --bs-list-group-active-border-color: #ebebeb;
+  --bs-list-group-item-padding-y: 10px;
+  --bs-list-group-item-padding-x: 30px;
+  --bs-list-group-border-radius: 0;
+  font-size: 16px;
+}
+.list-group-item {
+  border-bottom: 1px solid #ebebeb;
+}
+.list-group-item:last-child {
+  border-bottom-width: 1px;
+}
+.list-group-item:hover,
+.list-group-item:focus {
+  text-decoration: none;
+  background-color: #f5fbf7;
+  color: var(--bra-green-dark);
+}
+.list-group-item.active {
+  font-weight: 500;
+}

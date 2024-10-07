@@ -1,0 +1,36 @@
+.accordion {
+  --bs-accordion-body-padding-x: 43px;
+  --bs-accordion-body-padding-y: 20px;
+  --bs-accordion-border-radius: 0;
+  --bs-accordion-border-width: 0;
+  --bs-accordion-btn-color: var(--bra-green-dark);
+  --bs-accordion-active-color: var(--bra-green-dark);
+  --bs-accordion-active-bg: var(--bra-green-light-25);
+  --bs-accordion-btn-padding-y: 10px;
+  --bs-accordion-btn-padding-x: 10px;
+  --icon-arrow-down: url("data:image/svg+xml,%3Csvg viewBox='0 0 22 22' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%2300524e' d='M11.0977 16.6954V12.8063L17.9036 6.00045C18.4405 5.46347 19.3111 5.46347 19.8481 6.00045C20.3851 6.53742 20.3851 7.40802 19.8481 7.94499L11.0977 16.6954Z'/%3E%3Cpath fill='%2300524e' d='M11.0977 12.8063V16.6954L2.34721 7.94499C1.81024 7.40802 1.81024 6.53742 2.34721 6.00045C2.88418 5.46347 3.75478 5.46347 4.29175 6.00045L11.0977 12.8063Z'/%3E%3C/svg%3E%0A");
+  --bs-accordion-btn-icon: var(--icon-arrow-down);
+  --bs-accordion-btn-active-icon: var(--icon-arrow-down);
+}
+.accordion-header {
+  border-bottom: 1px solid var(--bra-green-light-25);
+}
+.accordion-button {
+  font-size: 18px;
+  font-weight: 500;
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+.accordion-button:hover {
+  background-color: #d3e2db;
+}
+.accordion-button:active {
+  background-color: #a3bdb8;
+}
+.accordion-button::after {
+  margin-left: 0;
+  margin-right: 10px;
+}
+.accordion-body {
+  font-size: 15px;
+}

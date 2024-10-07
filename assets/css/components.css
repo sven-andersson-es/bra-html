@@ -1,0 +1,32 @@
+/* App header */
+.app-header {
+  height: 70px;
+  background-color: var(--bra-green-dark);
+  display: flex;
+  align-items: center;
+}
+.app-header__container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.app-header__logo {
+  height: 46px;
+  margin-top: -6px;
+}
+
+
+/* Navigation accordion */
+.accordion-button--navigation,
+.accordion-button--navigation:not(.collapsed) {
+  border-bottom: 2px solid var(--bra-green-dark);
+  background-color: white;
+}
+.accordion-button--navigation:hover {
+  background-color: var(--bra-green-light-25);
+}
+.accordion-button--navigation:active {
+  background-color: var(--bra-green-light-50);
+}
+.accordion-button--navigation:focus {
+  border-color: var(--bra-green-dark);
+}

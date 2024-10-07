@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+  <title>BRA</title>
+  <meta name="description" content="">
+
+  <!-- Material Style CSS -->
+  <link rel="stylesheet" href="/libraries/materialstyle-3.1.1/css/materialstyle.min.css">
+  <!-- Custom CSS -->
+  <link href="/assets/css/main.css" rel="stylesheet">
+
+	<link rel="icon" href="/assets/images/favicon.svg">
+</head>
+<body>
+  <div class="app-header">
+    <div class="container app-header__container">
+      <a href="/">
+        <img class="app-header__logo" src="/assets/images/logotype.svg" alt="BRA" />
+      </a>
+    </div>
+  </div>
+
+  <div class="container content-page-layout"> 
+
+    <div class="content-page-layout__left">
+      <div class="accordion accordion--navigation" id="leftNavigationAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="leftNavigationHeading-1">
+            <button class="accordion-button accordion-button--navigation" type="button" data-bs-toggle="collapse" data-bs-target="#leftNavigationCollapse-1" aria-expanded="true" aria-controls="leftNavigationCollapse-1">
+              Design system
+            </button>
+          </h2>
+          <div id="leftNavigationCollapse-1" class="accordion-collapse collapse show" aria-labelledby="leftNavigationHeading-1" data-bs-parent="#leftNavigationAccordion">
+            <nav class="list-group">
+              <a class="list-group-item active" href="./colors.html">Colors</a>
+              <a class="list-group-item" href="./typography.html">Typography</a>
+              <a class="list-group-item" href="./buttons.html">Buttons</a>
+              <a class="list-group-item" href="./icons.html">Icons</a>
+              <a class="list-group-item" href="./library.html">UI Library</a>
+              <a class="list-group-item" href="./breakpoints.html">Breakpoints</a>
+              <a class="list-group-item" href="./lists.html">Lists</a>
+              <a class="list-group-item" href="./accordion.html">Accordion</a>
+            </nav>
+          </div><!-- /accordion-collapse -->
+        </div><!-- /accordion-item -->
+      </div><!-- /accordion -->
+    </div><!-- /content-page-layout__left -->
+
+
+    <div class="content-page-layout__right">
+      
+
+      <div class="color-samples">
+        <div class="color-sample text-bg-primary">
+          bra-green (primary)
+        </div>
+      </div>
+  
+      <div class="color-samples">
+        <div class="color-sample text-bg-secondary">
+          bra-green-dark (secondary)
+        </div>
+      </div>
+  
+      <div class="color-samples">
+        <div class="color-sample text-bg-bra-green-light">
+          bra-green-light
+        </div>
+        <div class="color-sample text-bg-bra-green-light-50">
+          bra-green-light-50
+        </div>
+        <div class="color-sample text-bg-bra-green-light-25">
+          bra-green-light-25 (light)
+        </div>
+      </div>
+  
+      <div class="color-samples">
+        <div class="color-sample text-bg-bra-orange">
+          bra-orange (tertiary)
+        </div>
+      </div>
+  
+  
+      <div class="color-samples">
+        <div class="color-sample text-bg-bra-beige">
+          bra-beige
+        </div>
+        <div class="color-sample text-bg-bra-beige-light">
+          bra-beige-light
+        </div>
+      </div>
+  
+  
+      <div class="color-samples">
+        <div class="color-sample text-bg-bra-grey">
+          bra-grey
+        </div> 
+        <div class="color-sample text-bg-bra-grey-light">
+          bra-grey-light
+        </div>
+        <div class="color-sample text-bg-bra-grey-light-20">
+          bra-grey-light-20
+        </div>
+      </div>
+  
+  
+      <div class="color-samples">
+        <div class="color-sample text-bg-bra-grey-interactive">
+          bra-grey-interactive
+        </div>
+      </div>
+  
+  
+      <div class="color-samples">
+        <div class="color-sample text-bg-success">
+          success
+        </div>
+      </div>
+  
+  
+      <div class="color-samples">
+        <div class="color-sample text-bg-danger">
+          danger
+        </div>
+      </div>
+  
+      <br>
+      <br>
+  
+      <div class="h5 mb-3">Usage</div>
+      <div class="text-short"></div>
+        variable: <code>--bra-green</code><br>
+        text: <code>.text-bra-green</code><br>
+        background: <code>.bg-bra-green</code><br>
+        background with text: <code>.text-bg-bra-green</code><br>
+      </div>
+
+    </div><!-- /content-page-layout__right -->
+
+  </div><!-- /content-page-layout -->
+
+  <style>
+    .color-samples {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 15px;
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .color-sample {
+      padding: 16px;
+    }
+    .color-samples--text .color-sample {
+      padding: 0;
+    }
+  </style>
+
+  <!-- Material Style JS -->
+  <script src="/libraries/materialstyle-3.1.1/js/materialstyle.min.js"></script>
+</body>
+</html>

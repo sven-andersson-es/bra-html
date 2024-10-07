@@ -1,0 +1,131 @@
+.text-bra-green {
+  color: var(--bra-green);
+}
+.bg-bra-green {
+  background-color: var(--bra-green);
+}
+.text-bg-bra-green {
+  background-color: var(--bra-green);
+  color: white;
+}
+
+.text-bra-green-dark {
+  color: var(--bra-green-dark);
+}
+.bg-bra-green-dark {
+  background-color: var(--bra-green-dark);
+}
+.text-bg-bra-green-dark {
+  background-color: var(--bra-green-dark);
+  color: white;
+}
+
+.text-bra-green-light {
+  color: var(--bra-green-light);
+}
+.bg-bra-green-light {
+  background-color: var(--bra-green-light);
+}
+.text-bg-bra-green-light {
+  background-color: var(--bra-green-light);
+  color: white;
+}
+
+.text-bra-green-light-50 {
+  color: var(--bra-green-light-50);
+}
+.bg-bra-green-light-50 {
+  background-color: var(--bra-green-light-50);
+}
+.text-bg-bra-green-light-50 {
+  background-color: var(--bra-green-light-50);
+  color: var(--text-color);
+}
+
+.text-bra-green-light-25 {
+  color: var(--bra-green-light-25);
+}
+.bg-bra-green-light-25 {
+  background-color: var(--bra-green-light-25);
+}
+.text-bg-bra-green-light-25 {
+  background-color: var(--bra-green-light-25);
+  color: var(--text-color);
+}
+
+.text-bra-beige {
+  color: var(--bra-beige);
+}
+.bg-bra-beige {
+  background-color: var(--bra-beige);
+}
+.text-bg-bra-beige {
+  background-color: var(--bra-beige);
+  color: var(--text-color);
+}
+
+.text-bra-beige-light {
+  color: var(--bra-beige-light);
+}
+.bg-bra-beige-light {
+  background-color: var(--bra-beige-light);
+}
+.text-bg-bra-beige-light {
+  background-color: var(--bra-beige-light);
+  color: var(--text-color);
+}
+
+.text-bra-orange {
+  color: var(--bra-orange);
+}
+.bg-bra-orange {
+  background-color: var(--bra-orange);
+}
+.text-bg-bra-orange {
+  background-color: var(--bra-orange);
+  color: white;
+}
+
+.text-bra-grey {
+  color: var(--bra-grey);
+}
+.bg-bra-grey {
+  background-color: var(--bra-grey);
+}
+.text-bg-bra-grey {
+  background-color: var(--bra-grey);
+  color: white;
+}
+
+.text-bra-grey-light {
+  color: var(--bra-grey-light);
+}
+.bg-bra-grey-light {
+  background-color: var(--bra-grey-light);
+}
+.text-bg-bra-grey-light {
+  background-color: var(--bra-grey-light);
+  color: white;
+}
+
+.text-bra-grey-light-20 {
+  color: var(--bra-grey-light-20);
+}
+.bg-bra-grey-light-20 {
+  background-color: var(--bra-grey-light-20);
+}
+.text-bg-bra-grey-light-20 {
+  background-color: var(--bra-grey-light-20);
+  color: var(--text-color);
+}
+
+.text-bra-grey-interactive {
+  color: var(--bra-grey-interactive);
+}
+.bg-bra-grey-interactive {
+  background-color: var(--bra-grey-interactive);
+}
+.text-bg-bra-grey-interactive {
+  background-color: var(--bra-grey-interactive);
+  color: white;
+}

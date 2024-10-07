@@ -1,0 +1,32 @@
+/***********************************************/
+/* Material Style                              */
+/***********************************************/
+
+@import "./materialstyle/variables.css";
+@import "./materialstyle/overwrite.css";
+@import "./materialstyle/colors.css";
+@import "./materialstyle/typography.css";
+@import "./materialstyle/buttons.css";
+@import "./materialstyle/lists.css";
+@import "./materialstyle/accordion.css";
+
+/***********************************************/
+/* Breakpoints                                 */
+/* Mobile	  <576px                             */
+/* Tablet	  576px - 1178px                     */
+/* Desktop	≥1178px                            */
+/***********************************************/
+
+/***********************************************/
+/* Fonts                                       */
+/***********************************************/
+
+@import "./fonts/calibre/calibre.css";
+
+/***********************************************/
+/* Custom styles                              */
+/***********************************************/
+
+@import "./custom.css";
+@import "./components.css";
+

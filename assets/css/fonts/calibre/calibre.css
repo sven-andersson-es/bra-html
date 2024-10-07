@@ -1,0 +1,11 @@
+@font-face {
+  font-family: CalibreWeb;
+  src: url("./calibre-2-regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: CalibreWeb;
+  src: url("./calibre-2-medium.woff2") format("woff2");
+  font-weight: 500;
+}
