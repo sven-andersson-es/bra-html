@@ -9,7 +9,7 @@
   <!-- Material Style CSS -->
   <link rel="stylesheet" href="/libraries/materialstyle-3.1.1/css/materialstyle.min.css">
   <!-- Custom CSS -->
-  <link href="/assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
 
 	<link rel="icon" href="/assets/images/favicon.svg">
 </head>
@@ -42,6 +42,8 @@
               <a class="list-group-item" href="./breakpoints.html">Breakpoints</a>
               <a class="list-group-item" href="./lists.html">Lists</a>
               <a class="list-group-item" href="./accordion.html">Accordion</a>
+              <a class="list-group-item" href="./grid12.html">Grid 12 columns</a>
+              <a class="list-group-item" href="./grid9.html">Grid 9 columns</a>
             </nav>
           </div><!-- /accordion-collapse -->
         </div><!-- /accordion-item -->
@@ -51,39 +53,75 @@
 
     <div class="content-page-layout__right">
 
-      <h6 class="h6 mb-2">Icons</h6>
+      <small>Icons are stored locally in SVG files located in folder <code>/assets/icons</code></small>
+      <br>
+      <br>
 
-      <svg class="icon"><use href="/assets/icons/search.svg#icon"/></svg>
-      <svg class="icon"><use href="/assets/icons/login.svg#icon"/></svg>
-      <svg class="icon"><use href="/assets/icons/plane-up.svg#icon"/></svg>
-      <svg class="icon"><use href="/assets/icons/plane-down.svg#icon"/></svg>
-      <svg class="icon"><use href="/assets/icons/calendar-from.svg#icon"/></svg>
-      <svg class="icon"><use href="/assets/icons/calendar-to.svg#icon"/></svg>
-      <svg class="icon"><use href="/assets/icons/ticket-type.svg#icon"/></svg>
-      <svg class="icon"><use href="/assets/icons/passenger-type.svg#icon"/></svg>
-      <svg class="icon"><use href="/assets/icons/arrow-left.svg#icon"/></svg>
-      <svg class="icon"><use href="/assets/icons/arrow-right.svg#icon"/></svg>
-      <svg class="icon"><use href="/assets/icons/arrow-up.svg#icon"/></svg>
-      <svg class="icon"><use href="/assets/icons/arrow-down.svg#icon"/></svg>
-      <svg class="icon"><use href="/assets/icons/close.svg#icon"/></svg>
-      <svg class="icon"><use href="/assets/icons/info.svg#icon"/></svg>
-      <svg class="icon"><use href="/assets/icons/info-circle.svg#icon"/></svg>
+      <h4 class="mb-2">BRA icons</h4>
+
+      <span class="icon" data-svg="bra--search.svg"/></span>
+      <span class="icon" data-svg="bra--login.svg"/></span>
+      <span class="icon" data-svg="bra--plane-up.svg"/></span>
+      <span class="icon" data-svg="bra--plane-down.svg"/></span>
+      <span class="icon" data-svg="bra--calendar-from.svg"/></span>
+      <span class="icon" data-svg="bra--calendar-to.svg"/></span>
+      <span class="icon" data-svg="bra--ticket-type.svg"/></span>
+      <span class="icon" data-svg="bra--passenger-type.svg"/></span>
+      <span class="icon" data-svg="bra--arrow-left.svg"/></span>
+      <span class="icon" data-svg="bra--arrow-right.svg"/></span>
+      <span class="icon" data-svg="bra--arrow-up.svg"/></span>
+      <span class="icon" data-svg="bra--arrow-down.svg"/></span>
+      <span class="icon" data-svg="bra--close.svg"/></span>
+      <span class="icon" data-svg="bra--info.svg"/></span>
+      <span class="icon" data-svg="bra--info-circle.svg"/></span>
 
       <h6 class="h6 mt-4 mb-2">Sizing</h6>
-      <svg class="icon"><use href="/assets/icons/plane-up.svg#icon"/></svg>
-      <svg class="icon" style="width: 40px; height: 40px"><use href="/assets/icons/plane-up.svg#icon"/></svg>
-      <svg class="icon" style="width: 80px"><use href="/assets/icons/plane-up.svg#icon"/></svg>
+      <span class="icon" data-svg="bra--plane-up.svg"/></span>
+      <span class="icon" data-svg="bra--plane-up.svg" style="width: 40px"/></span>
+      <span class="icon" data-svg="bra--plane-up.svg" style="width: 80px"/></span>
 
       <h6 class="h6 mt-4 mb-2">Colors</h6>
-      <svg class="icon text-bra-green-dark"><use href="/assets/icons/plane-up.svg#icon"/></svg>
-      <svg class="icon text-bra-green"><use href="/assets/icons/plane-up.svg#icon"/></svg>
-      <svg class="icon text-bra-green-light"><use href="/assets/icons/plane-up.svg#icon"/></svg>
-      <svg class="icon text-bra-green-light-25"><use href="/assets/icons/plane-up.svg#icon"/></svg>
+      <span class="icon text-bra-green-dark" data-svg="bra--plane-up.svg"/></span>
+      <span class="icon text-bra-green" data-svg="bra--plane-up.svg"/></span>
+      <span class="icon text-bra-green-light" data-svg="bra--plane-up.svg"/></span>
+      <span class="icon text-bra-green-light-25" data-svg="bra--plane-up.svg"/></span>
+
+      <br>
+      <br>
+      <br>
+
+      <h4>MDI icons</h4>
+      <small>Full icon set: <a href="https://icon-sets.iconify.design/mdi/" target="_blank">Material Design Icons</a></small>
+      <br>
+      
+
+      <span class="icon" data-svg="mdi--cloud.svg"></span>
+
+      <h6 class="h6 mt-4 mb-2">Sizing</h6>
+      <span class="icon" data-svg="mdi--cloud.svg"/></span>
+      <span class="icon" data-svg="mdi--cloud.svg" style="width: 40px"/></span>
+      <span class="icon" data-svg="mdi--cloud.svg" style="width: 80px"/></span>
+
+      <h6 class="h6 mt-4 mb-2">Colors</h6>
+      <span class="icon text-bra-green-dark" data-svg="mdi--cloud.svg"/></span>
+      <span class="icon text-bra-green" data-svg="mdi--cloud.svg"/></span>
+      <span class="icon text-bra-green-light" data-svg="mdi--cloud.svg"/></span>
+      <span class="icon text-bra-green-light-25" data-svg="mdi--cloud.svg"/></span>
+
+
+      <br>
+      <br>
+      <br>
+
+      <small>Other icon sets at <a href="https://icon-sets.iconify.design/" target="_blank">Iconify</a></small>
     </div>
 
-  </div>
+  </div><!-- /content-page-layout -->
 
-  <!-- Material Style JS -->
+
+  <!-- Javascript files -->
+  <script src="/js/top-nav.js"></script>
+  <script src="/js/icons.js"></script>
   <script src="/libraries/materialstyle-3.1.1/js/materialstyle.min.js"></script>
 </body>
 </html>

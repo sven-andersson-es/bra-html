@@ -25,13 +25,23 @@
   --bra-grey-light: #999999;
   --bra-grey-light-20: #EBEBEB;
   --bra-grey-interactive: #595959;
-  
-  /* grid */
-  --grid-gap: 24px;
 
   /* transitions */
   --button-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (max-width: 576px) {
+  :root {
+    /* grid */
+    --grid-gap: 14px;
+  }
+}
+@media screen and (max-width: 872px) {
+  :root {
+    /* grid */
+    --grid-gap: 20px;
+  }
+}
+
 
 /***********************************************/
 /* General styles                              */
@@ -96,6 +106,15 @@ ul li {
   vertical-align: middle;
   margin-top: -0.27em;
   margin-bottom: -0.17em;
+  /* Add background color */
+  background-color: currentColor;
+  --svg: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"></svg>');
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
 }
 
 
@@ -158,7 +177,7 @@ ul li {
 .columns-4-4-4 * {
   grid-column: span 4;
 }
-@media screen and (max-width: 864px) {
+@media screen and (max-width: 872px) {
   .columns-4-4-4 {
     display: block;
   }
@@ -173,7 +192,7 @@ ul li {
 .columns-3-3-3-3 * {
   grid-column: span 3;
 }
-@media screen and (max-width: 864px) {
+@media screen and (max-width: 872px) {
   .columns-3-3-3-3 * {
     grid-column: span 6;
   }
@@ -191,7 +210,7 @@ ul li {
 .columns-8-4 *:last-child {
   grid-column: span 4;
 }
-@media screen and (max-width: 864px) {
+@media screen and (max-width: 872px) {
   .columns-8-4 {
     display: block;
   }
@@ -218,7 +237,7 @@ ul li {
 .columns-1-7-1 *:last-child {
   grid-column: span 1;
 }
-@media screen and (max-width: 864px) {
+@media screen and (max-width: 872px) {
   .columns-1-7-1 {
     display: block;
   }
@@ -236,7 +255,7 @@ ul li {
 .columns-1-8 *:last-child {
   grid-column: span 8;
 }
-@media screen and (max-width: 864px) {
+@media screen and (max-width: 872px) {
   .columns-1-8 {
     display: block;
   }

@@ -1,5 +1,6 @@
 .list-group {
   --bs-list-group-border-width: 0;
+  --bs-list-group-bg: transparent;
   --bs-list-group-active-color: var(--bra-green-dark);
   --bs-list-group-active-bg: var(--bra-green-light-25);
   --bs-list-group-active-border-color: #ebebeb;

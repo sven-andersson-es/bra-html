@@ -1,0 +1,70 @@
+/* App header */
+.app-header {
+  height: 70px;
+  background-color: var(--bra-green-dark);
+  display: flex;
+  align-items: center;
+}
+.app-header__container {
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.app-header__logo {
+  height: 46px;
+  margin-top: -6px;
+}
+
+/* Top navigation */
+.top-nav {
+  display: flex;
+  gap: 6px;
+}
+.top-nav__button {
+  --fade-duration: 0.15s;
+}
+.top-nav__button::before {
+  content: '';
+  position: absolute;
+  bottom: -43px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 0 13px 15px 13px;
+  border-style: solid;
+  border-color: transparent transparent var(--bra-green-light-50) transparent;
+
+  /* hide transition */
+  transition: opacity var(--fade-duration) 0s ease-out, visibility 0s var(--fade-duration);
+  opacity: 0;
+  visibility: hidden;
+}
+.top-nav__button--open::before {
+  /* show transition */
+  transition: opacity var(--fade-duration) 0s ease-out, visibility 0s 0s;
+  opacity: 1;
+  visibility: visible;
+}
+.top-nav__popup {
+  position: absolute;
+  padding: 15px 20px;
+  margin-top: 51px;
+  border-radius: 2px;
+  background-color: white;
+  border: 2px solid var(--bra-green-light-50);
+  color: var(--text-color);
+  font-weight: 400;
+  left: 50%;
+  translate: -50%;
+
+  /* hide transition */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--fade-duration) 0s ease-out, visibility 0s var(--fade-duration);
+}
+.top-nav__button--open .top-nav__popup {
+  /* show transition */
+  opacity: 1;
+  visibility: visible;
+  transition: opacity var(--fade-duration) 0s ease-out, visibility 0s 0s;
+}

@@ -1,5 +1,5 @@
 /***********************************************/
-/* Material Style                              */
+/* Material Style customization                */
 /***********************************************/
 
 @import "./materialstyle/variables.css";
@@ -9,13 +9,6 @@
 @import "./materialstyle/buttons.css";
 @import "./materialstyle/lists.css";
 @import "./materialstyle/accordion.css";
-
-/***********************************************/
-/* Breakpoints                                 */
-/* Mobile	  <576px                             */
-/* Tablet	  576px - 1178px                     */
-/* Desktop	≥1178px                            */
-/***********************************************/
 
 /***********************************************/
 /* Fonts                                       */
@@ -28,5 +21,7 @@
 /***********************************************/
 
 @import "./custom.css";
+@import "./app-header.css";
+@import "./grid.css";
 @import "./components.css";
 
