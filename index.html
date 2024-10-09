@@ -16,28 +16,136 @@
 
   <div class="app-header">
     <div class="container app-header__container">
+      <button class="btn btn-secondary btn-circle hamburger">        
+        <div class="hamburger__line"></div>
+        <div class="hamburger__line"></div>
+        <div class="hamburger__line"></div>
+      </button>
+
+      <div class="top-nav-mobile">
+        <nav class="list-group top-nav-mobile__list">
+          <button class="list-group-item top-nav-mobile__list-item active" onclick="openSlideIn('slidein-1')">
+            Fleet
+            <span class="icon top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"/></span>
+          </button>
+          <div class="top-nav-mobile__slidein" id="slidein-1">
+            <div class="top-nav-mobile__slidein-header">
+              <button class="btn btn-outline-primary border-0 top-nav-mobile__slidein-close" onclick="closeSlideIn('slidein-1')">
+                <span class="icon top-nav-mobile__slidein-close-arrow" data-svg="bra--arrow-left.svg"/></span>
+                Menu
+              </button>
+              <h5 class="top-nav-mobile__slidein-title">Fleet</h5>
+            </div>
+            
+          </div>
+          <button class="list-group-item top-nav-mobile__list-item">
+            Our mission
+            <span class="icon top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"/></span>
+          </button>
+          <button class="list-group-item top-nav-mobile__list-item">
+            For passengers
+            <span class="icon top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"/></span>
+          </button>
+          <button class="list-group-item top-nav-mobile__list-item">
+            About us
+            <span class="icon top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"/></span>
+          </button>
+          <button class="list-group-item top-nav-mobile__list-item">
+            Career
+            <span class="icon top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"/></span>
+          </button>
+        </nav>
+      </div>
+
       <a href="/">
         <img class="app-header__logo" src="/assets/images/logotype.svg" alt="BRA" />
       </a>
+
       <nav class="top-nav">
 
         <button class="btn btn-secondary btn-sm top-nav__button">
           Fleet
           <div class="top-nav__popup">
-            popup
-          </div>
+            <div class="top-nav__section">
+              <h5 class="top-nav__section-title">Section title</h5>
+              <div class="list-group">
+                <a 
+                  class="list-group-item top-nav__section-item"
+                  href="#"
+                >First page</a>
+                <a 
+                  class="list-group-item active top-nav__section-item"
+                  href="#"
+                >Second page</a>
+                <a 
+                  class="list-group-item top-nav__section-item"
+                  href="#"
+                >Third page</a>
+              </div>
+            </div><!-- /top-nav__section -->
+
+            <div class="top-nav__section">
+              <h5 class="top-nav__section-title">Second section title</h5>
+              <div class="list-group">
+                <a 
+                  class="list-group-item top-nav__section-item"
+                  href="#"
+                >First page</a>
+                <a 
+                  class="list-group-item top-nav__section-item"
+                  href="#"
+                >Second page</a>
+                <a 
+                  class="list-group-item top-nav__section-item"
+                  href="#"
+                >Third page</a>
+              </div>
+            </div><!-- /top-nav__section -->
+          </div><!-- /top-nav__popup-->
         </button>
 
         <button class="btn btn-secondary btn-sm top-nav__button">
           Our mission
           <div class="top-nav__popup">
-            popup
-          </div>
+            <div class="top-nav__section">
+              <h5 class="top-nav__section-title">Section title</h5>
+              <div class="list-group">
+                <a 
+                  class="list-group-item top-nav__section-item"
+                  href="#"
+                >First page</a>
+                <a 
+                  class="list-group-item active top-nav__section-item"
+                  href="#"
+                >Second page</a>
+                <a 
+                  class="list-group-item top-nav__section-item"
+                  href="#"
+                >Third page</a>
+              </div>
+            </div><!-- /top-nav__section -->
+          </div><!-- /top-nav__popup-->
         </button>
 
+        <button class="btn btn-secondary btn-sm top-nav__button">
+          For passengers
+        </button>
 
+        <button class="btn btn-secondary btn-sm top-nav__button">
+          About us
+        </button>
+
+        <button class="btn btn-secondary btn-sm top-nav__button">
+          Career
+        </button>
 
       </nav>
+
+      
+      <button class="btn btn-secondary btn-circle btn-sm">
+        <span class="icon" data-svg="material-symbols--language.svg"/></span>
+      </button>
+
     </div><!-- /app-header__container -->
   </div><!-- /app-header -->
 
@@ -55,6 +163,7 @@
   </div><!-- /container -->
 
   <!-- Javascript files -->
+  <script src="/js/icons.js"></script>
   <script src="/js/top-nav.js"></script>
   <script src="/libraries/materialstyle-3.1.1/js/materialstyle.min.js"></script>
 </body>
