@@ -1,12 +1,12 @@
 // Load icons from SVG files located in /assets/icons folder.
-// Usage: <span class="icon" data-svg="bra--plane-up.svg"></span>
-//        <span class="icon" data-svg="mdi--cloud.svg"></span>
+// Usage: <icon data-svg="bra--plane-up.svg"></span>
+//        <icon data-svg="mdi--cloud.svg"></span>
 
-const icons = document.querySelectorAll('.icon');
-let sheet = window.document.styleSheets[0];
+const folderUrl = '/assets/icons/';
+const sheet = window.document.styleSheets[0];
 
-icons.forEach(item => {
-  let filename = item.dataset.svg;
-  let rule = '.icon[data-svg="' + filename + '"] { --svg: url(/assets/icons/' + filename + ') }';
-  sheet.insertRule(rule, 0);
+document.querySelectorAll('icon').forEach(el => {
+  const filename = el.dataset.svg;
+  const cssRule = 'icon[data-svg="' + filename + '"] { --svg: url(' + folderUrl + filename + ') }';
+  sheet.insertRule(cssRule, 0);
 });
