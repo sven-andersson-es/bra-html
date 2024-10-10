@@ -1,4 +1,4 @@
-/* Navigation accordion */
+/* Left navigation accordion */
 .left-navigation-accordion-button,
 .left-navigation-accordion-button:not(.collapsed) {
   border-bottom: 2px solid var(--bra-green-dark);
@@ -12,4 +12,48 @@
 }
 .left-navigation-accordion-button:focus {
   border-color: var(--bra-green-dark);
+}
+
+
+
+/* Footer */
+.app-footer {
+  margin-top: auto;
+  background-color: var(--bra-beige-light);
+}
+.app-footer .container {
+  padding-top: 34px;
+  padding-bottom: 29px;
+}
+.app-footer__columns {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: var(--grid-gap);
+}
+.app-footer__links {
+  margin-top: 26px;
+  padding-top: 26px;
+  border-top: 1px solid var(--bra-beige);
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  row-gap: 10px;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+/* tablet */
+@media screen and (max-width: 1181px) {
+  .app-footer__columns {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* mobile */
+@media screen and (max-width: 576px) {
+  .app-footer__columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .app-footer__links {
+    flex-direction: column;
+    align-items: center;
+  }
 }

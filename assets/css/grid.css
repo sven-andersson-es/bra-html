@@ -1,17 +1,14 @@
 :root {
-  /* grid */
   --grid-gap: 24px;
-}
-@media screen and (max-width: 576px) {
-  :root {
-    /* grid */
-    --grid-gap: 14px;
-  }
 }
 @media screen and (max-width: 872px) {
   :root {
-    /* grid */
     --grid-gap: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  :root {
+    --grid-gap: 14px;
   }
 }
 

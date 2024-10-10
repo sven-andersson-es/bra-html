@@ -6,21 +6,20 @@
   <title>BRA</title>
   <meta name="description" content="">
 
-  <!-- Material Style CSS -->
+  <!-- CSS files -->
   <link rel="stylesheet" href="/libraries/materialstyle-3.1.1/css/materialstyle.min.css">
-  <!-- Custom CSS -->
   <link rel="stylesheet" href="/assets/css/main.css">
 
 	<link rel="icon" href="/assets/images/favicon.svg">
 </head>
 <body>
-  <div class="app-header">
+  <header class="app-header">
     <div class="container app-header__container">
       <a href="/">
         <img class="app-header__logo" src="/assets/images/logotype.svg" alt="BRA" />
       </a>
     </div>
-  </div>
+  </header>
 
   <div class="container grid-overlay">
     <div></div>
@@ -39,7 +38,7 @@
 
   <div class="container content-page-layout"> 
 
-    <div class="content-page-layout__left">
+    <section class="content-page-layout__left">
       <div class="accordion accordion--navigation" id="leftNavigationAccordion">
         <div class="accordion-item">
           <h2 class="accordion-header" id="leftNavigationHeading-1">
@@ -63,10 +62,10 @@
           </div><!-- /accordion-collapse -->
         </div><!-- /accordion-item -->
       </div><!-- /accordion -->
-    </div><!-- /content-page-layout__left -->
+    </section><!-- /content-page-layout__left -->
 
 
-    <div class="content-page-layout__right">
+    <section class="content-page-layout__right">
 
       <h4>Grid 9 columns</h4>
       <br>
@@ -93,9 +92,9 @@
       </div><!-- /columns-1-8 -->
 
 
-    </div>
+    </section><!-- /content-page-layout__right -->
 
-  </div>
+  </div><!-- /content-page-layout -->
 
   <style>
     .grid-overlay {
