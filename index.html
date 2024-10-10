@@ -35,7 +35,39 @@
                 Menu
               </button>
               <h5 class="top-nav-mobile__slidein-title">Fleet</h5>
-            </div>
+            </div><!-- /top-nav-mobile__slidein-header -->
+
+            <div class="accordion accordion--navigation top-nav-mobile__accordion" id="mobileNavAccordion-1">
+
+              <div class="accordion-item">
+                <h4 class="accordion-header" id="mobileNavAccordionHeader-1-1">
+                  <button class="accordion-button top-nav-mobile__accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNavAccordionCollapse-1-1" aria-expanded="true" aria-controls="mobileNavAccordionCollapse-1-1">
+                    Section title
+                  </button>
+                </h4>
+                <div id="mobileNavAccordionCollapse-1-1" class="accordion-collapse collapse show" aria-labelledby="mobileNavAccordionHeader-1-1" data-bs-parent="#mobileNavAccordion-1">
+                  <nav class="list-group">
+                    <a class="list-group-item" href="/">First page</a>
+                    <a class="list-group-item active" href="/">Second page</a>
+                  </nav>
+                </div><!-- /accordion-collapse -->
+              </div><!-- /accordion-item -->
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="mobileNavAccordionHeader-1-2">
+                  <button class="accordion-button collapsed top-nav-mobile__accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNavAccordionCollapse-1-2" aria-expanded="false" aria-controls="mobileNavAccordionCollapse-1-2">
+                    Second section title
+                  </button>
+                </h2>
+                <div id="mobileNavAccordionCollapse-1-2" class="accordion-collapse collapse" aria-labelledby="mobileNavAccordionHeader-1-2" data-bs-parent="#mobileNavAccordion-1">
+                  <nav class="list-group">
+                    <a class="list-group-item" href="/">First page</a>
+                    <a class="list-group-item" href="/">Second page</a>
+                  </nav>
+                </div><!-- /accordion-collapse -->
+              </div><!-- /accordion-item -->
+
+            </div><!-- /accordion -->
             
           </div>
           <button class="list-group-item top-nav-mobile__list-item">

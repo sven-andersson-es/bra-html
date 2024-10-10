@@ -1,15 +1,15 @@
 /* Navigation accordion */
-.accordion-button--navigation,
-.accordion-button--navigation:not(.collapsed) {
+.left-navigation-accordion-button,
+.left-navigation-accordion-button:not(.collapsed) {
   border-bottom: 2px solid var(--bra-green-dark);
   background-color: white;
 }
-.accordion-button--navigation:hover {
+.left-navigation-accordion-button:hover {
   background-color: var(--bra-green-light-25);
 }
-.accordion-button--navigation:active {
+.left-navigation-accordion-button:active {
   background-color: var(--bra-green-light-50);
 }
-.accordion-button--navigation:focus {
+.left-navigation-accordion-button:focus {
   border-color: var(--bra-green-dark);
 }
