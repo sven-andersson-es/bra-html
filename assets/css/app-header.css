@@ -21,8 +21,21 @@
   }
 }
 .app-header__logo {
-  height: 46px;
-  margin-bottom: 4px;
+  display: block;
+  height: 23px;
+}
+.app-header__lang {
+  margin-left: 22px;
+}
+.app-header__lang::before {
+  content: '';
+  position: absolute;
+  background-color: #327571;
+  height: 20px;
+  width: 2px;
+  border-radius: 1px;
+  left: -12px;
+  top: 10px;
 }
 
 /* Top navigation */

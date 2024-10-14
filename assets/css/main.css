@@ -1,7 +1,8 @@
 /* Breakpoints */
-/* 576px - Mobile/Tablet breakpoint */
-/* 872px - 9 columns breakpoint */
-/* 1180px - 12 columns breakpoint (Tablet/Desktop) */
+/* desktop 12 columns - width more then 1178px */
+/* desktop 9 columns - max width 1178px */
+/* tablet - max width 872px */
+/* mobile - max width 576px */
 
 /***********************************************/
 /* Material Style customization                */

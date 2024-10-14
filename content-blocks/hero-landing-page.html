@@ -28,58 +28,40 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="leftNavigationHeading-1">
             <button class="accordion-button left-navigation-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#leftNavigationCollapse-1" aria-expanded="true" aria-controls="leftNavigationCollapse-1">
-              Design system
+              Content blocks
             </button>
           </h2>
-          <div id="leftNavigationCollapse-1" class="accordion-collapse collapse show" aria-labelledby="leftNavigationHeading-1" data-bs-parent="#leftNavigationHeading-1">
+          <div id="leftNavigationCollapse-1" class="accordion-collapse collapse show" aria-labelledby="leftNavigationHeading-1" data-bs-parent="#leftNavigationAccordion">
             <nav class="list-group">
-              <a class="list-group-item" href="./colors.html">Colors</a>
-              <a class="list-group-item" href="./typography.html">Typography</a>
-              <a class="list-group-item" href="./buttons.html">Buttons</a>
-              <a class="list-group-item" href="./icons.html">Icons</a>
-              <a class="list-group-item" href="./library.html">UI Library</a>
-              <a class="list-group-item active" href="./breakpoints.html">Breakpoints</a>
-              <a class="list-group-item" href="./lists.html">Lists</a>
-              <a class="list-group-item" href="./accordion.html">Accordion</a>
-              <a class="list-group-item" href="./grid12.html">Grid 12 columns</a>
-              <a class="list-group-item" href="./grid9.html">Grid 9 columns</a>
-            </nav>
+              <a class="list-group-item" href="./hero-landing-page.html">Hero (Landing Page)</a>
+              <a class="list-group-item active" href="./hero-content-page.html">Hero (Content Page)</a>
+             </nav>
           </div><!-- /accordion-collapse -->
         </div><!-- /accordion-item -->
       </div><!-- /accordion -->
     </section><!-- /content-page-layout__left -->
 
+
     <section class="content-page-layout__right">
 
-      <div class="table-responsive">
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Breakpoint</th>
-              <th>Dimensions</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Desktop 12 columns</td>
-              <td>width more then 1180px</td>
-            </tr>
-            <tr>
-              <td>Desktop 9 columns </td>
-              <td>max width 1180px</td>
-            </tr>
-            <tr>
-              <td>Tablet</td>
-              <td>max width 872px</td>
-            </tr>
-            <tr>
-              <td>Mobile</td>
-              <td>max width 576px</td>
-            </tr>
-          </tbody>
-        </table>
+      <nav class="breadcrumbs">
+        <a href="/">Home</a>
+        <span class="breadcrumbs__separator">/</span>
+        <span>Content page</span>   
+      </nav>
 
-      </div><!-- /table-responsive -->
+      <!-- Content blocks -->
+
+      <!-- Hero (Landing Page) -->
+      <div 
+        class="bl-hero-landing-page"
+        style="background-image: url('/dummy/hero.jpg')"
+      >
+        <h1 class="bl-hero-landing-page__title">Vart vill du resa?</h1>
+      </div>
+      <!-- / Hero (Landing Page) -->
+
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, sapiente cum! A porro placeat eum maiores laborum asperiores. Eveniet minus a reprehenderit, nulla animi sapiente doloremque blanditiis nisi dolorem asperiores.</p>
 
     </section><!-- /content-page-layout__right -->
 

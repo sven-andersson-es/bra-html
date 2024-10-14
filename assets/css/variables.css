@@ -31,14 +31,18 @@
 
   /* grid */
   --grid-gap: 24px;
+  --container-padding: 26px;
 }
+/* tablet */
 @media screen and (max-width: 872px) {
   :root {
     --grid-gap: 20px;
   }
 }
+/* mobile */
 @media screen and (max-width: 576px) {
   :root {
     --grid-gap: 14px;
+    --container-padding: 21px;
   }
 }
