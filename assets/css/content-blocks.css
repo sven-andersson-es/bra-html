@@ -1,0 +1,23 @@
+/***********************************************/
+/* Heroe                                       */
+/***********************************************/
+
+.bl-hero {
+  height: 330px;
+  background-color: var(--image-background);
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-gap: var(--grid-gap);
+}
+.bl-hero__title {
+  background-color: var(--bra-green);
+  color: var(--bra-green-light-50);
+  padding: 13px 20px;
+  font-size: 36px;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: span 7;
+}

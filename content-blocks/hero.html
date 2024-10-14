@@ -24,29 +24,24 @@
   <div class="container content-page-layout"> 
 
     <section class="content-page-layout__left">
-
-      <div class="accordion accordion--navigation" id="leftNavigation">
+      <div class="accordion accordion--navigation" id="leftNavigationAccordion">
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button left-navigation-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Left navigation
+          <h2 class="accordion-header" id="leftNavigationHeading-1">
+            <button class="accordion-button left-navigation-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#leftNavigationCollapse-1" aria-expanded="true" aria-controls="leftNavigationCollapse-1">
+              Content blocks
             </button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#leftNavigation">
+          <div id="leftNavigationCollapse-1" class="accordion-collapse collapse show" aria-labelledby="leftNavigationHeading-1" data-bs-parent="#leftNavigationAccordion">
             <nav class="list-group">
-              <a class="list-group-item" href="/index.html">Landing page</a>
-              <a class="list-group-item active" href="/content-page.html">Content page</a>
-              <a class="list-group-item" href="/design-system/index.html">Design system</a>
+              <a class="list-group-item active" href="./hero.html">Hero</a>
             </nav>
           </div><!-- /accordion-collapse -->
         </div><!-- /accordion-item -->
       </div><!-- /accordion -->
-
     </section><!-- /content-page-layout__left -->
 
-    <section class="content-page-layout__right">
 
-      <!-- Content blocks -->
+    <section class="content-page-layout__right">
 
       <nav class="breadcrumbs">
         <a href="/">Home</a>
@@ -54,11 +49,18 @@
         <span>Content page</span>   
       </nav>
 
-      <h1>Resa med servicehund eller tjänstehund</h1>
-      <p>This is a content page layout. It has a left navigation and a main content area.</p>
+      <!-- Content blocks -->
+
+      <!-- Hero content block -->
+      <div 
+        class="bl-hero"
+        style="background-image: url('/dummy/hero.jpg')"
+      >
+        <h1 class="bl-hero__title">Vart vill du resa?</h1>
+      </div><!-- /bl-hero -->
 
     </section><!-- /content-page-layout__right -->
-    
+
   </div><!-- /content-page-layout -->
 
   <!-- Javascript files -->

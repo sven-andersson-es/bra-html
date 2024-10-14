@@ -1,0 +1,44 @@
+
+/***********************************************/
+/* Variables                                   */
+/***********************************************/
+
+:root {
+  /* typography */
+  --font-family: 'CalibreWeb', sans-serif;
+  --font-size: 18px;
+
+  /* colors */
+  --text-color: #333333;
+  --image-background: #f8f8f8;
+
+  /* BRA colors */
+  --bra-green: #057F65;
+  --bra-green-dark: #00524E;
+  --bra-green-light: #99CDA7;
+  --bra-green-light-50: #D3E8D5;
+  --bra-green-light-25: #ECF6EE;
+  --bra-beige: #E6DED3;
+  --bra-beige-light: #F5F2ED;
+  --bra-orange: #EC671C;
+  --bra-grey: #333333;
+  --bra-grey-light: #999999;
+  --bra-grey-light-20: #EBEBEB;
+  --bra-grey-interactive: #595959;
+
+  /* transitions */
+  --button-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* grid */
+  --grid-gap: 24px;
+}
+@media screen and (max-width: 872px) {
+  :root {
+    --grid-gap: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  :root {
+    --grid-gap: 14px;
+  }
+}
