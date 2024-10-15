@@ -60,6 +60,7 @@ ul li {
   margin-left: 1.1em;
 }
 img, svg {
+  max-width: 100%;
   vertical-align: initial;
 }
 icon {
@@ -93,15 +94,19 @@ icon {
 /* Landing page layout */
 .landing-page-header {
   background-color: var(--image-background);
-  margin-bottom: 35px;
+  margin-bottom: 34px;
 }
 .landing-page-content {
-  margin-bottom: 35px;
+  padding-top: 34px;
+  margin-bottom: 34px;
 }
 /* tablet */
 @media screen and (max-width: 872px) {
   .landing-page-header {
     margin-bottom: 0;
+  }
+  .landing-page-content {
+    padding-top: 0;
   }
 }
 

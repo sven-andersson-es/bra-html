@@ -13,59 +13,45 @@
 	<link rel="icon" href="/assets/images/favicon.svg">
 </head>
 <body>
+
   <header class="app-header">
     <div class="container app-header__container">
+
       <a href="/">
         <img class="app-header__logo" src="/assets/images/logotype.svg" alt="BRA" />
       </a>
-    </div>
+
+
+    </div><!-- /app-header__container -->
   </header>
 
-  <div class="container content-page-layout"> 
+  <div class="container landing-page-content"> 
 
-    <section class="content-page-layout__left">
-      <div class="accordion accordion--navigation" id="leftNavigationAccordion">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="leftNavigationHeading-1">
-            <button class="accordion-button left-navigation-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#leftNavigationCollapse-1" aria-expanded="true" aria-controls="leftNavigationCollapse-1">
-              Content blocks
-            </button>
-          </h2>
-          <div id="leftNavigationCollapse-1" class="accordion-collapse collapse show" aria-labelledby="leftNavigationHeading-1" data-bs-parent="#leftNavigationAccordion">
-            <nav class="list-group">
-              <a class="list-group-item" href="./hero-landing-page.html">Hero (Landing Page)</a>
-              <a class="list-group-item active" href="./hero-content-page.html">Hero (Content Page)</a>
-             </nav>
-          </div><!-- /accordion-collapse -->
-        </div><!-- /accordion-item -->
-      </div><!-- /accordion -->
-    </section><!-- /content-page-layout__left -->
+    <!-- Content blocks -->
 
 
-    <section class="content-page-layout__right">
-
-      <nav class="breadcrumbs">
-        <a href="/">Home</a>
-        <span class="breadcrumbs__separator">/</span>
-        <span>Content page</span>   
-      </nav>
-
-      <!-- Content blocks -->
-
-      <!-- Hero (Landing Page) -->
-      <div 
-        class="bl-hero-landing-page"
-        style="background-image: url('/dummy/hero.jpg')"
+    <!-- Hero (Landing Page) -->
+    <section class="bl-hero-landing-page">
+      <img
+        class="bl-hero-landing-page__image"
+        src="/dummy/hero-landing-page.jpg"
+        alt=""
       >
-        <h1 class="bl-hero-landing-page__title">Vart vill du resa?</h1>
-      </div>
-      <!-- / Hero (Landing Page) -->
+      <main class="bl-hero-landing-page__main">
+        <h1 class="bl-hero-landing-page__title">Välkommen ombord!</h1>
+        <div class="bl-hero-landing-page__text">Vi har glädjen att flyga resenärer som har bokat en resa med Ving, Apollo och TUI. Förered dig inför resan och se tillvalen som gör din ombordupplevelse ännu härligare.</div>
+      </main>
+    </section>
+    <!-- / Hero (Landing Page) -->
 
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, sapiente cum! A porro placeat eum maiores laborum asperiores. Eveniet minus a reprehenderit, nulla animi sapiente doloremque blanditiis nisi dolorem asperiores.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, sapiente cum! A porro placeat eum maiores laborum asperiores. Eveniet minus a reprehenderit, nulla animi sapiente doloremque blanditiis nisi dolorem asperiores.</p>
 
-    </section><!-- /content-page-layout__right -->
 
-  </div><!-- /content-page-layout -->
+
+    
+  </div><!-- /container -->
+
+
 
   <!-- Javascript files -->
   <script src="/js/icons.js"></script>
