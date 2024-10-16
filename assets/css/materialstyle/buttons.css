@@ -8,6 +8,11 @@
 
   transition: var(--button-transition);
 }
+.btn:hover,
+.btn:focus,
+.btn:active {
+  text-decoration: none;
+}
 .btn-light {
   --bs-btn-hover-color: var(--bra-green-light-25);
   --bs-btn-active-color: var(--bra-green-light-25);

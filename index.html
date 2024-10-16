@@ -12,7 +12,7 @@
 
 	<link rel="icon" href="/assets/images/favicon.svg">
 </head>
-<body>
+<body style="background-color: #F7F4F0;">
 
   <header class="app-header">
     <div class="container app-header__container">
@@ -28,12 +28,12 @@
         <nav class="list-group top-nav-mobile__list">
           <button class="list-group-item top-nav-mobile__list-item active" onclick="openSlideIn('slidein-1')">
             Fleet
-            <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"/></icon>
+            <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"></icon>
           </button>
           <div class="top-nav-mobile__slidein" id="slidein-1">
             <div class="top-nav-mobile__slidein-header">
               <button class="btn btn-outline-primary border-0 top-nav-mobile__slidein-close" onclick="closeSlideIn('slidein-1')">
-                <icon class="top-nav-mobile__slidein-close-arrow" data-svg="bra--arrow-left.svg"/></icon>
+                <icon class="top-nav-mobile__slidein-close-arrow" data-svg="bra--arrow-left.svg"></icon>
                 Menu
               </button>
               <h5 class="top-nav-mobile__slidein-title">Fleet</h5>
@@ -74,19 +74,19 @@
           </div>
           <button class="list-group-item top-nav-mobile__list-item">
             Our mission
-            <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"/></icon>
+            <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"></icon>
           </button>
           <button class="list-group-item top-nav-mobile__list-item">
             For passengers
-            <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"/></icon>
+            <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"></icon>
           </button>
           <button class="list-group-item top-nav-mobile__list-item">
             About us
-            <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"/></icon>
+            <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"></icon>
           </button>
           <button class="list-group-item top-nav-mobile__list-item">
             Career
-            <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"/></icon>
+            <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"></icon>
           </button>
         </nav>
       </div>
@@ -181,28 +181,91 @@
 
       
       <button class="btn btn-secondary btn-circle btn-sm app-header__lang">
-        <icon data-svg="material-symbols--language.svg"/></icon>
+        <icon data-svg="material-symbols--language.svg"></icon>
       </button>
 
     </div><!-- /app-header__container -->
   </header>
 
-  <section class="landing-page-header">
-    <div class="container">
-      Landing page header
-      <h1>Landing page</h1>
-    </div>
-  </section><!-- /landing-page-header -->
-
   <div class="container landing-page-content"> 
 
-    <nav class="breadcrumbs">
-      <a href="/">Home</a>
-      <span class="breadcrumbs__separator">/</span>
-      <span>Breadcrumbs item</span>   
-    </nav>
-
     <!-- Content blocks -->
+
+
+    <!-- Hero (Landing Page) -->
+    <section class="bl-hero-landing-page">
+      <img
+        class="bl-hero-landing-page__image"
+        src="/placeholders/hero-landing-page.jpg"
+        alt=""
+      >
+      <main class="bl-hero-landing-page__content">
+        <h1 class="h1 bl-hero-landing-page__title">Välkommen ombord!</h1>
+        <div class="bl-hero-landing-page__text">Vi har glädjen att flyga resenärer som har bokat en resa med Ving, Apollo och TUI. Förered dig inför resan och se tillvalen som gör din ombordupplevelse ännu härligare.</div>
+      </main>
+    </section>
+    <!-- / Hero (Landing Page) -->
+
+
+
+    <!-- Cards 3 -->
+    <section class="bl-cards-3">
+      
+      <a class="bl-cards-3__card" href="#">
+        <div class="bl-cards-3__zoom">
+          <img class="bl-cards-3__image" src="/placeholders/card-1.jpg" alt="">
+        </div>
+        <main class="bl-cards-3__content">
+          <h3 class="h3 bl-cards-3__title">Taxfree</h3>
+          <div class="bl-cards-3__text">Upptäck möjligheterna att anpassa din resa. Förbeställ en god måltid, köp till extra bagage och boka din favoritplats.</div>
+          <span class="btn btn-outline-secondary btn-sm border-0 bl-cards-3__link">
+            Läs mer
+            <span class="ms-1 bl-cards-3__icon-hover">
+              <icon data-svg="bra--arrow-right.svg"></icon>
+            </span>
+          </span>
+        </main>
+      </a><!-- /bl-cards-3__card -->
+
+      <a class="bl-cards-3__card" href="#">
+        <div class="bl-cards-3__zoom">
+          <img class="bl-cards-3__image" src="/placeholders/card-2.jpg" alt="">
+        </div>
+        <main class="bl-cards-3__content">
+          <h3 class="h3 bl-cards-3__title">Ombordservering</h3>
+          <div class="bl-cards-3__text">
+            Bläddra i vår ombordmeny SKY BAR och se våra goda måltider som behöver beställas i förväg.
+            <br><br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio cupiditate error qui! Consectetur, quia? Sed officiis, aut fuga maiores neque cum necessitatibus, veritatis explicabo velit nesciunt soluta facere quisquam mollitia!
+          </div>
+          <span class="btn btn-outline-secondary btn-sm border-0 bl-cards-3__link">
+            Läs mer
+            <span class="ms-1 bl-cards-3__icon-hover">
+              <icon data-svg="bra--arrow-right.svg"></icon>
+            </span>
+          </span>
+        </main>
+      </a><!-- /bl-cards-3__card -->
+      
+      <a class="bl-cards-3__card" href="#">
+        <div class="bl-cards-3__zoom">
+          <img class="bl-cards-3__image" src="/placeholders/card-3.jpg" alt="">
+        </div>
+        <main class="bl-cards-3__content">
+          <h3 class="h3 bl-cards-3__title">Tillval</h3>
+          <div class="bl-cards-3__text">Upptäck möjligheterna att anpassa din resa. Förbeställ en god måltid, köp till extra bagage och boka din favoritplats.</div>
+          <span class="btn btn-outline-secondary btn-sm border-0 bl-cards-3__link">
+            Läs mer
+            <span class="ms-1 bl-cards-3__icon-hover">
+              <icon data-svg="bra--arrow-right.svg"></icon>
+            </span>
+          </span>
+        </main>
+      </a><!-- /bl-cards-3__card -->
+
+
+    </section>
+    <!-- / Cards 3 -->
 
     Landing page content. This is an example of a landing page.<br>
     <a href="/content-page.html">Content page</a><br>

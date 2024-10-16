@@ -64,13 +64,13 @@ img, svg {
   vertical-align: initial;
 }
 icon {
+  /* icon color is changed by setting backgroud color to currentColor and using SVG as background mask */
   display: inline-block;
   width: 1.333333em;
   aspect-ratio: 1;
   vertical-align: middle;
   margin-top: -0.27em;
   margin-bottom: -0.17em;
-  /* Add background color */
   background-color: currentColor;
   --svg: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"></svg>');
   -webkit-mask-image: var(--svg);
