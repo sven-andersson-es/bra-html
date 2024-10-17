@@ -20,18 +20,40 @@ document.addEventListener('click', (event) => {
 
 
 /* Mobile navigation */
-
 const hamburger = document.querySelector('.hamburger');
-if (hamburger) {
-  hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('hamburger--open');
-    document.querySelector('.top-nav-mobile').classList.toggle('top-nav-mobile--open');
-  });
-}
+const mobileMenu = document.querySelector('.top-nav-mobile');
 
+hamburger.addEventListener('click', () => {
+  if (!mobileMenu.classList.contains('top-nav-mobile--open')) {
+    openMobileMenu();
+  }
+});
+
+function openMobileMenu() {
+  mobileMenu.classList.add('top-nav-mobile--open');
+  hamburger.classList.add('hamburger--open');
+
+  // close mobile menu when clicking outside
+  setTimeout(() => {
+    document.addEventListener('click', onMobileMenuCilckOutside);
+  }, 100);
+}
+function closeMobileMenu() {
+  mobileMenu.classList.remove('top-nav-mobile--open');
+  hamburger.classList.remove('hamburger--open');
+
+  document.removeEventListener('click', onMobileMenuCilckOutside);
+}
+function onMobileMenuCilckOutside(event) {
+  if (!event.composedPath().includes(mobileMenu)) {
+    closeMobileMenu();
+  }
+}
 function openSlideIn(id) {
   document.getElementById(id).classList.add('top-nav-mobile__slidein--open');
 }
 function closeSlideIn(id) {
   document.getElementById(id).classList.remove('top-nav-mobile__slidein--open');
 }
+
+

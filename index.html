@@ -50,7 +50,7 @@
                 <div id="mobileNavAccordionCollapse-1-1" class="accordion-collapse collapse show" aria-labelledby="mobileNavAccordionHeader-1-1" data-bs-parent="#mobileNavAccordion-1">
                   <nav class="list-group">
                     <a class="list-group-item" href="/">First page</a>
-                    <a class="list-group-item active" href="/">Second page</a>
+                    <a class="list-group-item" href="/">Second page</a>
                   </nav>
                 </div><!-- /accordion-collapse -->
               </div><!-- /accordion-item -->
@@ -92,7 +92,7 @@
       </div>
       <!-- / mobile navigation -->
 
-      <a href="/">
+      <a class="app-header__logo-link" href="/">
         <img class="app-header__logo" src="/assets/images/logotype.svg" alt="BRA" />
       </a>
 
@@ -111,7 +111,7 @@
                   href="/content-page.html"
                 >Content page</a>
                 <a 
-                  class="list-group-item active top-nav__section-item"
+                  class="list-group-item top-nav__section-item"
                   href="/design-system/index.html"
                 >Design system</a>
               </div>
@@ -148,7 +148,7 @@
                   href="#"
                 >First page</a>
                 <a 
-                  class="list-group-item active top-nav__section-item"
+                  class="list-group-item top-nav__section-item active"
                   href="#"
                 >Second page</a>
                 <a 
@@ -176,9 +176,32 @@
       <!-- / desktop navigation -->
 
       
-      <button class="btn btn-secondary btn-circle btn-sm app-header__lang">
+      <!-- Language switch -->
+      <button class="btn btn-secondary btn-sm btn-circle top-nav__button top-nav__button--lang">
         <icon data-svg="material-symbols--language.svg"></icon>
+        <div class="top-nav__popup top-nav__popup--lang">
+          <div class="top-nav__section top-nav__section--lang">
+            <h5 class="top-nav__section-title top-nav__section-title--lang">Choose language</h5>
+            <div class="list-group">
+              <a 
+                class="list-group-item top-nav__section-item top-nav__section-item--lang active"
+                href="#"
+              >
+                <img class="top-nav__flag" src="/assets/images/flag-en.svg" alt="">
+                English
+              </a>
+              <a 
+                class="list-group-item top-nav__section-item top-nav__section-item--lang"
+                href="#"
+              >
+                <img class="top-nav__flag" src="/assets/images/flag-sv.svg" alt="">
+                Swedish
+              </a>
+            </div>
+          </div><!-- /top-nav__section -->
+        </div><!-- /top-nav__popup-->
       </button>
+      <!-- /Language switch -->
 
     </div><!-- /app-header__container -->
   </header>
