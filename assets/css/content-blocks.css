@@ -187,3 +187,55 @@
     display: none;
   }
 }
+
+/***********************************************/
+/* Highlight with cloud bg                     */
+/***********************************************/
+.bl-highlight-cloud {
+  background-color: var(--bra-green-light-50);
+  color: var(--bra-green-dark);
+  margin-bottom: 60px;
+  position: relative;
+  font-size: 15px;
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+  background-image: url(/assets/images/highlight-with-clouds-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.bl-highlight-cloud__image {
+  width: 37%;
+  flex-shrink: 0;
+  flex-grow: 1;
+  background-color: var(--image-background);
+  background-position: center center;
+  background-size: cover;
+}
+.bl-highlight-cloud__main {
+  padding: 28px 48px;
+}
+.bl-highlight-cloud__title {
+  color: inherit;
+  margin-bottom: 22px;
+}
+.bl-highlight-cloud__text {
+  margin-bottom: 16px;
+}
+.bl-highlight-cloud__link {
+  margin-left: -8px;
+}
+/* mobile */
+@media screen and (max-width: 576px) {
+  .bl-highlight-cloud {
+    display: block;
+  }
+  .bl-highlight-cloud__image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 365 / 134;
+  }
+  .bl-highlight-cloud__main {
+    padding-inline: 22px;
+  }
+}

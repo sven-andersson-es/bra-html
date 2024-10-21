@@ -40,3 +40,7 @@
   --bs-btn-padding-x: var(--bs-btn-padding-y);
   aspect-ratio: 1;
 }
+.btn-text {
+  --bs-btn-padding-x: 8px !important;
+  border-width: 0;
+}
