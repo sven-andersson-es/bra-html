@@ -122,8 +122,9 @@
 }
 .bl-cards-3__image {
   aspect-ratio: 360 / 167;
-  object-fit: cover;
   background-color: var(--image-background);
+  background-size: cover;
+  background-position: center center;
 }
 .bl-cards-3__main {
   padding: 24px 28px;
@@ -165,6 +166,7 @@
   .bl-cards-3__image {
     aspect-ratio: unset;
     width: 31%;
+    min-height: 140px;
     max-height: 100%;
     flex-grow: 0;
     flex-shrink: 0;
@@ -172,7 +174,7 @@
   .bl-cards-3__main {
     flex-grow: 1;
     flex-shrink: 1;
-    padding: 13px 17px;
+    padding: 13px 17px 22px 17px;
   }
   .bl-cards-3__title {
     font-size: 18px;
