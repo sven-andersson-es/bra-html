@@ -1,5 +1,5 @@
 /***********************************************/
-/* Heroe (Content page)                        */
+/* Heroe (Content page) - content block        */
 /***********************************************/
 
 .bl-hero-content-page {
@@ -35,7 +35,7 @@
 }
 
 /***********************************************/
-/* Heroe (Landing page)                        */
+/* Heroe (Landing page) - content block        */
 /***********************************************/
 .bl-hero-landing-page {
   display: grid;
@@ -90,7 +90,7 @@
 }
 
 /***********************************************/
-/* Cards 3                                     */
+/* Cards 3 - content block                     */
 /***********************************************/
 .bl-cards-3 {
   display: grid;
@@ -103,7 +103,7 @@
   background-color: white;
   border-radius: 6px;
   font-size: 15px;
-  box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: var(--box-shadow);
   overflow: hidden;
   text-align: center;
   color: var(--text-color);
@@ -189,7 +189,7 @@
 }
 
 /***********************************************/
-/* Highlight with cloud bg                     */
+/* Highlight with cloud bg - content block     */
 /***********************************************/
 .bl-highlight-cloud {
   background-color: var(--bra-green-light-50);
@@ -203,6 +203,7 @@
   background-image: url(/assets/images/highlight-with-clouds-bg.jpg);
   background-size: cover;
   background-position: center center;
+  box-shadow: var(--box-shadow);
 }
 .bl-highlight-cloud__image {
   width: 37%;
@@ -261,7 +262,7 @@
   justify-content: space-between;
   background-color: white;
   border-radius: 2px;
-  box-shadow: 0px 2px 4px 0px #0000000a, 0px 1px 6px 0px #00000005;
+  box-shadow: var(--box-shadow);
   padding: 14px 20px;
   text-align: left;
 }
@@ -283,4 +284,45 @@
   .bl-links-3-columns__link {
     margin-bottom: 10px;
   }
+}
+
+
+/***********************************************/
+/* Image links 2 columns - content block       */
+/***********************************************/
+.bl-image-links-2-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: var(--grid-gap);
+  margin-bottom: 60px;
+}
+.bl-image-links-2-columns__link {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: var(--box-shadow);
+  padding: 0;
+  text-align: left;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.bl-image-links-2-columns__image {
+  display: block;
+  height: auto;
+  aspect-ratio: 552 / 271;
+  object-fit: cover;
+}
+.bl-image-links-2-columns__main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 17px 20px;
+}
+.bl-image-links-2-columns__arrow {
+  width: 24px;
+  margin-left: 6px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  flex-shrink: 0;
 }
