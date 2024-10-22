@@ -41,7 +41,7 @@
   display: grid;
   grid-template-columns: 384px 1fr;
   align-items: flex-start;
-  margin-bottom: 60px;
+  margin-bottom: var(--blocks-spacing);
 }
 .bl-hero-landing-page__image {
   grid-area: 1 / 1 / 1 / span 2;
@@ -96,7 +96,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: var(--grid-gap);
-  margin-bottom: 60px;
+  margin-bottom: var(--blocks-spacing);
 }
 .bl-cards-3__card {
   --card-transition: all 0.25s ease-out;
@@ -194,7 +194,7 @@
 .bl-highlight-cloud {
   background-color: var(--bra-green-light-50);
   color: var(--bra-green-dark);
-  margin-bottom: 60px;
+  margin-bottom: var(--blocks-spacing);
   position: relative;
   font-size: 15px;
   display: flex;
@@ -244,6 +244,9 @@
 /***********************************************/
 /* Links 3 columns - content block             */
 /***********************************************/
+.bl-links-3-columns {
+  margin-bottom: var(--blocks-spacing);
+}
 .bl-links-3-columns__title {
   text-align: center;
   margin-bottom: 30px;
@@ -255,7 +258,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: var(--grid-gap);
-  margin-bottom: 60px;
 }
 .bl-links-3-columns__link {
   display: flex;
@@ -268,7 +270,6 @@
 }
 .bl-links-3-columns__arrow {
   width: 24px;
-  margin-left: 6px;
 }
 /* tablet */
 @media screen and (max-width: 872px) {
@@ -294,7 +295,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: var(--grid-gap);
-  margin-bottom: 60px;
+  margin-bottom: var(--blocks-spacing);
 }
 .bl-image-links-2-columns__link {
   background-color: white;
@@ -318,11 +319,48 @@
   justify-content: space-between;
   align-items: flex-end;
   padding: 17px 20px;
+  gap: 6px;
+  width: 100%;
 }
 .bl-image-links-2-columns__arrow {
   width: 24px;
-  margin-left: 6px;
   margin-bottom: 2px;
   margin-top: 2px;
   flex-shrink: 0;
+}
+
+
+/***********************************************/
+/* Image with button - content block           */
+/***********************************************/
+.bl-image-w-button {
+  height: 255px;
+  margin-bottom: var(--blocks-spacing);
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.bl-image-w-button__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.bl-image-w-button__button {
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+.bl-image-w-button__arrow {
+  width: 24px;
+}
+/* mobile */
+@media screen and (max-width: 576px) {
+  .bl-image-w-button__button {
+    padding-inline: 8vw;
+  }
 }

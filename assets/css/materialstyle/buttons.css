@@ -7,6 +7,13 @@
   --bs-btn-border-width: 2px;
 
   transition: var(--button-transition);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.btn > * {
+  flex-shrink: 0;
 }
 .btn:hover,
 .btn:focus,
