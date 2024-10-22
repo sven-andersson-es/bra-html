@@ -306,9 +306,11 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  gap: 0;
 }
 .bl-image-links-2-columns__image {
   display: block;
+  width: 100%;
   height: auto;
   aspect-ratio: 552 / 271;
   object-fit: cover;
