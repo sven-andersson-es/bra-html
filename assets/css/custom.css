@@ -99,25 +99,6 @@ block {
 /* Page Layouts                                */
 /***********************************************/
 
-/* Landing page layout */
-.landing-page-header {
-  background-color: var(--image-background);
-  margin-bottom: 34px;
-}
-.landing-page-content {
-  padding-top: 34px;
-  margin-bottom: 34px;
-}
-/* tablet */
-@media screen and (max-width: 872px) {
-  .landing-page-header {
-    margin-bottom: 0;
-  }
-  .landing-page-content {
-    padding-top: 0;
-  }
-}
-
 /* Content page layout */
 .content-page-layout {
   display: grid;

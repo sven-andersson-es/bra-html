@@ -8,7 +8,7 @@
 
   <!-- CSS files -->
   <link rel="stylesheet" href="/libraries/materialstyle-3.1.1/css/materialstyle.min.css">
-  <link rel="stylesheet" href="/assets/css/main.css?v=2024-10-22">
+  <link rel="stylesheet" href="/assets/css/main.css?v=2024-10-23">
 
 	<link rel="icon" href="/assets/images/favicon.svg">
 </head>
@@ -224,86 +224,87 @@
     </div><!-- /app-header__container -->
   </header>
 
-  <div class="container landing-page-content"> 
 
-    <!-- Content blocks -->
+  <!-- Content blocks go here -->
 
 
-    <!-- Hero (Landing Page) - content block -->
-    <block class="bl-hero-landing-page">
-      <img
-        class="bl-hero-landing-page__image"
-        src="/placeholders/hero-landing-page.jpg"
-        alt=""
-      >
-      <main class="bl-hero-landing-page__content">
-        <h1 class="h1 bl-hero-landing-page__title">Välkommen ombord!</h1>
-        <div class="bl-hero-landing-page__text">Vi har glädjen att flyga resenärer som har bokat en resa med Ving, Apollo och TUI. Förered dig inför resan och se tillvalen som gör din ombordupplevelse ännu härligare.</div>
+  <!-- Charter Home Hero - content block -->
+  <block class="bl-charter-home-hero container">
+    <img
+      class="bl-charter-home-hero__image"
+      src="/placeholders/hero-landing-page.jpg"
+      alt=""
+    >
+    <main class="bl-charter-home-hero__content">
+      <h1 class="h1 bl-charter-home-hero__title">Välkommen ombord!</h1>
+      <div class="bl-charter-home-hero__text">Vi har glädjen att flyga resenärer som har bokat en resa med Ving, Apollo och TUI. Förered dig inför resan och se tillvalen som gör din ombordupplevelse ännu härligare.</div>
+    </main>
+  </block>
+  <!-- / Charter Home Hero - content block -->
+
+
+
+  <!-- Cards 3 - content block -->
+  <block class="bl-cards-3 container">
+    
+    <a class="bl-cards-3__card" href="#">
+      <div 
+        class="bl-cards-3__image"
+        style="background-image: url(/placeholders/card-1.jpg)"
+      ></div>
+      <main class="bl-cards-3__main">
+        <h3 class="h3 bl-cards-3__title">Taxfree</h3>
+        <div class="bl-cards-3__text">
+          Upptäck möjligheterna att anpassa din resa. Förbeställ en god måltid, köp till extra bagage och boka din favoritplats.
+        </div>
+        <span class="btn btn-outline-secondary btn-sm border-0 bl-cards-3__link">
+          Läs mer
+          <icon data-svg="bra--arrow-right.svg"></icon>
+        </span>
       </main>
-    </block>
-    <!-- / Hero (Landing Page) - content block -->
+    </a><!-- /bl-cards-3__card -->
+
+    <a class="bl-cards-3__card" href="#">
+      <div 
+        class="bl-cards-3__image"
+        style="background-image: url(/placeholders/card-2.jpg)"
+      ></div>
+      <main class="bl-cards-3__main">
+        <h3 class="h3 bl-cards-3__title">Ombordservering</h3>
+        <div class="bl-cards-3__text">
+          Bläddra i vår ombordmeny SKY BAR och se våra goda måltider som behöver beställas i förväg.
+        </div>
+        <span class="btn btn-outline-secondary btn-sm border-0 bl-cards-3__link">
+          Läs mer
+          <icon data-svg="bra--arrow-right.svg"></icon>
+        </span>
+      </main>
+    </a><!-- /bl-cards-3__card -->
+    
+    <a class="bl-cards-3__card" href="#">
+      <div 
+        class="bl-cards-3__image"
+        style="background-image: url(/placeholders/card-3.jpg)"
+      ></div>
+      <main class="bl-cards-3__main">
+        <h3 class="h3 bl-cards-3__title">Tillval</h3>
+        <div class="bl-cards-3__text">Upptäck möjligheterna att anpassa din resa. Förbeställ en god måltid, köp till extra bagage och boka din favoritplats.</div>
+        <span class="btn btn-outline-secondary btn-sm border-0 bl-cards-3__link">
+          Läs mer
+          <icon data-svg="bra--arrow-right.svg"></icon>
+        </span>
+      </main>
+    </a><!-- /bl-cards-3__card -->
+
+  </block>
+  <!-- / Cards 3 - content block -->
 
 
 
-    <!-- Cards 3 - content block -->
-    <block class="bl-cards-3">
-      
-      <a class="bl-cards-3__card" href="#">
-        <div 
-          class="bl-cards-3__image"
-          style="background-image: url(/placeholders/card-1.jpg)"
-        ></div>
-        <main class="bl-cards-3__main">
-          <h3 class="h3 bl-cards-3__title">Taxfree</h3>
-          <div class="bl-cards-3__text">
-            Upptäck möjligheterna att anpassa din resa. Förbeställ en god måltid, köp till extra bagage och boka din favoritplats.
-          </div>
-          <span class="btn btn-outline-secondary btn-sm border-0 bl-cards-3__link">
-            Läs mer
-            <icon data-svg="bra--arrow-right.svg"></icon>
-          </span>
-        </main>
-      </a><!-- /bl-cards-3__card -->
-
-      <a class="bl-cards-3__card" href="#">
-        <div 
-          class="bl-cards-3__image"
-          style="background-image: url(/placeholders/card-2.jpg)"
-        ></div>
-        <main class="bl-cards-3__main">
-          <h3 class="h3 bl-cards-3__title">Ombordservering</h3>
-          <div class="bl-cards-3__text">
-            Bläddra i vår ombordmeny SKY BAR och se våra goda måltider som behöver beställas i förväg.
-          </div>
-          <span class="btn btn-outline-secondary btn-sm border-0 bl-cards-3__link">
-            Läs mer
-            <icon data-svg="bra--arrow-right.svg"></icon>
-          </span>
-        </main>
-      </a><!-- /bl-cards-3__card -->
-      
-      <a class="bl-cards-3__card" href="#">
-        <div 
-          class="bl-cards-3__image"
-          style="background-image: url(/placeholders/card-3.jpg)"
-        ></div>
-        <main class="bl-cards-3__main">
-          <h3 class="h3 bl-cards-3__title">Tillval</h3>
-          <div class="bl-cards-3__text">Upptäck möjligheterna att anpassa din resa. Förbeställ en god måltid, köp till extra bagage och boka din favoritplats.</div>
-          <span class="btn btn-outline-secondary btn-sm border-0 bl-cards-3__link">
-            Läs mer
-            <icon data-svg="bra--arrow-right.svg"></icon>
-          </span>
-        </main>
-      </a><!-- /bl-cards-3__card -->
-
-    </block>
-    <!-- / Cards 3 - content block -->
-
-
-
-    <!-- Highlight with cloud - content block -->
+  <!-- Highlight with cloud - content block -->
+  <div class="container">
     <block class="bl-highlight-cloud">
+      <div class="bl-highlight-cloud__clouds-bg"></div> 
       <div 
         class="bl-highlight-cloud__image"
         style="background-image: url(/placeholders/Frame-36.jpg)"
@@ -312,7 +313,7 @@
         <h3 class="h3 bl-highlight-cloud__title">Bioflygbränsle</h3>
         <div class="bl-highlight-cloud__text">
           Nyhet! Nu erbjuder vi möjligheten att köpa bioflygbränsle till din resa. <br>
-Du väljer själv mängd och minskar på så sätt enkelt de fossila utsläppen från din semester.
+  Du väljer själv mängd och minskar på så sätt enkelt de fossila utsläppen från din semester.
         </div>
         <a 
           href="#"
@@ -323,105 +324,107 @@ Du väljer själv mängd och minskar på så sätt enkelt de fossila utsläppen 
         </a>
       </main>
     </block>
-    <!-- / Highlight with cloud - content block -->
+  </div>
+  <!-- / Highlight with cloud - content block -->
 
 
 
-    <!-- Links 3 columns - content block -->
-    <block class="bl-links-3-columns">
-      <h2 class="h1 bl-links-3-columns__title">Allt om resan</h2>
-      <div class="bl-links-3-columns__text">
-        Vad vill du veta mer om?
-      </div>
-      
-      <div class="bl-links-3-columns__links">
-        <a 
-          href="#"
-          class="btn btn-outline-secondary btn-sm btn-text bl-links-3-columns__link"
-        >
-          Bokning
-          <icon data-svg="bra--arrow-right.svg" class="bl-links-3-columns__arrow"></icon>
-        </a>
-        <a 
-          href="#"
-          class="btn btn-outline-secondary btn-sm btn-text bl-links-3-columns__link"
-        >
-          Förbjudna och farliga föremål
-          <icon data-svg="bra--arrow-right.svg" class="bl-links-3-columns__arrow"></icon>
-        </a>
-        <a 
-          href="#"
-          class="btn btn-outline-secondary btn-sm btn-text bl-links-3-columns__link"
-        >
-          Bokning
-          <icon data-svg="bra--arrow-right.svg" class="bl-links-3-columns__arrow"></icon>
-        </a>
-        <a 
-          href="#"
-          class="btn btn-outline-secondary btn-sm btn-text bl-links-3-columns__link"
-        >
-          Förbjudna och farliga föremål
-          <icon data-svg="bra--arrow-right.svg" class="bl-links-3-columns__arrow"></icon>
-        </a>
-        <a 
-          href="#"
-          class="btn btn-outline-secondary btn-sm btn-text bl-links-3-columns__link"
-        >
-          Bokning
-          <icon data-svg="bra--arrow-right.svg" class="bl-links-3-columns__arrow"></icon>
-        </a>
-        <a 
-          href="#"
-          class="btn btn-outline-secondary btn-sm btn-text bl-links-3-columns__link"
-        >
-          Förbjudna och farliga föremål
-          <icon data-svg="bra--arrow-right.svg" class="bl-links-3-columns__arrow"></icon>
-        </a>
-      </div><!-- /bl-links-3-columns__links -->
-
-    </block><!-- /bl-links-3-columns -->
-    <!-- / Links 3 columns - content block -->
-
-
-
-
-    <!-- Image links 2 columns - content block -->
-    <block class="bl-image-links-2-columns">
+  <!-- Links 3 columns - content block -->
+  <block class="bl-links-3-columns container">
+    <h2 class="h1 bl-links-3-columns__title">Allt om resan</h2>
+    <div class="bl-links-3-columns__text">
+      Vad vill du veta mer om?
+    </div>
+    
+    <div class="bl-links-3-columns__links">
       <a 
-        href="#" 
-        class="btn btn-outline-secondary btn-text bl-image-links-2-columns__link"
+        href="#"
+        class="btn btn-outline-secondary btn-sm btn-text bl-links-3-columns__link"
       >
-        <img 
-          src="/placeholders/card-1.jpg" 
-          alt=""
-          class="bl-image-links-2-columns__image"
-        >
-        <main class="bl-image-links-2-columns__main">
-          Taxfree
-          <icon data-svg="bra--arrow-right.svg" class="bl-image-links-2-columns__arrow"></icon>
-        </main>
+        Bokning
+        <icon data-svg="bra--arrow-right.svg" class="bl-links-3-columns__arrow"></icon>
       </a>
-
       <a 
-        href="#" 
-        class="btn btn-outline-secondary btn-text bl-image-links-2-columns__link"
+        href="#"
+        class="btn btn-outline-secondary btn-sm btn-text bl-links-3-columns__link"
       >
-        <img 
-          src="/placeholders/card-2.jpg" 
-          alt="" 
-          class="bl-image-links-2-columns__image"
-        >
-        <main class="bl-image-links-2-columns__main">
-          Förboka sittplatser
-          <icon data-svg="bra--arrow-right.svg" class="bl-image-links-2-columns__arrow"></icon>
-        </main>
+        Förbjudna och farliga föremål
+        <icon data-svg="bra--arrow-right.svg" class="bl-links-3-columns__arrow"></icon>
       </a>
-    </block><!-- /bl-image-links-2-columns -->
-    <!-- /Image links 2 columns - content block -->
+      <a 
+        href="#"
+        class="btn btn-outline-secondary btn-sm btn-text bl-links-3-columns__link"
+      >
+        Bokning
+        <icon data-svg="bra--arrow-right.svg" class="bl-links-3-columns__arrow"></icon>
+      </a>
+      <a 
+        href="#"
+        class="btn btn-outline-secondary btn-sm btn-text bl-links-3-columns__link"
+      >
+        Förbjudna och farliga föremål
+        <icon data-svg="bra--arrow-right.svg" class="bl-links-3-columns__arrow"></icon>
+      </a>
+      <a 
+        href="#"
+        class="btn btn-outline-secondary btn-sm btn-text bl-links-3-columns__link"
+      >
+        Bokning
+        <icon data-svg="bra--arrow-right.svg" class="bl-links-3-columns__arrow"></icon>
+      </a>
+      <a 
+        href="#"
+        class="btn btn-outline-secondary btn-sm btn-text bl-links-3-columns__link"
+      >
+        Förbjudna och farliga föremål
+        <icon data-svg="bra--arrow-right.svg" class="bl-links-3-columns__arrow"></icon>
+      </a>
+    </div><!-- /bl-links-3-columns__links -->
+
+  </block><!-- /bl-links-3-columns -->
+  <!-- / Links 3 columns - content block -->
 
 
 
-    <!-- Image with button - content block -->
+
+  <!-- Image links 2 columns - content block -->
+  <block class="bl-image-links-2-columns container">
+    <a 
+      href="#" 
+      class="btn btn-outline-secondary btn-text bl-image-links-2-columns__link"
+    >
+      <img 
+        src="/placeholders/card-1.jpg" 
+        alt=""
+        class="bl-image-links-2-columns__image"
+      >
+      <main class="bl-image-links-2-columns__main">
+        Taxfree
+        <icon data-svg="bra--arrow-right.svg" class="bl-image-links-2-columns__arrow"></icon>
+      </main>
+    </a>
+
+    <a 
+      href="#" 
+      class="btn btn-outline-secondary btn-text bl-image-links-2-columns__link"
+    >
+      <img 
+        src="/placeholders/card-2.jpg" 
+        alt="" 
+        class="bl-image-links-2-columns__image"
+      >
+      <main class="bl-image-links-2-columns__main">
+        Förboka sittplatser
+        <icon data-svg="bra--arrow-right.svg" class="bl-image-links-2-columns__arrow"></icon>
+      </main>
+    </a>
+  </block><!-- /bl-image-links-2-columns -->
+  <!-- /Image links 2 columns - content block -->
+
+
+
+  <!-- Image with button - content block -->
+  <div class="container">
     <block class="bl-image-w-button">
       <img 
         src="/placeholders/image-with-button-bg.jpg" 
@@ -433,11 +436,12 @@ Du väljer själv mängd och minskar på så sätt enkelt de fossila utsläppen 
         <icon data-svg="bra--arrow-right.svg" class="bl-image-w-button__arrow"></icon>
       </button>
     </block>
-    <!-- / Image with button - content block -->
+  </div>
+  <!-- / Image with button - content block -->
     
-  </div><!-- /container -->
+  <!-- /Content blocks -->
 
-
+  
   <footer class="app-footer">
     <div class="container">
       <section class="app-footer__columns">

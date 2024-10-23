@@ -1,49 +1,15 @@
-/***********************************************/
-/* Heroe (Content page) - content block        */
-/***********************************************/
-
-.bl-hero-content-page {
-  height: 330px;
-  background-color: var(--image-background);
-  background-position: center center;
-  background-size: cover;
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  grid-gap: var(--grid-gap);
-  align-items: flex-end;
-  margin-bottom: 80px;
-}
-.bl-hero-content-page__title {
-  background-color: var(--bra-green);
-  color: var(--bra-green-light-50);
-  margin-bottom: 0;
-  padding: 13px 20px;
-  font-size: 36px;
-  text-align: center;
-  grid-column-start: 2;
-  grid-column-end: span 7;
-  height: fit-content;
-  position: relative;
-  margin-bottom: -30px;
-}
-/* tablet */
-@media screen and (max-width: 872px) {
-  .bl-hero-content-page {
-    margin-left: calc(0px - var(--container-padding));
-    margin-right: calc(0px - var(--container-padding));
-  }
-}
 
 /***********************************************/
-/* Heroe (Landing page) - content block        */
+/* Charter Home Hero - content block        */
 /***********************************************/
-.bl-hero-landing-page {
+.bl-charter-home-hero {
   display: grid;
   grid-template-columns: 384px 1fr;
   align-items: flex-start;
   margin-bottom: var(--blocks-spacing);
+  margin-top: 34px;
 }
-.bl-hero-landing-page__image {
+.bl-charter-home-hero__image {
   grid-area: 1 / 1 / 1 / span 2;
   margin-top: 34px;
   aspect-ratio: 1128 / 468;
@@ -51,27 +17,27 @@
   object-fit: cover;
   min-height: 192px;
 }
-.bl-hero-landing-page__content {
+.bl-charter-home-hero__content {
   grid-area: 1 / 1 / 1 / 1;
   margin-left: 24px;
   padding: 55px 41px 65px 41px;
   background-color: var(--bra-green);
   color: white;
 }
-.bl-hero-landing-page__title {
+.bl-charter-home-hero__title {
   color: white;
 }
 /* tablet */
 @media screen and (max-width: 872px) {
-  .bl-hero-landing-page {
+  .bl-charter-home-hero {
     display: block;
-    margin-left: calc(0px - var(--container-padding));
-    margin-right: calc(0px - var(--container-padding));
+    margin-top: 0;
+    padding: 0;
   }
-  .bl-hero-landing-page__image {
+  .bl-charter-home-hero__image {
     margin-top: 0;
   }
-  .bl-hero-landing-page__content {
+  .bl-charter-home-hero__content {
     position: relative;
     z-index: 2;
     margin: -62px var(--container-padding) 0 var(--container-padding);
@@ -80,11 +46,11 @@
 }
 /* mobile */
 @media screen and (max-width: 576px) {
-  .bl-hero-landing-page__title {
+  .bl-charter-home-hero__title {
     font-size: 28px;
     margin-bottom: 24px;
   }
-  .bl-hero-landing-page__text {
+  .bl-charter-home-hero__text {
     font-size: 15px;
   }
 }
@@ -371,6 +337,79 @@
 /* mobile */
 @media screen and (max-width: 576px) {
   .bl-image-w-button__button {
+    padding-inline: 8vw;
+  }
+}
+
+
+/***********************************************/
+/* Hero (Content page) - content block        */
+/***********************************************/
+
+.bl-hero-content-page {
+  height: 330px;
+  background-color: var(--image-background);
+  background-position: center center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-gap: var(--grid-gap);
+  align-items: flex-end;
+  margin-bottom: 80px;
+}
+.bl-hero-content-page__title {
+  background-color: var(--bra-green);
+  color: var(--bra-green-light-50);
+  margin-bottom: 0;
+  padding: 13px 20px;
+  font-size: 36px;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: span 7;
+  height: fit-content;
+  position: relative;
+  margin-bottom: -30px;
+}
+/* tablet */
+@media screen and (max-width: 872px) {
+  .bl-hero-content-page {
+    margin-left: calc(0px - var(--container-padding));
+    margin-right: calc(0px - var(--container-padding));
+  }
+}
+
+
+/***********************************************/
+/* Hero (B2B Home Page) - content block        */
+/***********************************************/
+.bl-hero-b2b-home {
+  height: 255px;
+  margin-bottom: var(--blocks-spacing);
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.bl-hero-b2b-home__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.bl-hero-b2b-home__button {
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+.bl-hero-b2b-home__arrow {
+  width: 24px;
+}
+/* mobile */
+@media screen and (max-width: 576px) {
+  .bl-hero-b2b-home__button {
     padding-inline: 8vw;
   }
 }
