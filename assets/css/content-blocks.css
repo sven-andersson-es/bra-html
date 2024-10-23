@@ -1,6 +1,48 @@
+/***********************************************/
+/* Breadcrumbs - content block                 */
+/***********************************************/
+.bl-breadcrumbs {
+  margin: 0 0 6px 0;
+  color: #333333;
+  margin-bottom: 22px;
+}
+.bl-breadcrumbs a {
+  text-decoration: none;
+}
+.bl-breadcrumbs__separator {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+/* tablet */
+@media screen and (max-width: 872px) {
+  .bl-breadcrumbs {
+    --padding-x: 26px;
+    font-size: 13px;
+    color: white;
+    background: #317470;
+    padding: 8px 8px 8px 8px;
+    margin-left: calc(0px - var(--container-padding));
+    margin-right: calc(0px - var(--container-padding));
+    margin-bottom: 0;
+  }
+  .bl-breadcrumbs a {
+    color: var(--bra-green-light);
+  }
+  .bl-breadcrumbs a:hover {
+    color: var(--bra-orange);
+  }
+}
+/* mobile */
+@media screen and (max-width: 576px) {
+  .bl-breadcrumbs {
+    --padding-x: 21px;
+  }
+}
+
+
 
 /***********************************************/
-/* Charter Home Hero - content block        */
+/* Charter Home Hero - content block           */
 /***********************************************/
 .bl-charter-home-hero {
   display: grid;
@@ -343,10 +385,10 @@
 
 
 /***********************************************/
-/* Hero (Content page) - content block        */
+/* Charter Content Page Hero - content block        */
 /***********************************************/
 
-.bl-hero-content-page {
+.bl-charter-content-page-hero {
   height: 330px;
   background-color: var(--image-background);
   background-position: center center;
@@ -357,7 +399,7 @@
   align-items: flex-end;
   margin-bottom: 80px;
 }
-.bl-hero-content-page__title {
+.bl-charter-content-page-hero__title {
   background-color: var(--bra-green);
   color: var(--bra-green-light-50);
   margin-bottom: 0;
@@ -372,7 +414,7 @@
 }
 /* tablet */
 @media screen and (max-width: 872px) {
-  .bl-hero-content-page {
+  .bl-charter-content-page-hero {
     margin-left: calc(0px - var(--container-padding));
     margin-right: calc(0px - var(--container-padding));
   }
@@ -384,7 +426,7 @@
 /***********************************************/
 .bl-hero-b2b-home {
   height: 255px;
-  margin-bottom: var(--blocks-spacing);
+  margin-bottom: -100px;
   position: relative;
   border-radius: 6px;
   overflow: hidden;

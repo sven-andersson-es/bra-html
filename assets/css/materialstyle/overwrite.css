@@ -2,3 +2,6 @@
   max-width: 1180px;
   padding: 0 var(--container-padding);
 }
+.container .container {
+  padding: 0;
+}
