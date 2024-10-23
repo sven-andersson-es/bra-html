@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
-  <title>BRA - Charter home page</title>
+  <title>Charter homepage</title>
   <meta name="description" content="">
 
   <!-- CSS files -->
@@ -12,7 +12,7 @@
 
 	<link rel="icon" href="/assets/images/favicon.svg">
 </head>
-<body>
+<body class="body--charter">
 
   <header class="app-header">
     <div class="container app-header__container">
@@ -26,17 +26,19 @@
       <!-- mobile navigation -->
       <div class="top-nav-mobile">
         <nav class="list-group top-nav-mobile__list">
+
           <button class="list-group-item top-nav-mobile__list-item active" onclick="openSlideIn('slidein-1')">
-            Fleet
+            Page layouts
             <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"></icon>
           </button>
-          <div class="top-nav-mobile__slidein" id="slidein-1">
+
+          <section class="top-nav-mobile__slidein" id="slidein-1">
             <div class="top-nav-mobile__slidein-header">
               <button class="btn btn-outline-primary border-0 top-nav-mobile__slidein-close" onclick="closeSlideIn('slidein-1')">
                 <icon class="top-nav-mobile__slidein-close-arrow" data-svg="bra--arrow-left.svg"></icon>
                 Menu
               </button>
-              <h5 class="top-nav-mobile__slidein-title">Fleet</h5>
+              <h5 class="top-nav-mobile__slidein-title">Page layouts</h5>
             </div><!-- /top-nav-mobile__slidein-header -->
 
             <div class="accordion accordion--navigation top-nav-mobile__accordion" id="mobileNavAccordion-1">
@@ -44,13 +46,13 @@
               <div class="accordion-item">
                 <h4 class="accordion-header" id="mobileNavAccordionHeader-1-1">
                   <button class="accordion-button top-nav-mobile__accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNavAccordionCollapse-1-1" aria-expanded="true" aria-controls="mobileNavAccordionCollapse-1-1">
-                    Section title
+                    Charter
                   </button>
                 </h4>
                 <div id="mobileNavAccordionCollapse-1-1" class="accordion-collapse collapse show" aria-labelledby="mobileNavAccordionHeader-1-1" data-bs-parent="#mobileNavAccordion-1">
                   <nav class="list-group">
-                    <a class="list-group-item" href="/">First page</a>
-                    <a class="list-group-item" href="/">Second page</a>
+                    <a class="list-group-item active" href="/">Charter Home page</a>
+                    <a class="list-group-item" href="/charter-content-page.html">Charter Content page</a>
                   </nav>
                 </div><!-- /accordion-collapse -->
               </div><!-- /accordion-item -->
@@ -58,37 +60,64 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="mobileNavAccordionHeader-1-2">
                   <button class="accordion-button collapsed top-nav-mobile__accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNavAccordionCollapse-1-2" aria-expanded="false" aria-controls="mobileNavAccordionCollapse-1-2">
-                    Second section title
+                    B2B
                   </button>
                 </h2>
                 <div id="mobileNavAccordionCollapse-1-2" class="accordion-collapse collapse" aria-labelledby="mobileNavAccordionHeader-1-2" data-bs-parent="#mobileNavAccordion-1">
                   <nav class="list-group">
-                    <a class="list-group-item" href="/">First page</a>
-                    <a class="list-group-item" href="/">Second page</a>
+                    <a class="list-group-item" href="/b2b-home-page.html">B2B Home page</a>
+                    <a class="list-group-item" href="#">B2B Landing page</a>
+                    <a class="list-group-item" href="#">B2B Product page</a>
                   </nav>
                 </div><!-- /accordion-collapse -->
               </div><!-- /accordion-item -->
 
-            </div><!-- /accordion -->
-            
-          </div>
-          <button class="list-group-item top-nav-mobile__list-item">
-            Our mission
+            </div><!-- /accordion -->  
+          </section><!-- /top-nav-mobile__slidein -->
+
+          <button class="list-group-item top-nav-mobile__list-item" onclick="openSlideIn('slidein-2')">
+            Design system
             <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"></icon>
           </button>
+
+          <section class="top-nav-mobile__slidein" id="slidein-2">
+            <div class="top-nav-mobile__slidein-header">
+              <button class="btn btn-outline-primary border-0 top-nav-mobile__slidein-close" onclick="closeSlideIn('slidein-2')">
+                <icon class="top-nav-mobile__slidein-close-arrow" data-svg="bra--arrow-left.svg"></icon>
+                Menu
+              </button>
+              <h5 class="top-nav-mobile__slidein-title">Design system</h5>
+            </div><!-- /top-nav-mobile__slidein-header -->
+
+            <div class="accordion accordion--navigation top-nav-mobile__accordion" id="mobileNavAccordion-2">
+
+              <div class="accordion-item">
+                <h4 class="accordion-header" id="mobileNavAccordionHeader-2-1">
+                  <button class="accordion-button top-nav-mobile__accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNavAccordionCollapse-2-1" aria-expanded="true" aria-controls="mobileNavAccordionCollapse-2-1">
+                    Design system
+                  </button>
+                </h4>
+                <div id="mobileNavAccordionCollapse-2-1" class="accordion-collapse collapse show" aria-labelledby="mobileNavAccordionHeader-2-1" data-bs-parent="#mobileNavAccordion-2">
+                  <nav class="list-group">
+                    <a class="list-group-item" href="/design-system/">Design system</a>
+                  </nav>
+                </div><!-- /accordion-collapse -->
+              </div><!-- /accordion-item -->
+
+            </div><!-- /accordion -->  
+          </section><!-- /top-nav-mobile__slidein -->
+
           <button class="list-group-item top-nav-mobile__list-item">
-            For passengers
+            Fleet
             <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"></icon>
           </button>
+
           <button class="list-group-item top-nav-mobile__list-item">
             About us
             <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"></icon>
           </button>
-          <button class="list-group-item top-nav-mobile__list-item">
-            Career
-            <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"></icon>
-          </button>
-        </nav>
+
+        </nav><!-- /top-nav-mobile__list -->
       </div>
       <!-- / mobile navigation -->
 
@@ -101,75 +130,64 @@
       <nav class="top-nav">
 
         <button class="btn btn-secondary btn-sm top-nav__button">
-          Fleet
+          Page layouts
+          <div class="top-nav__popup">
+            <div class="top-nav__section">
+              <h5 class="top-nav__section-title">Charter</h5>
+              <div class="list-group">
+                <a 
+                  class="list-group-item top-nav__section-item"
+                  href="/index.html"
+                >Charter Home page</a>
+                <a 
+                  class="list-group-item top-nav__section-item"
+                  href="/charter-content-page.html"
+                >Charter Content page</a>
+              </div>
+            </div><!-- /top-nav__section -->
+
+            <div class="top-nav__section">
+              <h5 class="top-nav__section-title">B2B</h5>
+              <div class="list-group">
+                <a 
+                  class="list-group-item top-nav__section-item"
+                  href="/b2b-home-page.html"
+                >B2B Home page</a>
+                <a 
+                  class="list-group-item top-nav__section-item"
+                  href="#"
+                >B2B Landing page</a>
+                <a 
+                  class="list-group-item top-nav__section-item"
+                  href="#"
+                >B2B Product page</a>
+              </div>
+            </div><!-- /top-nav__section -->
+          </div><!-- /top-nav__popup-->
+        </button>
+        </button>
+
+        <button class="btn btn-secondary btn-sm top-nav__button">
+          Design system
           <div class="top-nav__popup">
             <div class="top-nav__section">
               <h5 class="top-nav__section-title">Section title</h5>
               <div class="list-group">
                 <a 
                   class="list-group-item top-nav__section-item"
-                  href="/content-page.html"
-                >Content page</a>
-                <a 
-                  class="list-group-item top-nav__section-item"
-                  href="/design-system/index.html"
+                  href="/design-system"
                 >Design system</a>
               </div>
             </div><!-- /top-nav__section -->
-
-            <div class="top-nav__section">
-              <h5 class="top-nav__section-title">Second section title</h5>
-              <div class="list-group">
-                <a 
-                  class="list-group-item top-nav__section-item"
-                  href="#"
-                >First page</a>
-                <a 
-                  class="list-group-item top-nav__section-item"
-                  href="#"
-                >Second page</a>
-                <a 
-                  class="list-group-item top-nav__section-item"
-                  href="#"
-                >Third page</a>
-              </div>
-            </div><!-- /top-nav__section -->
           </div><!-- /top-nav__popup-->
         </button>
 
         <button class="btn btn-secondary btn-sm top-nav__button">
-          Our mission
-          <div class="top-nav__popup">
-            <div class="top-nav__section">
-              <h5 class="top-nav__section-title">Section title</h5>
-              <div class="list-group">
-                <a 
-                  class="list-group-item top-nav__section-item"
-                  href="#"
-                >First page</a>
-                <a 
-                  class="list-group-item top-nav__section-item active"
-                  href="#"
-                >Second page</a>
-                <a 
-                  class="list-group-item top-nav__section-item"
-                  href="#"
-                >Third page</a>
-              </div>
-            </div><!-- /top-nav__section -->
-          </div><!-- /top-nav__popup-->
-        </button>
-
-        <button class="btn btn-secondary btn-sm top-nav__button">
-          For passengers
+          Fleet
         </button>
 
         <button class="btn btn-secondary btn-sm top-nav__button">
           About us
-        </button>
-
-        <button class="btn btn-secondary btn-sm top-nav__button">
-          Career
         </button>
 
       </nav>
@@ -212,7 +230,7 @@
 
 
     <!-- Hero (Landing Page) - content block -->
-    <section class="bl-hero-landing-page">
+    <block class="bl-hero-landing-page">
       <img
         class="bl-hero-landing-page__image"
         src="/placeholders/hero-landing-page.jpg"
@@ -222,13 +240,13 @@
         <h1 class="h1 bl-hero-landing-page__title">Välkommen ombord!</h1>
         <div class="bl-hero-landing-page__text">Vi har glädjen att flyga resenärer som har bokat en resa med Ving, Apollo och TUI. Förered dig inför resan och se tillvalen som gör din ombordupplevelse ännu härligare.</div>
       </main>
-    </section>
+    </block>
     <!-- / Hero (Landing Page) - content block -->
 
 
 
     <!-- Cards 3 - content block -->
-    <section class="bl-cards-3">
+    <block class="bl-cards-3">
       
       <a class="bl-cards-3__card" href="#">
         <div 
@@ -279,13 +297,13 @@
         </main>
       </a><!-- /bl-cards-3__card -->
 
-    </section>
+    </block>
     <!-- / Cards 3 - content block -->
 
 
 
     <!-- Highlight with cloud - content block -->
-    <div class="bl-highlight-cloud">
+    <block class="bl-highlight-cloud">
       <div 
         class="bl-highlight-cloud__image"
         style="background-image: url(/placeholders/Frame-36.jpg)"
@@ -304,13 +322,13 @@ Du väljer själv mängd och minskar på så sätt enkelt de fossila utsläppen 
           <icon data-svg="bra--arrow-right.svg"></icon>
         </a>
       </main>
-    </div>
+    </block>
     <!-- / Highlight with cloud - content block -->
 
 
 
     <!-- Links 3 columns - content block -->
-    <div class="bl-links-3-columns">
+    <block class="bl-links-3-columns">
       <h2 class="h1 bl-links-3-columns__title">Allt om resan</h2>
       <div class="bl-links-3-columns__text">
         Vad vill du veta mer om?
@@ -361,14 +379,14 @@ Du väljer själv mängd och minskar på så sätt enkelt de fossila utsläppen 
         </a>
       </div><!-- /bl-links-3-columns__links -->
 
-    </div><!-- /bl-links-3-columns -->
+    </block><!-- /bl-links-3-columns -->
     <!-- / Links 3 columns - content block -->
 
 
 
 
     <!-- Image links 2 columns - content block -->
-    <div class="bl-image-links-2-columns">
+    <block class="bl-image-links-2-columns">
       <a 
         href="#" 
         class="btn btn-outline-secondary btn-text bl-image-links-2-columns__link"
@@ -398,13 +416,13 @@ Du väljer själv mängd och minskar på så sätt enkelt de fossila utsläppen 
           <icon data-svg="bra--arrow-right.svg" class="bl-image-links-2-columns__arrow"></icon>
         </main>
       </a>
-    </div><!-- /bl-image-links-2-columns -->
+    </block><!-- /bl-image-links-2-columns -->
     <!-- /Image links 2 columns - content block -->
 
 
 
     <!-- Image with button - content block -->
-    <div class="bl-image-w-button">
+    <block class="bl-image-w-button">
       <img 
         src="/placeholders/image-with-button-bg.jpg" 
         alt=""
@@ -414,8 +432,7 @@ Du väljer själv mängd och minskar på så sätt enkelt de fossila utsläppen 
         Vanliga frågor och svar
         <icon data-svg="bra--arrow-right.svg" class="bl-image-w-button__arrow"></icon>
       </button>
-    </div>
-    
+    </block>
     <!-- / Image with button - content block -->
     
   </div><!-- /container -->

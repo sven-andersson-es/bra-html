@@ -8,7 +8,7 @@ html {
   height: 100%;
 }
 body {
-  background-color: #F7F4F0;
+  background-color: #ffffff;
   font-family: var(--font-family);
   font-size: var(--font-size);
   color: var(--text-color);
@@ -79,10 +79,19 @@ icon {
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
 }
-.title-underlined {
-  border-bottom: 2px solid var(--bra-green-dark);
-  padding-bottom: 6px;
-  margin-bottom: 12px;
+block {
+  display: block;
+}
+
+
+/***********************************************/
+/* Body styles                                 */
+/***********************************************/
+.body--charter {
+  background-color: #F7F4F0;
+}
+.body--b2b {
+  background-color: #F4F4F4;
 }
 
 
@@ -151,7 +160,7 @@ icon {
 .left-navigation-accordion-button,
 .left-navigation-accordion-button:not(.collapsed) {
   border-bottom: 2px solid var(--bra-green-dark);
-  background-color: white;
+  background-color: transparent;
 }
 .left-navigation-accordion-button:hover {
   background-color: var(--bra-green-light-25);
@@ -178,6 +187,11 @@ icon {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: var(--grid-gap);
+}
+.app-footer__title {
+  border-bottom: 2px solid var(--bra-green-dark);
+  padding-bottom: 6px;
+  margin-bottom: 12px;
 }
 .app-footer__links {
   margin-top: 26px;
