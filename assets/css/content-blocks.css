@@ -57,7 +57,8 @@
   object-fit: cover;
   min-height: 192px;
   margin-top: 34px;
-  background-color: var(--image-background);
+  background-color: var(--image-background-color);
+  border-radius: var(--border-radius-card);
 }
 .bl-charter-home-hero__content {
   grid-area: 1 / 1 / 1 / 1;
@@ -65,6 +66,7 @@
   padding: 55px 41px 65px 41px;
   color: white;
   background-color: var(--bra-green);
+  border-radius: var(--border-radius);
 }
 .bl-charter-home-hero__title {
   color: white;
@@ -78,6 +80,7 @@
   }
   .bl-charter-home-hero__image {
     margin-top: 0;
+    border-radius: 0;
   }
   .bl-charter-home-hero__content {
     z-index: 2;
@@ -110,7 +113,7 @@
   --card-transition: all 0.25s ease-out;
   display: flex;
   flex-direction: column;
-  border-radius: 6px;
+  border-radius: var(--border-radius-card);
   overflow: hidden;
   color: var(--text-color);
   font-size: 15px;
@@ -130,7 +133,7 @@
 }
 .bl-charter-3-cards__image {
   aspect-ratio: 360 / 167;
-  background-color: var(--image-background);
+  background-color: var(--image-background-color);
   background-position: center center;
   background-size: cover;
 }
@@ -203,7 +206,7 @@
   display: flex;
   position: relative;
   margin-bottom: var(--blocks-spacing);
-  border-radius: 8px;
+  border-radius: var(--border-radius-card);
   overflow: hidden;
   color: var(--bra-green-dark);
   font-size: 15px;
@@ -217,7 +220,7 @@
   flex-grow: 1;
   flex-shrink: 0;
   width: 37%;
-  background-color: var(--image-background);
+  background-color: var(--image-background-color);
   background-position: center center;
   background-size: cover;
 }
@@ -310,7 +313,7 @@
   display: flex;
   flex-direction: column;
   padding: 0;
-  border-radius: 6px;
+  border-radius: var(--border-radius-card);
   overflow: hidden;
   text-align: left;
   background-color: white;
@@ -359,7 +362,7 @@
   height: 255px;
   margin-bottom: var(--blocks-spacing);
   padding: 20px;
-  border-radius: 6px;
+  border-radius: var(--border-radius-card);
   overflow: hidden;
 }
 .bl-image-w-button__image {
@@ -395,7 +398,7 @@
   align-items: flex-end;
   height: 330px;
   margin-bottom: 80px;
-  background-color: var(--image-background);
+  background-color: var(--image-background-color);
   background-position: center center;
   background-size: cover;
 }
@@ -506,7 +509,7 @@
 }
 .bl-b2b-3-cards__image {
   aspect-ratio: 360 / 167;
-  background-color: var(--image-background);
+  background-color: var(--image-background-color);
   background-position: center center;
   background-size: cover;
 }

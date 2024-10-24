@@ -10,7 +10,8 @@
 
   /* colors */
   --text-color: #333333;
-  --image-background: #f8f8f8;
+  --background-color: #F7F4F0;
+  --image-background-color: #f8f8f8;
 
   /* BRA colors */
   --bra-green: #057F65;
@@ -25,6 +26,10 @@
   --bra-grey-light: #999999;
   --bra-grey-light-20: #EBEBEB;
   --bra-grey-interactive: #595959;
+
+  /* border radius */
+  --border-radius: 2px; 
+  --border-radius-card: 4px;
 
   /* grid */
   --grid-gap: 24px;
@@ -49,6 +54,9 @@
 /* mobile */
 @media screen and (max-width: 576px) {
   :root {
+    /* border radius */
+    --border-radius-card: 6px;
+
     /* grid */
     --grid-gap: 14px;
     --container-padding: 15px;

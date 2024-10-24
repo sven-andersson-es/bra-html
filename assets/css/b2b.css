@@ -1,0 +1,19 @@
+/***********************************************/
+/* Variables                                   */
+/***********************************************/
+
+:root {
+  /* colors */
+  --background-color: #F4F4F4;
+
+  /* border radius */
+  --border-radius: 0px; 
+  --border-radius-card: 0px;
+}
+/* mobile */
+@media screen and (max-width: 576px) {
+  :root {
+    /* border radius */
+    --border-radius-card: 4px;
+  }
+}
