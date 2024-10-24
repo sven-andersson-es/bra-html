@@ -12,6 +12,12 @@
   align-items: center;
   gap: 8px;
 }
+/* mobile */
+@media (max-width: 575.98px) {
+  .btn {
+    --bs-btn-padding-x: 32px;
+  }
+}
 .btn > * {
   flex-shrink: 0;
 }
