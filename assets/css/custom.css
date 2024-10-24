@@ -97,30 +97,29 @@ icon {
 
 
 /***********************************************/
-/* Page Layouts                                */
+/* Layout with left navigation                 */
 /***********************************************/
 
-/* Content page layout */
-.content-page-layout {
+.layout-with-left-navigation {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: var(--grid-gap);
   padding-top: 50px;
 }
-.content-page-layout__left {
+.layout-with-left-navigation__left {
   grid-column: span 3;
 }
-.content-page-layout__right {
+.layout-with-left-navigation__right {
   grid-column: span 9;
 }
 @media screen and (max-width: 1178px) {
-  .content-page-layout {
+  .layout-with-left-navigation {
     display: block;
   }
-  .content-page-layout__left {
+  .layout-with-left-navigation__left {
     display: none;
   }
-  .content-page-layout__right {
+  .layout-with-left-navigation__right {
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
@@ -128,15 +127,10 @@ icon {
 }
 /* tablet */
 @media screen and (max-width: 872px) {
-  .content-page-layout {
+  .layout-with-left-navigation {
     padding-top: 0;
   }
 }
-
-
-/***********************************************/
-/* Components                                  */
-/***********************************************/
 
 /* Left navigation accordion */
 .left-navigation-accordion-button,
@@ -156,7 +150,10 @@ icon {
 
 
 
-/* Footer */
+
+/***********************************************/
+/* Footer                                      */
+/***********************************************/
 .app-footer {
   margin-top: auto;
   background-color: var(--bra-beige-light);
