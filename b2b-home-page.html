@@ -40,11 +40,14 @@
 
   <!-- B2B Home Hero - content block -->
   <div class="bl-b2b-home-hero">
-    <img 
-      src="/placeholders/wing.jpg" 
-      alt=""
-      class="bl-b2b-home-hero__image"
-    >
+    <picture>
+      <source media="(max-width:576px)" srcset="/placeholders/wing-mobile.jpg">
+      <img 
+        src="/placeholders/wing.jpg" 
+        alt=""
+        class="bl-b2b-home-hero__image"
+      >
+    </picture>
     <div class="container bl-b2b-home-hero__container">
       <h1 class="h2 bl-b2b-home-hero__title">Welcome to Braathens Aviation</h1>
       <div class="bl-b2b-home-hero__text">
@@ -58,14 +61,50 @@
   </div><!-- /bl-b2b-home-hero -->
   <!-- / B2B Home Hero - content block -->
 
-  <div class="container">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ea odit modi laudantium, nesciunt vero qui quisquam labore aut fugit maiores distinctio ullam asperiores officia, deleniti amet odio totam? Unde!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ea odit modi laudantium, nesciunt vero qui quisquam labore aut fugit maiores distinctio ullam asperiores officia, deleniti amet odio totam? Unde!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ea odit modi laudantium, nesciunt vero qui quisquam labore aut fugit maiores distinctio ullam asperiores officia, deleniti amet odio totam? Unde!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ea odit modi laudantium, nesciunt vero qui quisquam labore aut fugit maiores distinctio ullam asperiores officia, deleniti amet odio totam? Unde!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ea odit modi laudantium, nesciunt vero qui quisquam labore aut fugit maiores distinctio ullam asperiores officia, deleniti amet odio totam? Unde!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ea odit modi laudantium, nesciunt vero qui quisquam labore aut fugit maiores distinctio ullam asperiores officia, deleniti amet odio totam? Unde!</p>
+
+
+  <!-- B2B 3 Cards - content block -->
+  <div class="bl-b2b-3-cards container">
+    
+    <a class="bl-b2b-3-cards__card" href="#">
+      <div 
+        class="bl-b2b-3-cards__image"
+        style="background-image: url(/placeholders/b2b-card-1.jpg)"
+      ></div>
+      <main class="bl-b2b-3-cards__main">
+        <h3 class="h3 bl-b2b-3-cards__title">Services</h3>
+        <div class="bl-b2b-3-cards__text">
+          Leverage your operations with our fleet and experienced crew as ACMI, Charter, Ad hoc and more. 
+        </div>
+      </main>
+    </a><!-- /bl-b2b-3-cards__card -->
+
+    <a class="bl-b2b-3-cards__card" href="#">
+      <div 
+        class="bl-b2b-3-cards__image"
+        style="background-image: url(/placeholders/b2b-card-2.jpg)"
+      ></div>
+      <main class="bl-b2b-3-cards__main">
+        <h3 class="h3 bl-b2b-3-cards__title">Services</h3>
+        <div class="bl-b2b-3-cards__text">
+          Explore our fleet of ATR 72-600 and Airbus A319 and A320.
+        </div>
+      </main>
+    </a><!-- /bl-b2b-3-cards__card -->
+    
+    <a class="bl-b2b-3-cards__card" href="#">
+      <div 
+        class="bl-b2b-3-cards__image"
+        style="background-image: url(/placeholders/b2b-card-3.jpg)"
+      ></div>
+      <main class="bl-b2b-3-cards__main">
+        <h3 class="h3 bl-b2b-3-cards__title">Career</h3>
+        <div class="bl-b2b-3-cards__text">Take your next career step with us and learn what it’s like to work at Braathens.</div>
+      </main>
+    </a><!-- /bl-b2b-3-cards__card -->
+
   </div>
+  <!-- / B2B 3 Cards - content block -->
 
 
 
