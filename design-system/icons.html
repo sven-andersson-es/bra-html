@@ -65,10 +65,6 @@
 
     <section class="layout-with-left-navigation__right">
 
-      <small>Icons are stored locally in SVG files located in folder <code>/assets/icons</code></small>
-      <br>
-      <br>
-
       <h4 class="mb-2">BRA icons</h4>
 
       <icon data-svg="bra--search.svg"></icon>
@@ -87,12 +83,12 @@
       <icon data-svg="bra--info.svg"></icon>
       <icon data-svg="bra--info-circle.svg"></icon>
 
-      <h6 class="h6 mt-4 mb-2">Sizing</h6>
+      <h6 class="h6 mt-4 mb-0">Sizing</h6>
       <icon data-svg="bra--plane-up.svg"></icon>
       <icon data-svg="bra--plane-up.svg" style="width: 40px"></icon>
       <icon data-svg="bra--plane-up.svg" style="width: 80px"></icon>
 
-      <h6 class="h6 mt-4 mb-2">Colors</h6>
+      <h6 class="h6 mt-0 mb-2">Colors</h6>
       <icon data-svg="bra--plane-up.svg" class="text-bra-green-dark"></icon>
       <icon data-svg="bra--plane-up.svg" class="text-bra-green"></icon>
       <icon data-svg="bra--plane-up.svg" class="text-bra-green-light"></icon>
@@ -100,21 +96,20 @@
 
       <br>
       <br>
-      <br>
 
-      <h4>MDI icons</h4>
-      <small>Full icon set: <a href="https://icon-sets.iconify.design/mdi/" target="_blank">Material Design Icons</a></small>
+      <h4>Material Symbols by Google</h4>
+      <small>Full icon set: <a href="https://icon-sets.iconify.design/material-symbols/" target="_blank">Material Design Icons</a></small>
       <br>
       
 
       <icon data-svg="mdi--cloud.svg"></icon>
 
-      <h6 class="h6 mt-4 mb-2">Sizing</h6>
+      <h6 class="h6 mt-4">Sizing</h6>
       <icon data-svg="mdi--cloud.svg"></icon>
       <icon data-svg="mdi--cloud.svg" style="width: 40px"></icon>
       <icon data-svg="mdi--cloud.svg" style="width: 80px"></icon>
 
-      <h6 class="h6 mt-4 mb-2">Colors</h6>
+      <h6 class="h6 mb-2">Colors</h6>
       <icon data-svg="mdi--cloud.svg" class="text-bra-green-dark"></icon>
       <icon data-svg="mdi--cloud.svg" class="text-bra-green"></icon>
       <icon data-svg="mdi--cloud.svg" class="text-bra-green-light"></icon>
@@ -122,11 +117,31 @@
 
 
       <br>
+
+
+      <h4 class="h4 mt-5">Instructions</h4>
+      Any SVG file can be used as an icon. Icons are stored in <code>/assets/icons</code> folder. 
+      Additional icons can be downloaded from <a href="https://icon-sets.iconify.design/" target="_blank">Iconify</a>.</small>
+
+
+      <h6 class="h6 mt-4 mb-2">SVG files specification</h6>
+      In order to change the color of the icon, the SVG file must contain the <code>fill="currentColor"</code> attribute.<br>
+      In order to change the size of the icon, the SVG file must not contain the <code>width</code> and <code>height</code> attributes.<br>
+
+      <h6 class="h6 mt-4 mb-2">Alternative syntax (SVG use)</h6>
+      Alternatively, SVG icons can be used with the <code>&lt;svg&gt;&lt;use&gt;</code> elements.<br>
+      <svg class="icon text-bra-green" style="width: 40px"><use href="/assets/icons/bra--search.svg#icon"/></svg>
+
+
+      <h6 class="h6 mt-4 mb-2">SVG files specification</h6>
+      In addition to the previous specification, the SVG file must contain an <code>id="icon"</code> attribute.<br>
+
+      <br>
       <br>
       <br>
 
-      <small>Other icon sets at <a href="https://icon-sets.iconify.design/" target="_blank">Iconify</a></small>
     </section><!-- /layout-with-left-navigation__right -->
+    
 
   </div><!-- /layout-with-left-navigation -->
 

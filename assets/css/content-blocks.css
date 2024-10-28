@@ -613,3 +613,30 @@
     display: none;
   }
 }
+
+
+/***********************************************/
+/* B2B USP (unique selling point) - content block                     */
+/***********************************************/
+.bl-b2b-usp {
+  background-color: var(--bra-green);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bl-b2b-usp__item {
+  display: flex;
+}
+.bl-b2b-usp__icon {
+  width: auto;
+  height: 32px;
+}
+.bl-b2b-usp__text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bl-b2b-usp__text p {
+  margin-bottom: 0;
+}

@@ -83,6 +83,11 @@ icon {
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
 }
+.icon {
+  width: 1.1em;
+  aspect-ratio: 1;
+  vertical-align: middle;
+}
 
 
 /***********************************************/
