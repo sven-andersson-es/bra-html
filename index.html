@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="sv">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
@@ -18,9 +18,9 @@
     <div class="container app-header__container">
       
       <button class="btn btn-secondary btn-circle hamburger">        
-        <div class="hamburger__line"></div>
-        <div class="hamburger__line"></div>
-        <div class="hamburger__line"></div>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
       </button>
       
       <!-- mobile navigation -->
@@ -29,13 +29,13 @@
 
           <button class="list-group-item top-nav-mobile__list-item active" onclick="openSlideIn('slidein-1')">
             Page layouts
-            <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"></icon>
+            <svg class="icon top-nav-mobile__list-arrow"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
           </button>
 
           <section class="top-nav-mobile__slidein" id="slidein-1">
             <div class="top-nav-mobile__slidein-header">
               <button class="btn btn-outline-primary border-0 top-nav-mobile__slidein-close" onclick="closeSlideIn('slidein-1')">
-                <icon class="top-nav-mobile__slidein-close-arrow" data-svg="bra--arrow-left.svg"></icon>
+                <svg class="icon top-nav-mobile__slidein-close-arrow"><use href="/assets/icons/bra--arrow-left.svg#icon"/></svg>
                 Menu
               </button>
               <h5 class="top-nav-mobile__slidein-title">Page layouts</h5>
@@ -77,13 +77,13 @@
 
           <button class="list-group-item top-nav-mobile__list-item" onclick="openSlideIn('slidein-2')">
             Design system
-            <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"></icon>
+            <svg class="icon top-nav-mobile__list-arrow"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
           </button>
 
           <section class="top-nav-mobile__slidein" id="slidein-2">
             <div class="top-nav-mobile__slidein-header">
               <button class="btn btn-outline-primary border-0 top-nav-mobile__slidein-close" onclick="closeSlideIn('slidein-2')">
-                <icon class="top-nav-mobile__slidein-close-arrow" data-svg="bra--arrow-left.svg"></icon>
+                <svg class="icon top-nav-mobile__slidein-close-arrow"><use href="/assets/icons/bra--arrow-left.svg#icon"/></svg>
                 Menu
               </button>
               <h5 class="top-nav-mobile__slidein-title">Design system</h5>
@@ -109,12 +109,12 @@
 
           <button class="list-group-item top-nav-mobile__list-item">
             Fleet
-            <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"></icon>
+            <svg class="icon top-nav-mobile__list-arrow"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
           </button>
 
           <button class="list-group-item top-nav-mobile__list-item">
             About us
-            <icon class="top-nav-mobile__list-arrow" data-svg="bra--arrow-right.svg"></icon>
+            <svg class="icon top-nav-mobile__list-arrow"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
           </button>
 
         </nav><!-- /top-nav-mobile__list -->
@@ -122,7 +122,7 @@
       <!-- / mobile navigation -->
 
       <a class="app-header__logo-link" href="/">
-        <img class="app-header__logo" src="/assets/images/logotype.svg" alt="BRA" />
+        <img class="app-header__logo" src="/assets/images/logotype.svg" alt="BRA">
       </a>
 
 
@@ -196,7 +196,7 @@
       
       <!-- Language switch -->
       <button class="btn btn-secondary btn-sm btn-circle top-nav__button top-nav__button--lang">
-        <icon data-svg="material-symbols--language.svg"></icon>
+        <svg class="icon icon"><use href="/assets/icons/material-symbols--language.svg#icon"/></svg>
         <div class="top-nav__popup top-nav__popup--lang">
           <div class="top-nav__section top-nav__section--lang">
             <h5 class="top-nav__section-title top-nav__section-title--lang">Choose language</h5>
@@ -235,10 +235,10 @@
       src="/upload/hero-landing-page.jpg"
       alt=""
     >
-    <main class="bl-charter-home-hero__content">
+    <div class="bl-charter-home-hero__content">
       <h1 class="h1 bl-charter-home-hero__title">Välkommen ombord!</h1>
       <div class="bl-charter-home-hero__text">Vi har glädjen att flyga resenärer som har bokat en resa med Ving, Apollo och TUI. Förered dig inför resan och se tillvalen som gör din ombordupplevelse ännu härligare.</div>
-    </main>
+    </div><!-- /bl-charter-home-hero__content -->
   </div>
   <!-- / Charter Home Hero - content block -->
 
@@ -252,16 +252,16 @@
         class="bl-charter-3-cards__image"
         style="background-image: url(/upload/card-1.jpg)"
       ></div>
-      <main class="bl-charter-3-cards__main">
+      <div class="bl-charter-3-cards__main">
         <h3 class="h3 bl-charter-3-cards__title">Taxfree</h3>
         <div class="bl-charter-3-cards__text">
           Upptäck möjligheterna att anpassa din resa. Förbeställ en god måltid, köp till extra bagage och boka din favoritplats.
         </div>
         <span class="btn btn-outline-secondary btn-sm border-0 bl-charter-3-cards__btn">
           Läs mer
-          <icon data-svg="bra--arrow-right.svg"></icon>
+          <svg class="icon icon"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
         </span>
-      </main>
+      </div><!-- /bl-charter-3-cards__main -->
     </a><!-- /bl-charter-3-cards__card -->
 
     <a class="bl-charter-3-cards__card" href="#">
@@ -269,16 +269,16 @@
         class="bl-charter-3-cards__image"
         style="background-image: url(/upload/card-2.jpg)"
       ></div>
-      <main class="bl-charter-3-cards__main">
+      <div class="bl-charter-3-cards__main">
         <h3 class="h3 bl-charter-3-cards__title">Ombordservering</h3>
         <div class="bl-charter-3-cards__text">
           Bläddra i vår ombordmeny SKY BAR och se våra goda måltider som behöver beställas i förväg.
         </div>
         <span class="btn btn-outline-secondary btn-sm border-0 bl-charter-3-cards__btn">
           Läs mer
-          <icon data-svg="bra--arrow-right.svg"></icon>
+          <svg class="icon icon"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
         </span>
-      </main>
+      </div><!-- /bl-charter-3-cards__main -->
     </a><!-- /bl-charter-3-cards__card -->
     
     <a class="bl-charter-3-cards__card" href="#">
@@ -286,14 +286,14 @@
         class="bl-charter-3-cards__image"
         style="background-image: url(/upload/card-3.jpg)"
       ></div>
-      <main class="bl-charter-3-cards__main">
+      <div class="bl-charter-3-cards__main">
         <h3 class="h3 bl-charter-3-cards__title">Tillval</h3>
         <div class="bl-charter-3-cards__text">Upptäck möjligheterna att anpassa din resa. Förbeställ en god måltid, köp till extra bagage och boka din favoritplats.</div>
         <span class="btn btn-outline-secondary btn-sm border-0 bl-charter-3-cards__btn">
           Läs mer
-          <icon data-svg="bra--arrow-right.svg"></icon>
+          <svg class="icon icon"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
         </span>
-      </main>
+      </div><!-- /bl-charter-3-cards__main -->
     </a><!-- /bl-charter-3-cards__card -->
 
   </div>
@@ -309,7 +309,7 @@
         class="bl-teaser-with-cloud__image"
         style="background-image: url(/upload/Frame-36.jpg)"
       ></div>
-      <main class="bl-teaser-with-cloud__main">
+      <div class="bl-teaser-with-cloud__main">
         <h3 class="h3 bl-teaser-with-cloud__title">Bioflygbränsle</h3>
         <div class="bl-teaser-with-cloud__text">
           Nyhet! Nu erbjuder vi möjligheten att köpa bioflygbränsle till din resa. <br>
@@ -320,9 +320,9 @@
           class="btn btn-outline-secondary btn-sm btn-text bl-teaser-with-cloud__link"
         >
           Köp till bioflygbränsle
-          <icon data-svg="bra--arrow-right.svg"></icon>
+          <svg class="icon icon"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
         </a>
-      </main>
+      </div><!-- /bl-teaser-with-cloud__main -->
     </div><!-- /bl-teaser-with-cloud -->
   </div><!-- /container -->
   <!-- / Teaser with cloud - content block -->
@@ -342,42 +342,42 @@
         class="btn btn-outline-secondary btn-sm btn-text bl-links__link"
       >
         Bokning
-        <icon data-svg="bra--arrow-right.svg" class="bl-links__arrow"></icon>
+        <svg class="icon bl-links__arrow"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
       </a>
       <a 
         href="#"
         class="btn btn-outline-secondary btn-sm btn-text bl-links__link"
       >
         Förbjudna och farliga föremål
-        <icon data-svg="bra--arrow-right.svg" class="bl-links__arrow"></icon>
+        <svg class="icon bl-links__arrow"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
       </a>
       <a 
         href="#"
         class="btn btn-outline-secondary btn-sm btn-text bl-links__link"
       >
         Bokning
-        <icon data-svg="bra--arrow-right.svg" class="bl-links__arrow"></icon>
+        <svg class="icon bl-links__arrow"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
       </a>
       <a 
         href="#"
         class="btn btn-outline-secondary btn-sm btn-text bl-links__link"
       >
         Förbjudna och farliga föremål
-        <icon data-svg="bra--arrow-right.svg" class="bl-links__arrow"></icon>
+        <svg class="icon bl-links__arrow"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
       </a>
       <a 
         href="#"
         class="btn btn-outline-secondary btn-sm btn-text bl-links__link"
       >
         Bokning
-        <icon data-svg="bra--arrow-right.svg" class="bl-links__arrow"></icon>
+        <svg class="icon bl-links__arrow"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
       </a>
       <a 
         href="#"
         class="btn btn-outline-secondary btn-sm btn-text bl-links__link"
       >
         Förbjudna och farliga föremål
-        <icon data-svg="bra--arrow-right.svg" class="bl-links__arrow"></icon>
+        <svg class="icon bl-links__arrow"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
       </a>
     </div><!-- /bl-links__links -->
 
@@ -398,10 +398,10 @@
         alt=""
         class="bl-cards-with-image-and-button__image"
       >
-      <main class="bl-cards-with-image-and-button__main">
+      <div class="bl-cards-with-image-and-button__main">
         Taxfree
-        <icon data-svg="bra--arrow-right.svg" class="bl-cards-with-image-and-button__arrow"></icon>
-      </main>
+        <svg class="icon bl-cards-with-image-and-button__arrow"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
+      </div><!-- /bl-cards-with-image-and-button__main -->
     </a>
 
     <a 
@@ -413,10 +413,10 @@
         alt="" 
         class="bl-cards-with-image-and-button__image"
       >
-      <main class="bl-cards-with-image-and-button__main">
+      <div class="bl-cards-with-image-and-button__main">
         Förboka sittplatser
-        <icon data-svg="bra--arrow-right.svg" class="bl-cards-with-image-and-button__arrow"></icon>
-      </main>
+        <svg class="icon bl-cards-with-image-and-button__arrow"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
+      </div><!-- /bl-cards-with-image-and-button__main -->
     </a>
   </div><!-- /bl-cards-with-image-and-button -->
   <!-- /Cards with image and button - content block -->
@@ -433,7 +433,7 @@
       >
       <button class="btn btn-secondary bl-image-w-button__button">
         Vanliga frågor och svar
-        <icon data-svg="bra--arrow-right.svg" class="bl-image-w-button__arrow"></icon>
+        <svg class="icon bl-image-w-button__arrow"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
       </button>
     </div>
   </div>
@@ -444,7 +444,7 @@
   
   <footer class="app-footer">
     <div class="container">
-      <section class="app-footer__columns">
+      <div class="app-footer__columns">
 
         <div>
           <h5 class="text-bra-green-dark title-underlined">Hjälp &amp; kontakt</h5>
@@ -501,21 +501,20 @@
           </nav>
         </div>
 
-      </section><!-- /app-footer__columns -->
+      </div><!-- /app-footer__columns -->
 
-      <section class="app-footer__links">
+      <div class="app-footer__links">
         BRA Sverige AB | Org.nr: 556966-5994
         <a href="/">Allmänna villkor</a>
         <a href="/">Hantering av personuppgifter</a>
         <a href="/">Cookies</a>
-      </section>
+      </div><!-- /app-footer__links -->
 
     </div><!-- /container -->
   </footer>
 
 
   <!-- Javascript files -->
-  <script src="/js/icons.js"></script>
   <script src="/js/top-nav.js"></script>
   <script src="/libraries/materialstyle-3.1.1/js/materialstyle.min.js"></script>
 </body>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="sv">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
@@ -19,17 +19,17 @@
     <div class="container app-header__container">
       
       <button class="btn btn-secondary btn-circle hamburger">        
-        <div class="hamburger__line"></div>
-        <div class="hamburger__line"></div>
-        <div class="hamburger__line"></div>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
       </button>
       
       <a href="/">
-        <img class="app-header__logo" src="/assets/images/logotype.svg" alt="BRA" />
+        <img class="app-header__logo" src="/assets/images/logotype.svg" alt="BRA">
       </a>
 
       <button class="btn btn-secondary btn-circle btn-sm app-header__lang">
-        <icon data-svg="material-symbols--language.svg"></icon>
+        <svg class="icon"><use href="/assets/icons/material-symbols--language.svg#icon"/></svg>
       </button>
 
     </div><!-- /app-header__container -->
@@ -56,7 +56,7 @@
       </div>
       <button class="btn btn-outline-secondary bl-b2b-home-hero__button">
         Contact us
-        <icon data-svg="bra--arrow-right.svg" class="bl-b2b-home-hero__arrow"></icon>
+        <svg class="icon bl-b2b-home-hero__arrow"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
       </button>
     </div><!-- /bl-b2b-home-hero__container -->
   </div><!-- /bl-b2b-home-hero -->
@@ -73,12 +73,12 @@
         src="/upload/b2b-card-1.jpg"
         alt=""
       >
-      <main class="bl-b2b-3-cards__main">
+      <div class="bl-b2b-3-cards__main">
         <h3 class="h2 bl-b2b-3-cards__title">Services</h3>
         <div class="bl-b2b-3-cards__text">
           <p>Leverage your operations with our fleet and experienced crew as ACMI, Charter, Ad hoc and more. </p>
         </div>
-      </main>
+      </div><!-- /bl-b2b-3-cards__main -->
     </a><!-- /bl-b2b-3-cards__card -->
 
     <a class="bl-b2b-3-cards__card" href="#">
@@ -87,12 +87,12 @@
         src="/upload/b2b-card-2.jpg"
         alt=""
       >
-      <main class="bl-b2b-3-cards__main">
+      <div class="bl-b2b-3-cards__main">
         <h3 class="h2 bl-b2b-3-cards__title">Fleet</h3>
         <div class="bl-b2b-3-cards__text">
           <p>Explore our fleet of ATR 72-600 and Airbus A319 and A320.</p>
         </div>
-      </main>
+      </div><!-- /bl-b2b-3-cards__main -->
     </a><!-- /bl-b2b-3-cards__card -->
     
     <a class="bl-b2b-3-cards__card" href="#">
@@ -101,12 +101,12 @@
         src="/upload/b2b-card-3.jpg"
         alt=""
       >
-      <main class="bl-b2b-3-cards__main">
+      <div class="bl-b2b-3-cards__main">
         <h3 class="h2 bl-b2b-3-cards__title">Career</h3>
         <div class="bl-b2b-3-cards__text">
           <p>Take your next career step with us and learn what it’s like to work at Braathens.</p>
         </div>
-      </main>
+      </div><!-- /bl-b2b-3-cards__main -->
     </a><!-- /bl-b2b-3-cards__card -->
 
   </div><!-- /bl-b2b-3-cards -->
@@ -117,21 +117,21 @@
   <div class="bl-b2b-usp container">
     
     <div class="bl-b2b-usp__item">
-      <svg class="bl-b2b-usp__icon"><use href="/upload/usp-icon-1.svg#icon"/></svg>
+      <svg class="icon bl-b2b-usp__icon"><use href="/upload/usp-icon-1.svg#icon"/></svg>
       <div class="bl-b2b-usp__text">
         <p>26+ aircrafts available</p>
       </div>
     </div><!-- /bl-b2b-usp__item -->
 
     <div class="bl-b2b-usp__item">
-      <svg class="bl-b2b-usp__icon"><use href="/upload/usp-icon-2.svg#icon"/></svg>
+      <svg class="icon bl-b2b-usp__icon"><use href="/upload/usp-icon-2.svg#icon"/></svg>
       <div class="bl-b2b-usp__text">
         <p>World class <span class="text-bra-green-light">passenger rating</span></p>
       </div>
     </div><!-- /bl-b2b-usp__item -->
 
     <div class="bl-b2b-usp__item">
-      <svg class="bl-b2b-usp__icon"><use href="/upload/usp-icon-3.svg#icon"/></svg>
+      <svg class="icon bl-b2b-usp__icon"><use href="/upload/usp-icon-3.svg#icon"/></svg>
       <div class="bl-b2b-usp__text">
         <p>EASA <span class="text-bra-green-light">certified</span></p>
       </div>
@@ -142,7 +142,6 @@
 
 
   <!-- Javascript files -->
-  <script src="/js/icons.js"></script>
   <script src="/js/top-nav.js"></script>
   <script src="/libraries/materialstyle-3.1.1/js/materialstyle.min.js"></script>
 </body>
