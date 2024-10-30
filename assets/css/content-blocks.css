@@ -654,16 +654,20 @@
 @media screen and (max-width: 576px) {
   .bl-b2b-usp {
     display: block;
-    text-align: center;
     background: transparent;
     color: var(--bra-green-dark);
-    padding: 0;
+    padding: 0 56px;
   }
   .bl-b2b-usp__item {
     display: flex;
-    gap: 6px;
+    gap: 12px;
     justify-content: center;
     align-items: center;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  .bl-b2b-usp__item .text-bra-green-light {
+    color: inherit
   }
   .bl-b2b-usp__icon {
     width: 40px;
