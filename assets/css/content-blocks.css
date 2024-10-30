@@ -615,9 +615,9 @@
 }
 
 
-/***********************************************/
-/* B2B USP (unique selling point) - content block                     */
-/***********************************************/
+/**************************************************/
+/* B2B USP (unique selling point) - content block */
+/**************************************************/
 .bl-b2b-usp {
   background-color: var(--bra-green);
   color: white;
@@ -652,25 +652,76 @@
 }
 /* mobile */
 @media screen and (max-width: 576px) {
+  .bl-b2b-usp__container {
+    display: flex;
+  }
   .bl-b2b-usp {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     background: transparent;
     color: var(--bra-green-dark);
-    padding: 0 56px;
+    padding: 0 20px;
   }
   .bl-b2b-usp__item {
     display: flex;
     gap: 12px;
     justify-content: center;
     align-items: center;
-    padding-left: 20px;
-    margin-bottom: 10px;
-  }
-  .bl-b2b-usp__item .text-bra-green-light {
-    color: inherit
   }
   .bl-b2b-usp__icon {
     width: 40px;
     height: 40px;
+  }
+}
+
+
+
+/**************************************************/
+/* Text and image 50-50 - content block           */
+/**************************************************/
+.bl-text-and-image-50-50 {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: var(--grid-gap);
+  margin-bottom: var(--blocks-spacing);
+}
+.bl-text-and-image-50-50__image {
+  flex: 1;
+  flex-shrink: 0;
+}
+.bl-text-and-image-50-50__main {
+  flex: 1;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.bl-text-and-image-50-50__title {
+  margin-bottom: 47px;
+}
+.bl-text-and-image-50-50__text {
+  margin-bottom: 29px;
+  font-size: 15px;
+}
+/* mobile */
+@media screen and (max-width: 576px) {
+  .bl-text-and-image-50-50 {
+    display: block;
+  }
+  .bl-text-and-image-50-50__image {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .bl-text-and-image-50-50__title {
+    font-size: 28px;
+    margin-bottom: 36px;
+  }
+  .bl-text-and-image-50-50__text {
+    margin-bottom: 24px;
+  }
+  .bl-text-and-image-50-50__btn {
+    width: 100%;
   }
 }

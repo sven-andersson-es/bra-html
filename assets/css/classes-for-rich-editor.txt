@@ -1,3 +1,0 @@
-Following CSS classes are required in Rich Text Editor:
-
-.text-bra-green-light
