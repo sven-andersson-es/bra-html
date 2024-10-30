@@ -54,8 +54,8 @@ hr {
   outline-offset: 2px;
 }
 p {
-  text-wrap: pretty;
   margin-bottom: 1em;
+  text-wrap: pretty;
 }
 ol, ul {
   padding-left: 0;
