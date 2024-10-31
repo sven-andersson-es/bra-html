@@ -436,7 +436,7 @@
   position: relative;
 }
 .bl-b2b-home-hero__image {
-  --gradient: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 550px);
+  --gradient: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 350px, rgba(0, 0, 0, 0) 550px);
   mask-image: var(--gradient);
   -webkit-mask-image: var(--gradient);
   object-fit: cover;
