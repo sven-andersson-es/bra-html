@@ -2,6 +2,9 @@
   max-width: 1180px;
   padding: 0 var(--container-padding);
 }
-.container .container {
+.layout-with-left-navigation .container {
+  max-width: 648px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
 }

@@ -9,6 +9,9 @@
   /* border radius */
   --border-radius: 0px; 
   --border-radius-card: 0px;
+
+  /* Material Style variables */
+  --bs-heading-color: var(--bra-green-dark);
 }
 /* mobile */
 @media screen and (max-width: 576px) {

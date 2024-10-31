@@ -61,29 +61,16 @@ ol, ul {
   padding-left: 0;
   margin-bottom: 0;
 }
-ul li {
+li {
   margin-left: 1.1em;
 }
 img, svg {
   max-width: 100%;
   vertical-align: initial;
 }
-icon {
-  /* icon color is changed by setting backgroud color to currentColor and using SVG as background mask */
-  display: inline-block;
-  width: 1.1em;
-  aspect-ratio: 1;
-  vertical-align: middle;
-  background-color: currentColor;
-  --svg: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"></svg>');
-  -webkit-mask-image: var(--svg);
-  mask-image: var(--svg);
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-size: 100% 100%;
-  mask-size: 100% 100%;
-}
+/* icons */
 .icon {
+  fill: currentColor;
   width: 1.1em;
   aspect-ratio: 1;
   vertical-align: middle;

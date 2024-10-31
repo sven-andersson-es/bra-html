@@ -99,7 +99,7 @@
   --bs-body-color: var(--text-color);
   --bs-body-color-rgb: 33, 33, 33;
 
-  --bs-heading-color: var(--bra-green-dark);
+  --bs-heading-color: var(--bra-green);
 
   --bs-link-color: var(--bra-green-dark);
   --bs-link-decoration: underline;
