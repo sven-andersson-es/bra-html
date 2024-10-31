@@ -768,9 +768,6 @@
   .bl-trusted-by {
     padding: 45px 0 45px 0;
   }
-  .bl-trusted-by__container {
-    padding: 0;
-  }
   .bl-trusted-by__logos {
     line-height: 75px;
   }
