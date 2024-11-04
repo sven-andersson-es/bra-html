@@ -774,6 +774,14 @@
   .bl-charter-content-page-hero__image {
     border-radius: 0 !important;
   }
-  .bl-charter-content-page-hero__title {
-  }
+}
+
+/***********************************************/
+/* Accordion - content block                   */
+/***********************************************/
+.bl-accordion {
+  margin-bottom: var(--blocks-spacing);
+}
+.bl-accordion__title {
+  margin-bottom: 20px;
 }
