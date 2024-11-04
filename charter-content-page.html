@@ -34,45 +34,81 @@
     </div><!-- /app-header__container -->
   </header><!-- /app-header -->
 
-  <div class="container layout-with-left-navigation"> 
+  <div class="layout-with-left-navigation"> 
 
-    <section class="layout-with-left-navigation__left">
+    <div class="layout-with-left-navigation__left">
+      <div id="left-navigation" class="accordion accordion--navigation">
 
-      <div class="accordion accordion--navigation" id="leftNavigation">
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button left-navigation-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Left navigation
+          <h2 id="left-nav-heading-1" class="accordion-header">
+            <button 
+              class="accordion-button left-navigation-accordion-button" 
+              type="button" 
+              data-bs-toggle="collapse" 
+              data-bs-target="#left-nav-collapse-1" 
+              aria-controls="left-nav-collapse-1"
+              aria-expanded="true" 
+            >
+              Group one
             </button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#leftNavigation">
+          <div 
+            id="left-nav-collapse-1" 
+            class="accordion-collapse collapse show" 
+            aria-labelledby="left-nav-heading-1" 
+            data-bs-parent="#left-navigation"
+          >
             <nav class="list-group">
               <a class="list-group-item" href="/">Charter Home page</a>
               <a class="list-group-item active" href="/charter-content-page.html">Charter Content page</a>
             </nav>
           </div><!-- /accordion-collapse -->
         </div><!-- /accordion-item -->
-      </div><!-- /accordion -->
 
-    </section><!-- /layout-with-left-navigation__left -->
+        <div class="accordion-item">
+          <h2 id="left-nav-heading-2" class="accordion-header">
+            <button 
+              class="accordion-button left-navigation-accordion-button" 
+              type="button" 
+              data-bs-toggle="collapse" 
+              data-bs-target="#left-nav-collapse-2" 
+              aria-controls="left-nav-collapse-2"
+              aria-expanded="false" 
+            >
+              Group two
+            </button>
+          </h2>
+          <div 
+            id="left-nav-collapse-2" 
+            class="accordion-collapse collapse" 
+            aria-labelledby="left-nav-heading-2" 
+            data-bs-parent="#left-navigation"
+          >
+            <nav class="list-group">
+              <a class="list-group-item" href="/">Charter Home page</a>
+              <a class="list-group-item" href="/charter-content-page.html">Charter Content page</a>
+            </nav>
+          </div><!-- /accordion-collapse -->
+        </div><!-- /accordion-item -->
 
-    <section class="layout-with-left-navigation__right">
+      </div><!-- /#left-navigation -->
+    </div><!-- /layout-with-left-navigation__left -->
+
+
+    <div class="layout-with-left-navigation__right">
 
 
       <!-- Content blocks go here -->
 
-      <!-- Breadcrumbs - content block -->
-      <div class="bl-breadcrumbs">
-        <nav class="container bl-breadcrumbs__container">
-          <a href="/">Home</a>
-          <span class="bl-breadcrumbs__separator">/</span>
-          <span>Charter Content page</span>
-        </nav>   
-      </div>
-      <!-- / Breadcrumbs - content block -->
-
       <!-- Charter Content Page Hero - content block -->
       <div class="bl-charter-content-page-hero">
+
+        <nav class="breadcrumbs">
+          <a href="/">Home</a>
+          <span class="breadcrumbs__separator">/</span>
+          <span>Charter Content page</span>
+        </nav><!-- /breadcrumbs -->
+      
         <img 
           src="/upload/hero.jpg" 
           alt=""
@@ -138,7 +174,7 @@
 
       <!-- /Content blocks -->
 
-    </section><!-- /layout-with-left-navigation__right -->
+    </div><!-- /layout-with-left-navigation__right -->
     
   </div><!-- /layout-with-left-navigation -->
 
