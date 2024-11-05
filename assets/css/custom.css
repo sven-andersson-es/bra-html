@@ -81,15 +81,10 @@ img, svg {
 /* Container                                     */
 /***********************************************/
 .container {
-  max-width: var(--container-max-width);
+  max-width: 1180px;
   padding: 0 var(--container-padding);
 }
-.layout-with-left-navigation .container {
-  max-width: 648px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-}
+
 
 
 
@@ -97,11 +92,12 @@ img, svg {
 /* Layouts with left navigation                 */
 /***********************************************/
 .layout-with-left-navigation {
+  width: 100%;
+  max-width: 1180px;
+  padding: 50px 26px 0 26px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: var(--grid-gap);
-  max-width: var(--container-max-width);
-  padding: 50px var(--container-padding) 0 var(--container-padding);
   margin-inline: auto;
 }
 .layout-with-left-navigation__left {
@@ -110,17 +106,24 @@ img, svg {
 .layout-with-left-navigation__right {
   grid-column: span 9;
 }
+/* desktop 9 columns */
 @media screen and (max-width: 1178px) {
   .layout-with-left-navigation {
     display: block;
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
   }
   .layout-with-left-navigation__left {
     display: none;
   }
   .layout-with-left-navigation__right {
-    max-width: 830px;
+    width: 100%;
+    max-width: 892px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 26px;
+    padding-right: 26px;
   }
 }
 /* tablet */
@@ -128,7 +131,18 @@ img, svg {
   .layout-with-left-navigation {
     padding-top: 0;
   }
+  .layout-with-left-navigation__right {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
+
+
+/* Left navigation container */
+.layout-with-left-navigation .container {
+  max-width: 700px;
+}
+
 
 /* Left navigation accordion */
 .left-navigation-accordion-button,
@@ -162,8 +176,10 @@ img, svg {
 /* tablet */
 @media screen and (max-width: 872px) {
   .breadcrumbs {
+    max-width: none !important;
+    width: 100%;
     margin-bottom: 0;
-    padding: 9px 18px;
+    padding: 9px 18px !important;
     color: white;
     font-size: 13px;
     background: linear-gradient(to bottom, #14605c 0%, #2e706c 10px);
@@ -176,6 +192,12 @@ img, svg {
   }
   .breadcrumbs__separator {
     margin-inline: 4px;
+  }
+}
+/* mobile */
+@media screen and (max-width: 576px) {
+  .breadcrumbs {
+    padding: 9px 15px !important;
   }
 }
 
