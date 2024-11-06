@@ -71,9 +71,9 @@ img, svg {
 /* icons */
 .icon {
   fill: currentColor;
-  width: 1.1em;
+  width: 1em;
   aspect-ratio: 1;
-  vertical-align: middle;
+  vertical-align: -5%;
 }
 
 

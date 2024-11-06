@@ -3,6 +3,7 @@
 }
 .bg-bra-green {
   background-color: var(--bra-green);
+  color: white;
 }
 .text-bg-bra-green {
   background-color: var(--bra-green);

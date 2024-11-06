@@ -811,6 +811,10 @@
   color: var(--bra-green-dark);
   margin-bottom: 30px;
 }
+.bl-highlight__title-icon {
+  width: 24px;
+  margin-right: 4px;
+}
 .bl-highlight__text {
   margin-bottom: 30px;
 }
@@ -824,6 +828,9 @@
 }
 .bl-highlight--green .bl-highlight__title {
   color: inherit;
+}
+.bl-highlight--green a:not(:hover) {
+  color: white;
 }
 /* variant: beige */
 .bl-highlight--beige {
