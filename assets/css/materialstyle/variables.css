@@ -91,20 +91,6 @@
   /* --bs-light-rgb: 248, 249, 250; */
   /* --bs-dark-rgb: 33, 37, 41; */
 
-  --bs-font-sans-serif: var(--font-family);
-  --bs-body-font-family: var(--font-family);
-  --bs-body-font-size: var(--font-size);
-  --bs-body-font-weight: 400;
-  --bs-body-line-height: 1.4;
-  --bs-body-color: var(--text-color);
-  --bs-body-color-rgb: 33, 33, 33;
-
-  --bs-heading-color: var(--bra-green);
-
-  --bs-link-color: var(--bra-green-dark);
-  --bs-link-decoration: underline;
-  --bs-link-hover-color: var(--bra-orange);
-
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #e9ecef;

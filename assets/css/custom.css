@@ -21,6 +21,7 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  container-type: inline-size;
 }
 strong, em {
   font-weight: 500;
@@ -54,15 +55,15 @@ hr {
   outline-offset: 2px;
 }
 p {
-  margin-bottom: 1em;
+  margin-bottom: 1.3em;
   text-wrap: pretty;
 }
 ol, ul {
   padding-left: 0;
-  margin-bottom: 0;
+  margin: 1.3em 0;
 }
 li {
-  margin-left: 1.1em;
+  margin-left: 1.4em;
 }
 img, svg {
   max-width: 100%;
@@ -83,6 +84,7 @@ img, svg {
 .container {
   max-width: 1180px;
   padding: 0 var(--container-padding);
+  container-type: inline-size;
 }
 
 
@@ -105,6 +107,7 @@ img, svg {
 }
 .layout-with-left-navigation__right {
   grid-column: span 9;
+  container-type: inline-size;
 }
 /* desktop 9 columns */
 @media screen and (max-width: 1178px) {

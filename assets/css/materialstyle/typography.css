@@ -1,27 +1,53 @@
+:root {
+  --bs-font-sans-serif: var(--font-family);
+  --bs-body-font-family: var(--font-family);
+  --bs-body-font-size: var(--font-size);
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.4;
+  --bs-body-color: var(--text-color);
+  --bs-body-color-rgb: 33, 33, 33;
+
+  --bs-heading-color: inherit;
+
+  --bs-link-color: var(--bra-green-dark);
+  --bs-link-decoration: underline;
+  --bs-link-hover-color: var(--bra-orange);
+}
+
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 500;
-  line-height: 1.1;
-  margin-bottom: 8px; /* todo: change it */
   text-wrap: balance;
 }
 h1, .h1 {
   font-size: 43px;
+  line-height: 1.1;
   margin-bottom: 30px;
+  color: var(--bra-green);
 }
 h2, .h2 {
   font-size: 36px;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  color: var(--bra-green);
 }
 h3, .h3 {
   font-size: 28px;
+  line-height: 1.1;
+  margin-bottom: 21px;
+  color: var(--bra-green);
 }
 h4, .h4 {
   font-size: 22px;
+  margin-bottom: 2px;
 }
 h5, .h5 {
   font-size: 18px;
+  margin-bottom: 2px;
 }
 h6, .h6 {
   font-size: 15px;
+  margin-bottom: 2px;
 }
 .text-long {
   font-size: 18px;
