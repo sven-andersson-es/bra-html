@@ -318,6 +318,7 @@
   display: block;
   width: 100%;
   height: auto;
+  max-height: 300px;
 }
 .bl-cards-with-image-and-button__main {
   gap: 6px;
@@ -332,6 +333,21 @@
   flex-shrink: 0;
   width: 24px;
 }
+/* Variant: 3 columns */
+.bl-cards-with-image-and-button--3-columns {
+  grid-template-columns: repeat(3, 1fr);
+}
+.bl-cards-with-image-and-button--3-columns .bl-cards-with-image-and-button__image {
+  aspect-ratio: 360 / 189;
+}
+/* tablet */
+@media screen and (max-width: 872px) {
+  .bl-cards-with-image-and-button--3-columns {
+    gap: var(--grid-gap);
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* mobile */
 @media screen and (max-width: 576px) {
   .bl-cards-with-image-and-button {
@@ -339,13 +355,6 @@
     display: flex;
     flex-direction: column;
   }
-}
-/* Variant: 3 columns */
-.bl-cards-with-image-and-button--3-columns {
-  grid-template-columns: repeat(3, 1fr);
-}
-.bl-cards-with-image-and-button--3-columns .bl-cards-with-image-and-button__image {
-  aspect-ratio: 360 / 189;
 }
 
 
