@@ -38,15 +38,6 @@
 .btn-outline-secondary {
   --color: var(--bra-green-dark);
 }
-.btn-circle {
-  border-radius: 50%;
-  --bs-btn-padding-x: var(--bs-btn-padding-y);
-  aspect-ratio: 1;
-}
-.btn-circle > icon {
-  margin-top: 0;
-  margin-bottom: 0;
-}
 .btn-text {
   --bs-btn-padding-x: 8px !important;
   border-width: 0;
@@ -65,4 +56,13 @@
   --bs-btn-padding-x: 22px;
   --bs-btn-padding-y: 8px;
   --bs-border-radius-sm: 2px;
+}
+.btn-circle {
+  border-radius: 50%;
+  --bs-btn-padding-x: var(--bs-btn-padding-y);
+  aspect-ratio: 1;
+}
+.btn-circle > icon {
+  margin-top: 0;
+  margin-bottom: 0;
 }
