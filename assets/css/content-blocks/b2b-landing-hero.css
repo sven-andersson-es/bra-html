@@ -1,0 +1,40 @@
+.bl-b2b-landing-hero {
+  margin-bottom: var(--blocks-spacing);
+}
+.bl-b2b-landing-hero__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1728 / 436;
+  min-height: 191px;
+  max-height: 436px;
+  object-fit: cover;
+  object-position: center center;
+  background-color: var(--image-background-color);
+  margin-bottom: 11px;
+}
+.bl-b2b-landing-hero .breadcrumbs {
+  margin-bottom: 37px;
+}
+.bl-b2b-landing-hero__title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.bl-b2b-landing-hero__text {
+  text-align: center;
+  font-size: 20px;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+.bl-b2b-landing-hero__text p {
+  text-wrap: balance;
+}
+/* tablet */
+@media screen and (max-width: 872px) {
+  .bl-b2b-landing-hero__image {
+    margin-bottom: 0;
+  }
+}

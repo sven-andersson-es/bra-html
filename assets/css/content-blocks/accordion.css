@@ -1,0 +1,9 @@
+/***********************************************/
+/* Accordion - content block                   */
+/***********************************************/
+.bl-accordion {
+  margin-bottom: var(--blocks-spacing);
+}
+.bl-accordion__title {
+  margin-bottom: 20px;
+}

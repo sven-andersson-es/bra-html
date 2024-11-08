@@ -1,0 +1,41 @@
+/***********************************************/
+/* Charter Content Page Hero - content block   */
+/***********************************************/
+.bl-charter-content-page-hero {
+  margin-bottom: var(--blocks-spacing);
+}
+.bl-charter-content-page-hero .breadcrumbs {
+  max-width: none;
+  padding: 0;
+}
+.bl-charter-content-page-hero__image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 840 / 330;
+  min-height: 190px;
+  object-fit: cover;
+  object-position: center;
+  background-color: var(--image-background-color);
+  border-radius: var(--border-radius-card);
+  position: relative;
+  z-index: 0;
+}
+.bl-charter-content-page-hero__title {
+  padding: 13px 20px;
+  color: var(--bra-green-light-50);
+  text-align: center;
+  background-color: var(--bra-green);
+  max-width: min(648px, calc(100% - 2 * var(--container-padding)));
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -27px;
+  position: relative;
+  z-index: 1;
+  border-radius: var(--border-radius);
+}
+/* tablet */
+@media screen and (max-width: 872px) {
+  .bl-charter-content-page-hero__image {
+    border-radius: 0 !important;
+  }
+}

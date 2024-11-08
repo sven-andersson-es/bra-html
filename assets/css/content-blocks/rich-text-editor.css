@@ -1,0 +1,6 @@
+/**************************************************/
+/* Rich text editor - content block               */
+/**************************************************/
+.bl-rich-text-editor {
+  margin-bottom: calc(var(--blocks-spacing) - 1.3em);
+}

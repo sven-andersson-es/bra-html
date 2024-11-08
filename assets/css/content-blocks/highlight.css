@@ -1,0 +1,48 @@
+/***********************************************/
+/* Highlight - content block                   */
+/* Variant: Color = Beige | Green | Light Green */
+/***********************************************/
+.bl-highlight {
+  margin-bottom: var(--blocks-spacing);
+  padding: 30px 30px 0 30px;
+  border-radius: var(--border-radius-card);
+  overflow: hidden;
+}
+.bl-highlight__title {
+  color: var(--bra-green-dark);
+  margin-bottom: 30px;
+}
+.bl-highlight__title-icon {
+  width: 24px;
+  margin-right: 4px;
+}
+.bl-highlight__text {
+  margin-bottom: 30px;
+}
+.bl-highlight__button {
+  margin-bottom: 30px;
+}
+/* variant: green */
+.bl-highlight--green {
+  background-color: var(--bra-green);
+  color: white;
+}
+.bl-highlight--green .bl-highlight__title {
+  color: inherit;
+}
+.bl-highlight--green a:not(:hover) {
+  color: white;
+}
+/* variant: beige */
+.bl-highlight--beige {
+  background-color: var(--bra-beige-light);
+}
+.bl-highlight--beige .bl-highlight__title,
+.bl-highlight--beige .bl-highlight__button {
+  color: var(--bra-green-dark);
+}
+/* variant: green-light */
+.bl-highlight--green-light {
+  background-color: var(--bra-green-light-25);
+  color: var(--bra-green-dark);
+}

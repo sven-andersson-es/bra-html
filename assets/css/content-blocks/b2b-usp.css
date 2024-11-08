@@ -1,0 +1,62 @@
+/**************************************************/
+/* B2B USP (unique selling point) - content block */
+/**************************************************/
+.bl-b2b-usp {
+  background-color: var(--bra-green);
+  color: white;
+  display: flex;
+  gap: 13px;
+  justify-content: center;
+  align-items: center;
+  min-height: 70px;
+  font-size: 15px;
+  margin-bottom: var(--blocks-spacing);
+  padding: 10px 20px;
+}
+.bl-b2b-usp__item {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.bl-b2b-usp__icon {
+  width: 50px;
+  height: 50px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.bl-b2b-usp__text {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bl-b2b-usp__text p {
+  margin-bottom: 0;
+  text-wrap: balance;
+}
+/* tablet */
+@media screen and (max-width: 872px) {
+  .bl-b2b-usp__container {
+    display: flex;
+  }
+  .bl-b2b-usp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: transparent;
+    color: var(--bra-green-dark);
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bl-b2b-usp__item {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+  .bl-b2b-usp__icon {
+    width: 40px;
+    height: 40px;
+  }
+}

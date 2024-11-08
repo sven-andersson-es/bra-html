@@ -22,11 +22,33 @@
 @import "./fonts/calibre/calibre.css";
 
 /***********************************************/
-/* Custom styles                              */
+/* Custom styles                               */
 /***********************************************/
 
 @import "./variables.css";
 @import "./custom.css";
 @import "./grid-columns.css";
 @import "./app-header.css";
-@import "./content-blocks.css";
+
+/***********************************************/
+/* Content blocks                              */
+/***********************************************/
+
+@import "./content-blocks/accordion.css";
+@import "./content-blocks/b2b-3-cards.css";
+@import "./content-blocks/b2b-home-hero.css";
+@import "./content-blocks/b2b-landing-hero.css";
+@import "./content-blocks/b2b-usp.css";
+@import "./content-blocks/cards-with-image-and-button.css";
+@import "./content-blocks/charter-3-cards.css";
+@import "./content-blocks/charter-content-page-hero.css";
+@import "./content-blocks/charter-home-hero.css";
+@import "./content-blocks/highlight.css";
+@import "./content-blocks/image-w-button.css";
+@import "./content-blocks/links.css";
+@import "./content-blocks/page-title.css";
+@import "./content-blocks/partner-logos.css";
+@import "./content-blocks/rich-text-editor.css";
+@import "./content-blocks/team.css";
+@import "./content-blocks/teaser-with-cloud.css";
+@import "./content-blocks/text-and-image.css";
