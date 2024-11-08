@@ -128,12 +128,13 @@
     left: 50%;
     top: 0;
     translate: -50%;
-    z-index: 0;
+    /* z-index: -1; */
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: var(--grid-gap);
     height: 100vh;
     opacity: 0.05;
+    pointer-events: none;
   }
   .grid-overlay * {
     background-color: red;
