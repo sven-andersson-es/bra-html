@@ -1,3 +1,6 @@
+/***********************************************/
+/* Charter Home Hero - content block           */
+/***********************************************/
 .bl-charter-home-hero {
   grid-template-columns: 384px 1fr;
   display: grid;

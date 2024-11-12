@@ -1,3 +1,6 @@
+/***********************************************/
+/* Charter 3 Cards - content block             */
+/***********************************************/
 .bl-charter-3-cards {
   grid-gap: var(--grid-gap);
   grid-template-columns: repeat(3, 1fr);

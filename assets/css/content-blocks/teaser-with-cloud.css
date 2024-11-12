@@ -1,3 +1,6 @@
+/***********************************************/
+/* Teaser with cloud - content block           */
+/***********************************************/
 .bl-teaser-with-cloud {
   display: flex;
   position: relative;
@@ -7,10 +10,11 @@
   color: var(--bra-green-dark);
   font-size: 15px;
   background-color: var(--bra-green-light-50);
-  background-image: url(/assets/images/teaser-with-cloud-bg.jpg);
+  background-image: url(../../images/teaser-with-cloud-bg.jpg);
   background-position: center center;
   background-size: cover;
   box-shadow: var(--box-shadow);
+  min-height: 200px;
 }
 .bl-teaser-with-cloud__image {
   flex-grow: 1;
@@ -21,17 +25,18 @@
   background-size: cover;
 }
 .bl-teaser-with-cloud__main {
-  padding: 28px 48px;
+  padding: 28px 48px 8px 48px;
 }
 .bl-teaser-with-cloud__title {
   margin-bottom: 22px;
   color: inherit;
 }
 .bl-teaser-with-cloud__text {
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 .bl-teaser-with-cloud__link {
   margin-left: -8px;
+  margin-bottom: 20px;
 }
 /* layout with left navigation */
 @container (max-width: 841px) {

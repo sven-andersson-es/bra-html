@@ -1,7 +1,7 @@
-/***********************************************/
-/* Highlight - content block                   */
+/************************************************/
+/* Highlight - content block                    */
 /* Variant: Color = Beige | Green | Light Green */
-/***********************************************/
+/************************************************/
 .bl-highlight {
   margin-bottom: var(--blocks-spacing);
   padding: 30px 30px 0 30px;
