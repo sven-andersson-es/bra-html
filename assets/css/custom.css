@@ -175,6 +175,7 @@ img, svg {
 }
 .breadcrumbs__separator {
   margin-inline: 8px;
+  color: var(--bra-green);
 }
 /* tablet */
 @media screen and (max-width: 872px) {
@@ -195,6 +196,7 @@ img, svg {
   }
   .breadcrumbs__separator {
     margin-inline: 4px;
+    color: var(--bra-green-light);
   }
 }
 /* mobile */
