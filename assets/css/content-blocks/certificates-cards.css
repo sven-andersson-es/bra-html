@@ -31,7 +31,7 @@
 .bl-certificates-cards__card:focus {
   color: inherit;
   text-decoration: none;
-  background-color: color-mix(in oklab, var(--bra-green) 5%, white);
+  background-color: color-mix(in oklab, var(--bra-green-dark) 10%, transparent);
 }
 .bl-certificates-cards__image {
   display: block;

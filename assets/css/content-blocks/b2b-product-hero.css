@@ -2,7 +2,7 @@
 /* B2B Product Hero - content block            */
 /***********************************************/
 .bl-b2b-product-hero {
-  margin-bottom: var(--blocks-spacing);
+  margin-bottom: 130px;
   position: relative;
   padding-top: 17px;
 }
@@ -43,9 +43,29 @@
 .bl-b2b-product-hero__text p {
   text-wrap: balance;
 }
+.bl-b2b-product-hero__image {
+  width: 100%;
+  max-width: 670px;
+  margin-top: -15px;
+  margin-bottom: 25px;
+}
+.bl-b2b-product-hero__buttons {
+  display: flex;
+  gap: var(--grid-gap);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.bl-b2b-product-hero__button {
+  width: 240px;
+  padding-inline: 20px;
+}
 /* tablet */
 @media screen and (max-width: 872px) {
   .bl-b2b-product-hero {
     padding-top: 0;
+    margin-bottom: 80px;
   }
+}
+/* mobile */
+@media screen and (max-width: 576px) {
 }
