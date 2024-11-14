@@ -29,9 +29,6 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-}
-.bl-b2b-usp__text p {
-  margin-bottom: 0;
   text-wrap: balance;
 }
 /* tablet */
