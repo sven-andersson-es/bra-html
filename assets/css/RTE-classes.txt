@@ -8,5 +8,5 @@ Text header 4 >> html tag: h4
 Text header 5 >> html tag: h5
 
 Menu "Text color":
-Green >> CSS class: text-bra-green
-Dark Green >> CSS class: text-bra-green-dark 
+BRA Green >> CSS class: text-bra-green
+BRA Dark Green >> CSS class: text-bra-green-dark 
