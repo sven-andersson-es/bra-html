@@ -58,8 +58,8 @@
 .bl-b2b-product-featues .modal-body {
   --bs-modal-padding: 0;
 }
-/* Fancyapps Carousel overwrite */
-.bl-b2b-product-featues .f-carousel {
+/* Desktop Carousel */
+.bl-b2b-product-featues__modal .f-carousel {
   --f-thumb-width: 192px;
   --f-thumb-height: 144px;
   --f-button-width: 56px;
@@ -78,11 +78,42 @@
   --f-button-prev-pos: -29px;
   --f-button-next-pos: -29px;
 }
-.bl-b2b-product-featues .f-carousel__slide {
+.bl-b2b-product-featues__modal .f-carousel__slide {
   display: flex;
   justify-content: center;
 }
-.bl-b2b-product-featues .f-thumbs.is-horizontal .f-thumbs__track {
+.bl-b2b-product-featues__modal .f-thumbs.is-horizontal .f-thumbs__track {
   padding-top: 16px;
   padding-bottom: 16px;
+}
+.bl-b2b-product-featues__carousel-mobile {
+  display: none;
+}
+/* desktop 9 columns */
+@media screen and (max-width: 1178px) {
+  .bl-b2b-product-featues__data-card {
+    margin-inline: calc(-1 * var(--container-padding));
+  }
+  .bl-b2b-product-featues {
+    display: block;
+  }
+  .bl-b2b-product-featues__gallery {
+    display: none;
+  }
+  /* Mobile Carousel */
+  .bl-b2b-product-featues__carousel-mobile {
+    --f-carousel-dot-color: var(--bra-green-dark);
+    --f-carousel-dot-width: 9px;
+    --f-carousel-dot-height: 9px;
+    --f-carousel-dots-width: 14px;
+
+    display: block;
+    margin-inline: calc(-1 * var(--container-padding));
+  }
+  .bl-b2b-product-featues__carousel-mobile .f-carousel__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--image-background-color);
+  }
 }
