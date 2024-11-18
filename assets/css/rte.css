@@ -1,0 +1,76 @@
+
+:root {
+  --bra-green: #057F65;
+  --bra-green-dark: #00524E;
+}
+
+@import "./fonts/calibre/calibre.css";
+
+body {
+  font-family: 'CalibreWeb', sans-serif;
+  font-size: 18px;;
+  color: #333333;
+  line-height: 1.4;
+}
+strong, em {
+  font-weight: 500;
+}
+a {
+  color: var(--bra-green);
+  text-decoration: underline;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+p {
+  margin-bottom: 1.3em;
+  text-wrap: pretty;
+}
+ol, ul {
+  padding-left: 0;
+  margin: 0 0 1.3em 0;
+}
+li {
+  margin-left: 1.4em;
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 500;
+  text-wrap: balance;
+}
+h1, .h1 {
+  font-size: 43px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  color: var(--bra-green);
+}
+h2, .h2 {
+  font-size: 36px;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  color: var(--bra-green);
+}
+h3, .h3 {
+  font-size: 28px;
+  line-height: 1.1;
+  margin-bottom: 21px;
+  color: var(--bra-green);
+}
+h4, .h4 {
+  font-size: 22px;
+  margin-bottom: 2px;
+}
+h5, .h5 {
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+
+.text-bra-green {
+  color: var(--bra-green);
+}
+.text-bra-green-dark {
+  color: var(--bra-green-dark);
+}
