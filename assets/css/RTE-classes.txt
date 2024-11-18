@@ -1,13 +1,12 @@
-Styles for these tags and classes should be configured in Rich Text Editor in Umbraco:
+Styles for Rich Text Editor in Umbraco
 
-TAGS:
-h1 - Text header: Display
-h2 - Text header: Headline
-h3 - Text header: Sub Headline
-h4 - Text header: Paragraph Headline
-h5 - Text header: Interactive Text
-h6 - Text header: Form Field Headline
+Menu "Headers":
+Text header 1 >> html tag: h1
+Text header 2 >> html tag: h2
+Text header 3 >> html tag: h3
+Text header 4 >> html tag: h4
+Text header 5 >> html tag: h5
 
-CLASSES:
-.text-bra-green - Text color: Green
-.text-bra-green-dark - Text color: Dark Green
+Menu "Text color":
+Green >> CSS class: text-bra-green
+Dark Green >> CSS class: text-bra-green-dark 
