@@ -14,6 +14,7 @@
 @import "./materialstyle/buttons.css";
 @import "./materialstyle/lists.css";
 @import "./materialstyle/accordion.css";
+@import "./materialstyle/modal.css";
 
 /***********************************************/
 /* Fonts                                       */
@@ -39,6 +40,7 @@
 @import "./content-blocks/b2b-contact-form.css";
 @import "./content-blocks/b2b-home-hero.css";
 @import "./content-blocks/b2b-landing-hero.css";
+@import "./content-blocks/b2b-product-featues.css";
 @import "./content-blocks/b2b-product-hero.css";
 @import "./content-blocks/b2b-usp.css";
 @import "./content-blocks/cards-with-image-and-button.css";

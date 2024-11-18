@@ -1,0 +1,15 @@
+.modal {
+  --bs-modal-margin: 28px;
+  --bs-border-width: 0;
+  --bs-modal-border-radius: 6px;
+  --bs-backdrop-opacity: 0.6;
+  --bs-modal-padding: 0 16px;
+  padding-left: 28px;
+  padding-right: 28px !important;
+}
+.modal-xl {
+  --bs-modal-width: 1253px;
+}
+.modal-header {
+  justify-content: flex-end;
+}

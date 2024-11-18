@@ -66,3 +66,15 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+.btn-icon {
+  border-radius: 50%;
+  padding: 0;
+  aspect-ratio: 1;
+}
+.btn-icon:hover,
+.btn-icon:focus {
+  background-color: color-mix(in oklab, currentColor 10%, transparent);
+}
+.btn-icon:active {
+  background-color: color-mix(in oklab, currentColor 20%, transparent) !important;
+}

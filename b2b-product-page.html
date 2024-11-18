@@ -8,10 +8,16 @@
 
   <!-- CSS files -->
   <link rel="stylesheet" href="./libraries/materialstyle-3.1.1/css/materialstyle.min.css">
+  <link rel="stylesheet" href="./libraries/fancyapps/carousel.css">
+  <link rel="stylesheet" href="./libraries/fancyapps/carousel.thumbs.css">
   <link rel="stylesheet" href="./assets/css/main.css">
   <link rel="stylesheet" href="./assets/css/b2b.css">
 
 	<link rel="icon" href="./assets/images/favicon.svg">
+
+  <!-- Javascript files -->
+  <script src="./libraries/fancyapps/carousel.umd.js"></script>
+  <script src="./libraries/fancyapps/carousel.thumbs.umd.js"></script>
 </head>
 <body>
   
@@ -78,6 +84,155 @@
 
   </div><!-- /bl-b2b-product-hero -->
   <!-- /B2B Product Hero - content block -->
+
+
+  <!-- B2B Product Features - content block -->
+  <div class="bl-b2b-product-featues container">
+    <div class="bl-b2b-product-featues__data-card">
+      <h2 class="bl-b2b-product-featues__title">General data</h2>
+      <table>
+        <tr>
+          <td>Crew</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Capacity</td>
+          <td>72 pax</td>
+        </tr>
+        <tr>
+          <td>Manufacturer</td>
+          <td>ATR</td>
+        </tr>
+        <tr>
+          <td>Crew</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Capacity</td>
+          <td>72 pax</td>
+        </tr>
+        <tr>
+          <td>Manufacturer</td>
+          <td>ATR</td>
+        </tr>
+        <tr>
+          <td>Crew</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Capacity</td>
+          <td>72 pax</td>
+        </tr>
+        <tr>
+          <td>Manufacturer</td>
+          <td>ATR</td>
+        </tr>
+      </table>
+    </div><!-- /bl-b2b-product-featues__data-card -->
+
+
+    <div class="bl-b2b-product-featues__gallery">
+      <!-- First image -->
+      <button 
+        class="bl-b2b-product-featues__big-image-button" 
+        data-bs-toggle="modal" 
+        data-bs-target="#productFeaturesModal-blockId"
+      >
+        <img class="bl-b2b-product-featues__big-image" src="./upload/product-gallery-1.jpg" alt="">
+      </button>
+
+      <!-- The rest of images (2-5), max 4 images. If there is more images, do not show them here, only in the modal. -->
+      <div class="bl-b2b-product-featues__small-images">
+        <button 
+          class="bl-b2b-product-featues__small-image-button" 
+          data-bs-toggle="modal" 
+          data-bs-target="#productFeaturesModal-blockId"
+        >
+          <img class="bl-b2b-product-featues__small-image" src="./upload/product-gallery-2.jpg" alt="">
+        </button>
+        <button 
+          class="bl-b2b-product-featues__small-image-button" 
+          data-bs-toggle="modal" 
+          data-bs-target="#productFeaturesModal-blockId"
+        >
+          <img class="bl-b2b-product-featues__small-image" src="./upload/product-gallery-3.jpg" alt="">
+        </button>
+        <button 
+          class="bl-b2b-product-featues__small-image-button" 
+          data-bs-toggle="modal" 
+          data-bs-target="#productFeaturesModal-blockId"
+        >
+          <img class="bl-b2b-product-featues__small-image" src="./upload/product-gallery-4.jpg" alt="">
+        </button>
+        <button 
+          class="bl-b2b-product-featues__small-image-button" 
+          data-bs-toggle="modal" 
+          data-bs-target="#productFeaturesModal-blockId"
+        >
+          <img class="bl-b2b-product-featues__small-image" src="./upload/product-gallery-5.jpg" alt="">
+        </button>
+      </div><!-- /bl-b2b-product-featues__small-images -->
+
+
+      <!-- Modal -->
+      <!-- Modal ID = productFeaturesModal-blockId where blockId = unique block ID -->
+      <div id="productFeaturesModal-blockId" class="modal fade" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button 
+                class="btn text-secondary btn-icon"
+                data-bs-dismiss="modal" 
+                aria-label="Close"
+              >
+                <svg class="icon" style="width: 40px;"><use href="./assets/icons/bra--close-circle.svg#icon"/></svg>
+              </button>
+            </div>      
+            <div class="modal-body">
+              <!-- Carousel -->
+              <!-- Carousel ID = productFeaturesCarousel-blockId where blockId = unique block ID -->
+              <div id="productFeaturesCarousel-blockId" class="f-carousel">
+                <div class="f-carousel__slide" data-thumb-src="./upload/product-gallery-1.jpg">
+                  <img src="./upload/product-gallery-1.jpg" alt="">
+                </div>
+                <div class="f-carousel__slide" data-thumb-src="./upload/product-gallery-2.jpg">
+                  <img src="./upload/product-gallery-2.jpg" alt="">
+                </div>
+                <div class="f-carousel__slide" data-thumb-src="./upload/product-gallery-3.jpg">
+                  <img src="./upload/product-gallery-3.jpg" alt="">
+                </div>
+                <div class="f-carousel__slide" data-thumb-src="./upload/product-gallery-4.jpg">
+                  <img src="./upload/product-gallery-4.jpg" alt="">
+                </div>
+                <div class="f-carousel__slide" data-thumb-src="./upload/product-gallery-5.jpg">
+                  <img src="./upload/product-gallery-5.jpg" alt="">
+                </div>
+              </div>
+              
+            </div><!-- /modal-body -->
+          </div><!-- /modal-content -->
+        </div><!-- /modal-dialog -->
+      </div><!-- /modal -->
+
+      <script>
+        const container = document.getElementById("productFeaturesCarousel-blockId");
+        const options = { 
+          infinite: false,
+          Dots: false,
+          Thumbs: {
+            type: "classic",
+          },
+          center: true,
+          
+        };
+
+        new Carousel(container, options, { Thumbs });
+      </script>
+
+    </div><!-- /bl-b2b-product-featues__gallery -->
+  </div><!-- /bl-b2b-product-featues -->
+  <!-- B2B Product Features - content block -->
+
 
 
   <!-- B2B Contact form - content block -->
