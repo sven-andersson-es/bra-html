@@ -1,0 +1,106 @@
+/***********************************************/
+/* Grid 12                                     */
+/***********************************************/
+
+/* columns 6-6 */
+.columns-6-6 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: var(--grid-gap);
+}
+.columns-6-6 * {
+  grid-column: span 6;
+}
+
+/* columns 4-4-4 */
+.columns-4-4-4 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: var(--grid-gap);
+}
+.columns-4-4-4 * {
+  grid-column: span 4;
+}
+@media screen and (max-width: 872px) {
+  .columns-4-4-4 {
+    display: block;
+  }
+}
+
+/* columns 3-3-3-3 */
+.columns-3-3-3-3 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: var(--grid-gap);
+}
+.columns-3-3-3-3 * {
+  grid-column: span 3;
+}
+@media screen and (max-width: 872px) {
+  .columns-3-3-3-3 * {
+    grid-column: span 6;
+  }
+}
+
+/* columns 8-4 */
+.columns-8-4 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: var(--grid-gap);
+}
+.columns-8-4 *:first-child {
+  grid-column: span 8;
+}
+.columns-8-4 *:last-child {
+  grid-column: span 4;
+}
+@media screen and (max-width: 872px) {
+  .columns-8-4 {
+    display: block;
+  }
+}
+
+
+
+/***********************************************/
+/* Grid 9                                      */
+/***********************************************/
+
+/* columns 1-7-1 */
+.columns-1-7-1 {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-gap: var(--grid-gap);
+}
+.columns-1-7-1 *:first-child {
+  grid-column: span 1;
+}
+.columns-1-7-1 *:nth-child(2) {
+  grid-column: span 7;
+}
+.columns-1-7-1 *:last-child {
+  grid-column: span 1;
+}
+@media screen and (max-width: 872px) {
+  .columns-1-7-1 {
+    display: block;
+  }
+}
+
+/* columns 1-8 */
+.columns-1-8 {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-gap: var(--grid-gap);
+}
+.columns-1-8 *:first-child {
+  grid-column: span 1;
+}
+.columns-1-8 *:last-child {
+  grid-column: span 8;
+}
+@media screen and (max-width: 872px) {
+  .columns-1-8 {
+    display: block;
+  }
+}

@@ -7,10 +7,10 @@
   <meta name="description" content="">
 
   <!-- CSS files -->
-  <link rel="stylesheet" href="/libraries/materialstyle-3.1.1/css/materialstyle.min.css">
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="./libraries/materialstyle-3.1.1/css/materialstyle.min.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
 
-	<link rel="icon" href="/assets/images/favicon.svg">
+	<link rel="icon" href="./assets/images/favicon.svg">
 </head>
 <body>
   
@@ -23,12 +23,12 @@
         <span class="hamburger__line"></span>
       </button>
       
-      <a href="/">
-        <img class="app-header__logo" src="/assets/images/logotype.svg" alt="BRA">
+      <a href="./">
+        <img class="app-header__logo" src="./assets/images/logotype.svg" alt="BRA">
       </a>
 
       <button class="btn btn-secondary btn-circle btn-sm app-header__lang">
-        <svg class="icon"><use href="/assets/icons/material-symbols--language.svg#icon"/></svg>
+        <svg class="icon"><use href="./assets/icons/material-symbols--language.svg#icon"/></svg>
       </button>
 
     </div><!-- /app-header__container -->
@@ -59,10 +59,10 @@
             data-bs-parent="#left-navigation"
           >
             <nav class="list-group">
-              <a class="list-group-item" href="/">Charter Home page</a>
-              <a class="list-group-item" href="/charter-content-page.html">Charter Content page</a>
-              <a class="list-group-item active" href="/charter-content-page-2.html">Charter Content page 2</a>
-              <a class="list-group-item" href="/charter-content-page-3.html">Charter Content page 3</a>
+              <a class="list-group-item" href="./">Charter Home page</a>
+              <a class="list-group-item" href="./charter-content-page.html">Charter Content page</a>
+              <a class="list-group-item active" href="./charter-content-page-2.html">Charter Content page 2</a>
+              <a class="list-group-item" href="./charter-content-page-3.html">Charter Content page 3</a>
             </nav>
           </div><!-- /accordion-collapse -->
         </div><!-- /accordion-item -->
@@ -70,7 +70,7 @@
         <div class="accordion-item">
           <h2 id="left-nav-heading-2" class="accordion-header">
             <button 
-              class="accordion-button left-navigation-accordion-button" 
+              class="accordion-button left-navigation-accordion-button collapsed" 
               type="button" 
               data-bs-toggle="collapse" 
               data-bs-target="#left-nav-collapse-2" 
@@ -106,7 +106,7 @@
       <div class="bl-page-title">
 
         <nav class="breadcrumbs container">
-          <a href="/">Home</a>
+          <a href="./">Home</a>
           <span class="breadcrumbs__separator">/</span>
           <span>Charter Content page 2</span>
         </nav><!-- /breadcrumbs -->
@@ -120,7 +120,9 @@
 
       <!-- Rich text editor - content block -->
       <div class="container bl-rich-text-editor">
+        <!-- Rich Text -->
         <p>Att flyga med oss ska vara en trygg och smidig upplevelse för alla, oavsett behov och förutsättningar. Läs mer om de olika tjänster och service vi erbjuder passagerare i behov av extra hjälp under resan.</p>
+        <!-- /Rich Text -->
       </div>
       <!-- / Rich text editor - content block -->
 
@@ -129,18 +131,20 @@
       <div class="container">
         <div class="bl-highlight bl-highlight--beige">
           <h3 class="h3 bl-highlight__title">
-            <svg class="icon bl-highlight__title-icon"><use href="/assets/icons/bra--info-circle.svg#icon"/></svg>
+            <svg class="icon bl-highlight__title-icon"><use href="./assets/icons/bra--info-circle.svg#icon"/></svg>
             Boka assistans
           </h3>
           <div class="bl-highlight__text">
+            <!-- Rich Text -->
             <p>
               Boka assistans enkelt och bekvämt genom att fylla i vårt e-formulär. 
               Du kan också lägga till det till din bokning via vårt <a href="#">kundcenter</a>.
             </p>
+            <!-- /Rich Text -->
           </div>
           <button class="btn btn-outline bl-highlight__button">
             Förboka assistans 
-            <svg class="icon"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
+            <svg class="icon"><use href="./assets/icons/bra--arrow-right.svg#icon"/></svg>
           </button>
         </div><!-- /bl-highlight -->
       </div><!-- /container -->
@@ -151,18 +155,20 @@
       <div class="container">
         <div class="bl-highlight bl-highlight--green-light">
           <h3 class="h3 bl-highlight__title">
-            <svg class="icon bl-highlight__title-icon"><use href="/assets/icons/bra--info-circle.svg#icon"/></svg>
+            <svg class="icon bl-highlight__title-icon"><use href="./assets/icons/bra--info-circle.svg#icon"/></svg>
             Boka assistans
           </h3>
           <div class="bl-highlight__text">
+            <!-- Rich Text -->
             <p>
               Boka assistans enkelt och bekvämt genom att fylla i vårt e-formulär. 
               Du kan också lägga till det till din bokning via vårt <a href="#">kundcenter</a>.
             </p>
+            <!-- /Rich Text -->
           </div>
           <button class="btn btn-outline-secondary bl-highlight__button">
             Förboka assistans 
-            <svg class="icon"><use href="/assets/icons/bra--arrow-right.svg#icon"/></svg>
+            <svg class="icon"><use href="./assets/icons/bra--arrow-right.svg#icon"/></svg>
           </button>
         </div><!-- /bl-highlight -->
       </div><!-- /container -->
@@ -177,10 +183,12 @@
             Rättigheter
           </h3>
           <div class="bl-highlight__text">
+            <!-- Rich Text -->
             <p>
               Rättigheter i samband med flygresor för personer med nedsatt rörlighet:<br>
               <a href="#">Europaparlamentets och rådets förordning (EG) nr 1107/2</a>.
             </p>
+            <!-- /Rich Text -->
           </div>
         </div><!-- /bl-highlight -->
       </div><!-- /container -->
@@ -189,7 +197,9 @@
 
       <!-- Rich text editor - content block -->
       <div class="container bl-rich-text-editor">
+        <!-- Rich Text -->
         <h4>Olika typer av assistans vid nedsatt rörlighet</h4>
+        <br>
         <ul>
           <li><strong>WCHR:</strong> Rullstolsassistans till och från flygplanet. Du kan själv gå i trappor och till ditt säte.<br><br></li>
           <li><strong>WCHS:</strong> Rullstolsassistans till och från flygplanet samt bärhjälp i trappor. Du kan själv gå till ditt säte.<br><br></li>
@@ -205,6 +215,7 @@
         <p>Du får ta med en batteridriven rullstol (ej permobil) om den uppfyller säkerhetskraven. Observera att vi kan behöva neka transport på grund av platsbrist eller säkerhetsregler.</p>
         <p>Använd vårt e-formulär för att anmäla medtagande av eldriven rullstol, senast 48 timmar före avresa. I formuläret hittar du också information om tillåtna batterityper.</p>
         <p><a href="#">Till formuläret för eldriven rullstol</a></p>
+        <!-- /Rich Text -->
       </div>
       <!-- / Rich text editor - content block -->
 
@@ -217,7 +228,7 @@
   </div><!-- /layout-with-left-navigation -->
 
   <!-- Javascript files -->
-  <script src="/js/top-nav.js"></script>
-  <script src="/libraries/materialstyle-3.1.1/js/materialstyle.min.js"></script>
+  <script src="./js/top-nav.js"></script>
+  <script src="./libraries/materialstyle-3.1.1/js/materialstyle.min.js"></script>
 </body>
 </html>

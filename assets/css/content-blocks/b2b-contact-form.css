@@ -1,0 +1,62 @@
+/***********************************************/
+/* B2B Contact form - content block            */
+/***********************************************/
+.bl-b2b-contact-form {
+  margin-bottom: var(--blocks-spacing);
+  background-color: var(--bra-green-dark);
+}
+.bl-b2b-contact-form__container {
+  padding-top: 80px;
+  padding-bottom: 140px;
+  background-image: radial-gradient(#276b68 0%, var(--bra-green-dark) 50%);
+  display: flex;
+  gap: var(--grid-gap);
+  align-items: flex-start;
+}
+.bl-b2b-contact-form__left-column {
+  color: white;
+  flex: 1;
+  padding: 50px 40px 50px 40px;
+}
+.bl-b2b-contact-form__title {
+  color: white;
+  margin-bottom: 44px;
+}
+.bl-b2b-contact-form__text {
+  margin-bottom: 64px;
+  text-wrap: balance;
+}
+.bl-b2b-contact-form__image {
+  max-width: 302px;
+  margin-left: 45px;
+}
+.bl-b2b-contact-form__card {
+  flex: 1;
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #D9D9D9;
+}
+/* tablet */
+@media screen and (max-width: 872px) {
+  .bl-b2b-contact-form__container {
+    display: block;
+    padding-top: 86px;
+  }
+  .bl-b2b-contact-form__left-column {
+    padding: 0 0 40px 0;
+    text-align: center;
+  }
+  .bl-b2b-contact-form__title {
+    margin-bottom: 24px;
+  }
+  .bl-b2b-contact-form__text {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .bl-b2b-contact-form__image {
+    margin-left: 0;
+    width: 164px;
+  }
+}
