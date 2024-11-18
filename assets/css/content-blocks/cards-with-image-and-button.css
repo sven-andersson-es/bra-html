@@ -1,6 +1,8 @@
 /***********************************************/
 /* Cards with image and button - content block */
 /* Variant: Columns = 2 | 3                    */
+/*                                             */
+/* image resolution: 1104 x 542 px             */
 /***********************************************/
 .bl-cards-with-image-and-button {
   margin-bottom: var(--blocks-spacing);

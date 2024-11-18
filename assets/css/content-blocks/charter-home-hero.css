@@ -1,5 +1,7 @@
 /***********************************************/
 /* Charter Home Hero - content block           */
+/*                                             */
+/* image resolution: 2256 x 936 px             */
 /***********************************************/
 .bl-charter-home-hero {
   grid-template-columns: 384px 1fr;
