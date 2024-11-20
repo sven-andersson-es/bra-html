@@ -2,22 +2,25 @@
 /* Partner logos - content block                  */
 /**************************************************/
 .bl-partner-logos {
-  margin-bottom: var(--blocks-spacing);
+  /* margin-bottom: var(--blocks-spacing); */
   background-color: white;
-  padding: 84px 0 75px 0;
+  padding: 34px 0 40px 0;
 }
 .bl-partner-logos__title {
-  margin-bottom: 30px;
-  text-align: center;
+  margin-bottom: 23px;
+  color: var(--bra-green-dark);
+  font-size: 16px;
+  text-transform: uppercase;
 }
 .bl-partner-logos__logos {
   text-wrap: balance;
-  line-height: 100px;
+  line-height: 60px;
   text-align: center;
+  margin-inline: -20px;
 }
 .bl-partner-logos__logo {
-  height: 28px;
-  margin: 0 39px;
+  height: 23px;
+  margin: 0 20px;
 }
 /* tablet */
 @media screen and (max-width: 872px) {
