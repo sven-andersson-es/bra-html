@@ -183,7 +183,20 @@
     </div><!-- /bl-text-and-image__main -->
   </div><!-- /bl-text-and-image -->
   <!-- /Text and image - content block -->
+  
+  <!-- B2B 4 News - content block -->
+  <div class="bl-b2b-4-news container" data-gtm-component-name="NewsList">
+    <!-- h3 - editable in Umbraco Block  -->
+    <h3 class="bl-b2b-4-news__title">Latest news</h3><!-- /h3 - editable in Umbraco Block  -->
+    <!-- newslist React Component -->
+    <div id="notifiedNews"></div><!-- /newslist React Component -->
 
+    <!-- read more news - editable in Umbraco Block  -->
+    <a href="https://press.flygbra.se" class="btn btn-outline-secondary btn-sm btn-text">
+      More news
+      <svg class="icon"><use href="./assets/icons/bra--arrow-right.svg#icon"/></svg>
+    </a><!-- /read more news - editable in Umbraco Block  -->
+  </div>
 
   <!-- Partner logos - content block -->
   <div class="bl-partner-logos">
@@ -207,5 +220,6 @@
   <!-- Javascript files -->
   <script src="./js/top-nav.js"></script>
   <script src="./libraries/materialstyle-3.1.1/js/materialstyle.min.js"></script>
+  <script src="./js/notified-news-list.js"></script>
 </body>
 </html>
