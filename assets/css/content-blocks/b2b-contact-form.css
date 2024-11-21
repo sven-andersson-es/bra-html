@@ -2,7 +2,6 @@
 /* B2B Contact form - content block            */
 /***********************************************/
 .bl-b2b-contact-form {
-  /* margin-bottom: var(--blocks-spacing); */
   background-color: var(--bra-green-dark);
 }
 .bl-b2b-contact-form__container {
