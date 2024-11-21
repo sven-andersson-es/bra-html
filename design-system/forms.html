@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>BRA</title>
+    <meta name="description" content="" />
+
+    <!-- CSS files -->
+    <link
+      rel="stylesheet"
+      href="../libraries/materialstyle-3.1.1/css/materialstyle.min.css"
+    />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+
+    <link rel="icon" href="../assets/images/favicon.svg" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="container app-header__container">
+        <button class="btn btn-secondary btn-circle hamburger">
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+        </button>
+
+        <a href="../">
+          <img
+            class="app-header__logo"
+            src="../assets/images/logotype.svg"
+            alt="BRA"
+          />
+        </a>
+
+        <button class="btn btn-secondary btn-circle btn-sm app-header__lang">
+          <svg class="icon">
+            <use href="../assets/icons/material-symbols--language.svg#icon" />
+          </svg>
+        </button>
+      </div>
+      <!-- /app-header__container -->
+    </header>
+
+    <div class="container layout-with-left-navigation">
+      <section class="layout-with-left-navigation__left">
+        <div
+          class="accordion accordion--navigation"
+          id="leftNavigationAccordion"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="leftNavigationHeading-1">
+              <button
+                class="accordion-button left-navigation-accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#leftNavigationCollapse-1"
+                aria-expanded="true"
+                aria-controls="leftNavigationCollapse-1"
+              >
+                Design system
+              </button>
+            </h2>
+            <div
+              id="leftNavigationCollapse-1"
+              class="accordion-collapse collapse show"
+              aria-labelledby="leftNavigationHeading-1"
+              data-bs-parent="#leftNavigationAccordion"
+            >
+              <nav class="list-group">
+                <a class="list-group-item" href="./colors.html">Colors</a>
+                <a class="list-group-item" href="./typography.html"
+                  >Typography</a
+                >
+                <a class="list-group-item" href="./buttons.html">Buttons</a>
+                <a class="list-group-item" href="./icons.html">Icons</a>
+                <a class="list-group-item" href="./library.html">UI Library</a>
+                <a class="list-group-item" href="./breakpoints.html"
+                  >Breakpoints</a
+                >
+                <a class="list-group-item" href="./lists.html">Lists</a>
+                <a class="list-group-item" href="./accordion.html">Accordion</a>
+                <a class="list-group-item" href="./grid12.html"
+                  >Grid 12 columns</a
+                >
+                <a class="list-group-item" href="./grid9.html"
+                  >Grid 9 columns</a
+                >
+                <a class="list-group-item" href="./spacing.html">Spacing</a>
+                <a class="list-group-item active" href="./forms.html">Forms</a>
+              </nav>
+            </div>
+            <!-- /accordion-collapse -->
+          </div>
+          <!-- /accordion-item -->
+        </div>
+        <!-- /accordion -->
+      </section>
+      <!-- /layout-with-left-navigation__left -->
+
+      <section class="layout-with-left-navigation__right">
+        <h6>Umbraco form</h6>
+        <br>
+
+        <div class="umbraco-forms-field name shortanswer" tabindex="-1">
+          <label class="umbraco-forms-label"> Name </label>
+
+          <div class="umbraco-forms-field-wrapper">
+            <input type="text" class="text" />
+          </div>
+        </div>
+        <!-- /umbraco-forms-field -->
+
+        <div class="umbraco-forms-field email shortanswer alternating">
+          <label class="umbraco-forms-label"> Email </label>
+
+          <div class="umbraco-forms-field-wrapper">
+            <input type="email" class="text" />
+            <span class="field-validation-valid" role="alert"></span>
+          </div>
+        </div>
+        <!-- /umbraco-forms-field -->
+
+        <div class="umbraco-forms-field message longanswer">
+          <label class="umbraco-forms-label"> Message </label>
+
+          <div class="umbraco-forms-field-wrapper">
+            <textarea rows="2" cols="20"></textarea>
+
+            <span class="field-validation-valid" role="alert"></span>
+          </div>
+        </div>
+        <!-- /umbraco-forms-field -->
+
+        <div class="umbraco-forms-field dataconsent mandatory alternating">
+          <label
+            for="93d66e5c-8b1d-4d2e-b82a-16d84e2e5d45"
+            class="umbraco-forms-label"
+          >
+            Consent for storing submitted data
+            <span class="umbraco-forms-indicator">*</span>
+          </label>
+
+          <div class="umbraco-forms-field-wrapper">
+            <input
+              type="checkbox"
+              id="93d66e5c-8b1d-4d2e-b82a-16d84e2e5d45"
+              value="true"
+            />
+            <input
+              type="hidden"
+              value="false"
+            />
+
+            <label for="93d66e5c-8b1d-4d2e-b82a-16d84e2e5d45"
+              >Yes, I give permission to store and process my data</label
+            >
+
+            <span
+              class="field-validation-valid"
+              role="alert"
+            ></span>
+          </div><!-- /umbraco-forms-field-wrapper -->
+        </div><!-- /umbraco-forms-field -->
+
+        <input type="submit" class="btn btn-outline-secondary w-100" value="Submit" />
+      </section>
+      <!-- /layout-with-left-navigation__right -->
+    </div>
+    <!-- /layout-with-left-navigation -->
+
+    <!-- Javascript files -->
+    <script src="../js/top-nav.js"></script>
+    <script src="../libraries/materialstyle-3.1.1/js/materialstyle.min.js"></script>
+  </body>
+</html>

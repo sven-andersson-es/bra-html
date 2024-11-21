@@ -1,0 +1,52 @@
+.umbraco-forms-field {
+  margin-bottom: 34px;
+}
+/* label */
+.umbraco-forms-label {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--bra-grey-interactive);
+}
+/* text field and textarea */
+.umbraco-forms-field.shortanswer,
+.umbraco-forms-field.longanswer {
+  border: 1px solid #999999;
+  border-radius: 2px;
+  background-color: white;
+  transition: var(--button-transition);
+  position: relative;
+}
+.umbraco-forms-field.shortanswer:has(input:focus),
+.umbraco-forms-field.longanswer:has(textarea:focus) {
+  border-color: var(--bra-green-dark);
+  outline: 1px solid var(--bra-green-dark);
+}
+.umbraco-forms-field.shortanswer .umbraco-forms-label,
+.umbraco-forms-field.longanswer .umbraco-forms-label {
+  position: absolute;
+  top: 1px;
+  left: 10px;
+  z-index: 1;
+  pointer-events: none;
+}
+.umbraco-forms-field.shortanswer input,
+.umbraco-forms-field.longanswer textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 0;
+  background: transparent;
+  padding: 24px 10px 6px 10px;
+}
+.umbraco-forms-field.shortanswer input:focus,
+.umbraco-forms-field.longanswer textarea:focus {
+  outline: none;
+}
+/* checkbox */
+.umbraco-forms-field input[type=checkbox] {
+  margin-right: 4px;
+}
+/* other */
+.umbraco-forms-hidden {
+  display: none;
+}
