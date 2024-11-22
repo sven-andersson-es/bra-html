@@ -41,16 +41,14 @@
   margin-bottom: 20px;
 }
 /* layout with left navigation */
-@container (max-width: 841px) {
-  .bl-teaser-with-cloud__main {
-    padding: 25px 25px 15px 25px;
-  }
-  .bl-teaser-with-cloud__title {
+.layout-with-left-navigation .bl-teaser-with-cloud__main {
+  padding: 25px 25px 15px 25px;
+}
+.layout-with-left-navigation .bl-teaser-with-cloud__title {
     margin-bottom: 12px;
-  }
 }
 /* mobile */
-@container (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .bl-teaser-with-cloud {
     display: block;
   }
@@ -60,6 +58,6 @@
     height: auto;
   }
   .bl-teaser-with-cloud__main {
-    padding-inline: 22px;
+    padding-inline: 22px !important;
   }
 }
