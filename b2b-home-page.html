@@ -149,6 +149,26 @@
   <!-- / B2B USP - content block -->
 
 
+  <!-- Partner logos - content block -->
+  <div class="bl-partner-logos bl--full-width-bg">
+    <div class="container bl-partner-logos__container">
+      <h5 class="h6 bl-partner-logos__title">Our clients</h5>
+      <div class="bl-partner-logos__logos">
+        <img class="bl-partner-logos__logo" src="./upload/logo-1.png" alt="Brand 1">
+        <img class="bl-partner-logos__logo" src="./upload/logo-2.png" alt="Brand 2">
+        <img class="bl-partner-logos__logo" src="./upload/logo-3.png" alt="Brand 3">
+        <img class="bl-partner-logos__logo" src="./upload/logo-4.png" alt="Brand 4">
+        <img class="bl-partner-logos__logo" src="./upload/logo-5.png" alt="Brand 5">
+        <img class="bl-partner-logos__logo" src="./upload/logo-6.png" alt="Brand 6">
+        <img class="bl-partner-logos__logo" src="./upload/logo-7.png" alt="Brand 7">
+        <img class="bl-partner-logos__logo" src="./upload/logo-8.png" alt="Brand 8">
+      </div>
+    </div>
+  </div><!-- /bl-partner-logos -->
+  <!-- /Partner logos - content block -->
+
+
+
   <!-- Text and image - content block -->
   <!-- Variant: Title size = Large [Large | Small] -->
   <!-- Variant: Image align = Right [Left | Right] -->
@@ -174,23 +194,26 @@
   <!-- /Text and image - content block -->
 
 
-  <!-- Partner logos - content block -->
-  <div class="bl-partner-logos">
-    <div class="container bl-partner-logos__container">
-      <h5 class="h6 bl-partner-logos__title">Our clients</h5>
-      <div class="bl-partner-logos__logos">
-        <img class="bl-partner-logos__logo" src="./upload/logo-1.png" alt="Brand 1">
-        <img class="bl-partner-logos__logo" src="./upload/logo-2.png" alt="Brand 2">
-        <img class="bl-partner-logos__logo" src="./upload/logo-3.png" alt="Brand 3">
-        <img class="bl-partner-logos__logo" src="./upload/logo-4.png" alt="Brand 4">
-        <img class="bl-partner-logos__logo" src="./upload/logo-5.png" alt="Brand 5">
-        <img class="bl-partner-logos__logo" src="./upload/logo-6.png" alt="Brand 6">
-        <img class="bl-partner-logos__logo" src="./upload/logo-7.png" alt="Brand 7">
-        <img class="bl-partner-logos__logo" src="./upload/logo-8.png" alt="Brand 8">
-      </div>
-    </div>
-  </div><!-- /bl-partner-logos -->
-  <!-- /Partner logos - content block -->
+
+  <!-- B2B 4 News - content block -->
+  <div class="bl-b2b-4-news container">
+    <!-- h3 - editable in Umbraco Block  -->
+    <h3 class="bl-b2b-4-news__title">Latest news</h3>
+    <!-- /h3 - editable in Umbraco Block  -->
+    
+    <!-- newslist React Component -->
+    <div id="notifiedNews"></div>
+    <!-- /newslist React Component -->
+
+    <!-- read more news - editable in Umbraco Block  -->
+    <a href="https://press.flygbra.se" class="btn btn-outline-secondary btn-sm btn-text">
+      More news
+      <svg class="icon"><use href="./assets/icons/bra--arrow-right.svg#icon"/></svg>
+    </a>
+    <!-- /read more news - editable in Umbraco Block  -->
+  </div>
+  <script src="./js/notified-news-list.js"></script>
+  <!-- / B2B 4 News - content block -->
 
 
   <!-- Javascript files -->

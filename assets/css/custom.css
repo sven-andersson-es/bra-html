@@ -169,10 +169,8 @@ img, svg {
 .bl--full-width-bg {
   margin-bottom: var(--blocks-spacing);
 }
-.bl--full-width-bg:last-of-type {
-  margin-bottom: 0 !important;
-}
-.bl--full-width-bg + .bl--full-width-bg {
+.bl--full-width-bg + .bl--full-width-bg,
+.bl--full-width-bg + .app-footer {
   margin-top: calc(0px - var(--blocks-spacing));
 }
 
