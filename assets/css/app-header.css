@@ -330,6 +330,8 @@
 }
 .top-nav-mobile__accordion {
   padding: 8px 20px;
+  overflow-y: auto;
+  max-height: calc(100vh - 130px);
 }
 .top-nav-mobile__accordion-button,
 .top-nav-mobile__accordion-button:not(.collapsed) {
@@ -348,4 +350,7 @@
 }
 .top-nav-mobile__accordion .list-group-item {
   color: var(--bra-green);
+}
+.top-nav-mobile__accordion .list-group {
+  overflow: auto;
 }

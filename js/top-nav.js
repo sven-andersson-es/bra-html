@@ -32,6 +32,7 @@ hamburger.addEventListener('click', () => {
 function openMobileMenu() {
   mobileMenu.classList.add('top-nav-mobile--open');
   hamburger.classList.add('hamburger--open');
+  document.documentElement.style.overflowY = 'hidden';
 
   // close mobile menu when clicking outside
   setTimeout(() => {
@@ -41,6 +42,7 @@ function openMobileMenu() {
 function closeMobileMenu() {
   mobileMenu.classList.remove('top-nav-mobile--open');
   hamburger.classList.remove('hamburger--open');
+  document.documentElement.style.overflowY = 'auto';
 
   document.removeEventListener('click', onMobileMenuCilckOutside);
 }
