@@ -134,6 +134,7 @@
 
         <button class="btn btn-secondary btn-sm top-nav__button">
           Page layouts
+          <svg class="icon top-nav__icon--arrow-down"><use href="./assets/icons/bra--arrow-down.svg#icon"/></svg>
           <div class="top-nav__popup">
             <div class="top-nav__section">
               <h5 class="top-nav__section-title">Charter</h5>
@@ -184,6 +185,7 @@
 
         <button class="btn btn-secondary btn-sm top-nav__button">
           Design system
+          <svg class="icon top-nav__icon--arrow-down"><use href="./assets/icons/bra--arrow-down.svg#icon"/></svg>
           <div class="top-nav__popup">
             <div class="top-nav__section">
               <h5 class="top-nav__section-title">Section title</h5>
@@ -197,9 +199,14 @@
           </div><!-- /top-nav__popup-->
         </button>
 
-        <button class="btn btn-secondary btn-sm top-nav__button">
-          Fleet
-        </button>
+        <a 
+          href="https://www.flygbra.se"
+          target="_blank"
+          class="btn btn-secondary btn-sm top-nav__button"
+        >
+          For passengers
+          <svg class="icon top-nav__icon--external-link"><use href="./assets/icons/bra--external-link.svg#icon"/></svg>
+        </a>
 
         <button class="btn btn-secondary btn-sm top-nav__button">
           About us
@@ -211,7 +218,7 @@
       
       <!-- Language switch -->
       <button class="btn btn-secondary btn-sm btn-circle top-nav__button top-nav__button--lang">
-        <svg class="icon icon"><use href="./assets/icons/material-symbols--language.svg#icon"/></svg>
+        <svg class="icon top-nav__icon--lang"><use href="./assets/icons/material-symbols--language.svg#icon"/></svg>
         <div class="top-nav__popup top-nav__popup--lang">
           <div class="top-nav__section top-nav__section--lang">
             <h5 class="top-nav__section-title top-nav__section-title--lang">Choose language</h5>

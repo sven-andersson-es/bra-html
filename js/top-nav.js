@@ -3,9 +3,14 @@
 let buttons = document.querySelectorAll('.top-nav__button');
 
 buttons.forEach(el => {
-  el.addEventListener('click', () => {
-    el.classList.add('top-nav__button--open');
-  });
+  // if element has popup
+  if (el.querySelectorAll(".top-nav__popup").length) {
+    // on click
+    el.addEventListener('click', () => {
+      // open popup
+      el.classList.add('top-nav__button--open');
+    });
+  }
 });
 
 // close the popup when clicking outside
