@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.069 63.716">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #efefef;
+      }
+    </style>
+  </defs>
+  <path
+    id="Path_758"
+    d="M63.716 46.948v-6.707L36.888 23.474V5.03a5.03 5.03 0 0 0-10.06 0v18.444L0 40.241v6.707l26.828-8.384v18.445l-6.707 5.03v5.03l11.737-3.353 11.737 3.353v-5.03l-6.707-5.03V38.565z"
+    class="cls-1"
+    data-name="Path 758"
+    transform="rotate(90 33.535 33.535)"
+  ></path>
+</svg>

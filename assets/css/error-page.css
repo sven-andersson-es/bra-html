@@ -1,0 +1,129 @@
+.error-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.error-page__content {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+.error-page__title {
+  font-size: 200px;
+  margin-bottom: 0;
+  color: var(--bra-green-dark);
+  font-weight: 500;
+}
+.error-page__text {
+  font-size: 25px;
+}
+.error-page__button {
+  margin-top: 48px;
+}
+.error-page__airplane {
+  position: absolute;
+  width: 5%;
+  height: 5%;
+  top: 10%;
+  left: 15%;
+  animation: moveToRight 30s linear, moveToRightInfinite 40s 30s linear infinite;
+}
+.error-page__cloud {
+  position: absolute;
+}
+.error-page__cloud-sm {
+  width: 5%;
+  height: 5%;
+}
+.error-page__cloud-md {
+  width: 10%;
+  height: 10%;
+}
+.error-page__cloud-lg {
+  width: 15%;
+  height: 15%;
+}
+.error-page__cloud-1 {
+  top: 15%;
+  left: 5%;
+  animation: moveToRight 70s linear, moveToRightInfinite 80s 70s linear infinite;
+}
+.error-page__cloud-2 {
+  top: 35%;
+  left: 10%;
+  animation: moveToRight 60s linear, moveToRightInfinite 90s 60s linear infinite;
+}
+.error-page__cloud-3 {
+  top: 70%;
+  left: 20%;
+  animation: moveToRight 50s linear, moveToRightInfinite 70s 50s linear infinite;
+}
+.error-page__cloud-4 {
+  top: 17%;
+  left: 30%;
+  animation: moveToRight 70s linear, moveToRightInfinite 90s 70s linear infinite;
+}
+.error-page__cloud-5 {
+  top: 10%;
+  left: 60%;
+  animation: moveToRight 40s linear, moveToRightInfinite 70s 40s linear infinite;
+}
+.error-page__cloud-6 {
+  top: 15%;
+  left: 70%;
+  animation: moveToRight 30s linear, moveToRightInfinite 80s 30s linear infinite;
+}
+.error-page__cloud-7 {
+  top: 5%;
+  left: 80%;
+  animation: moveToRight 20s linear, moveToRightInfinite 100s 20s linear infinite;
+}
+.error-page__cloud-8 {
+  width: 12%;
+  height: 12%;
+  top: 50%;
+  left: 85%;
+  animation: moveToRight 10s linear, moveToRightInfinite 70s 10s linear infinite;
+}
+@keyframes moveToRight {
+  100% {
+    left: 100%;
+  }
+}
+@keyframes moveToRightInfinite {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .error-page__title {
+    font-size: 100px;
+  }
+  .error-page__text {
+    font-size: 15px;
+  }
+  .error-page__airplane {
+    width: 10%;
+    height: 10%;
+  }
+  .error-page__cloud-sm {
+    width: 7%;
+    height: 7%;
+  }
+  .error-page__cloud-md {
+    width: 15%;
+    height: 15%;
+  }
+  .error-page__cloud-lg {
+    width: 25%;
+    height: 25%;
+  }
+}
