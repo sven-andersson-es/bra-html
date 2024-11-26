@@ -4,12 +4,17 @@
 
 body {
   filter: grayscale(100%);
+}
+.app-header {
   pointer-events: none;
 }
 .top-nav,
 .top-nav__button--lang,
 .hamburger {
   display: none;
+}
+.app-footer {
+  pointer-events: none;
 }
 .app-footer__columns {
   color: #595959;
