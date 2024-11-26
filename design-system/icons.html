@@ -121,16 +121,19 @@
       <br>
 
 
-      <h4 class="h4 mt-5">Instructions</h4>
-      Any SVG file can be used as an icon. Icons are stored in <code>/assets/icons</code> folder. 
-      Additional icons can be downloaded from <a href="https://icon-sets.iconify.design/" target="_blank">Iconify</a>.
-
-
-      <h6 class="h6 mt-4 mb-2">SVG files requirements</h6>
+      <h4 class="h4 mt-5">Instruction how to add icons</h4>
       <ol>
-        <li><code>id="icon"</code> attribute should be set on the SVG root element</li>
-        <li><code>width</code> and <code>height</code> attributes should not be set on the SVG root element</li>
-        <li>Fill color should not be set in SVG file or set to <code>currentColor</code></li>
+        <li>Find an icon on <a href="https://icon-sets.iconify.design/material-symbols/" target="_blank">Iconify page</a></li>
+        <li>Select an icon and choose the folowing options:
+          <ul>
+            <li>Size: No size</li>
+            <li>Color: currentColor</li>
+            <li>Format: SVG</li>
+          </ul>
+        </li>
+        <li>Click "Download"</li>
+        <li>Open the downloaded .svg file in text editor and add <code>id=&quot;icon&quot;</code> in the beggining of svg element like this: <code>&lt;svg id=&quot;icon&quot; </code></li>
+        <li>Upload .svg file to umbraco media folder</li>
       </ol>
       <br>
       <br>

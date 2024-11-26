@@ -131,14 +131,19 @@
     display: block;
     margin-inline: calc(-1 * var(--container-padding));
   }
+  .bl-b2b-product-featues__carousel-mobile .f-carousel__track {
+  align-items: stretch;
+  }
   .bl-b2b-product-featues__carousel-mobile .f-carousel__slide {
-    width: 100%;
+    justify-content: center;
+    background-color: var(--image-background-color);
+    height: calc(251 / 458 * 100vw);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--image-background-color);
+    width: 100%;
   }
   .bl-b2b-product-featues__carousel-mobile .f-carousel__slide img {
-    max-height: calc(100vh - 30px);
+  max-height: 100%;
   }
 }

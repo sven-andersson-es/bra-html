@@ -72,6 +72,7 @@ img, svg {
 .icon {
   fill: currentColor;
   width: 1em;
+  height: auto;
   aspect-ratio: 1;
   vertical-align: -5%;
 }
