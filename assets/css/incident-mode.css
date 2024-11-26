@@ -16,6 +16,9 @@
   vertical-align: -13%;
   margin-right: 4px;
 }
+.incident-mode a {
+  color: inherit;
+}
 /* mobile */
 @media (max-width: 576px) {
   .incident-mode {
