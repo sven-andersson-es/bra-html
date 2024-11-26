@@ -1,0 +1,16 @@
+:root {
+  --bra-green-dark: var(--bra-grey);
+}
+
+body {
+  filter: grayscale(100%);
+  pointer-events: none;
+}
+.top-nav,
+.top-nav__button--lang,
+.hamburger {
+  display: none;
+}
+.app-footer__columns {
+  color: #595959;
+}

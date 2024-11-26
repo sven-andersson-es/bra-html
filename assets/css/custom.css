@@ -237,7 +237,7 @@ img, svg {
   gap: var(--grid-gap);
 }
 .app-footer__title {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid currentColor;
   padding-bottom: 6px;
   margin-bottom: 12px;
 }
