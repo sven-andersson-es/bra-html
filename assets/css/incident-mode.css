@@ -1,0 +1,24 @@
+.incident-mode {
+  background-color: var(--bra-grey);
+  color: white;
+  margin-top: 40px;
+  margin-bottom: var(--blocks-spacing);
+  padding: 48px var(--container-padding);
+}
+.incident-mode__padding {
+  max-width: 704px;
+  margin-inline: auto;
+}
+.incident-mode__title {
+  color: inherit;
+}
+.incident-mode__title-icon {
+  vertical-align: -13%;
+  margin-right: 4px;
+}
+/* mobile */
+@media (max-width: 576px) {
+  .incident-mode {
+    margin-inline: calc(0px - var(--container-padding));
+  }
+}

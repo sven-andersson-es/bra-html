@@ -32,6 +32,7 @@
 @import "./app-header.css";
 @import "./forms.css";
 @import "./error-page.css";
+@import "./incident-mode.css";
 
 /***********************************************/
 /* Content blocks                              */
