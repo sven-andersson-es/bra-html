@@ -1,4 +1,4 @@
-Styles that should be available Rich Text Editor in "Format" dropdown menu:
+Styles that should be available in Rich Text Editor in "Format" dropdown menu:
 
 Submenu "Paragraphs"
 Long text >> html tag "p", CSS class "text-long"
@@ -6,15 +6,19 @@ Short text >> html tag "p", CSS class "text-short"
 Fine print >> html tag "p", CSS class "text-fine-print"
 
 Submenu "Headers"
-Text header 1 >> html tag "h1"
-Text header 2 >> html tag "h2"
-Text header 3 >> html tag "h3"
-Text header 4 >> html tag "h4"
-Text header 5 >> html tag "h5"
+H1: Display >> html tag "h1"
+H2: Headline >> html tag "h2"
+H3: Sub Headline >> html tag "h3"
+H4: Paragraph Headline >> html tag "h4"
+H5: Interactive Text >> html tag "h5"
+H6: Form Field Headline >> html tag "h6"
 
 Submenu "Text colors"
 BRA Green >> CSS class "text-bra-green"
 BRA Dark Green >> CSS class "text-bra-green-dark"
+
+Submenu "Buttons"
+Dark green with arrow >> CSS class "btn btn-secondary btn--arrow"
 
 
 Stylesheet for RTE is located in "assets/css/rte.css"

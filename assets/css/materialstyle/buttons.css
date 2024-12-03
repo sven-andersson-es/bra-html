@@ -79,3 +79,13 @@
 .btn-icon:active {
   background-color: color-mix(in oklab, currentColor 20%, transparent) !important;
 }
+.btn--arrow::after {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: currentColor;
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 22 22' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='currentColor' d='M17.3828 11.0977L13.4937 11.0977L6.68782 4.29175C6.15085 3.75478 6.15085 2.88418 6.68782 2.34721C7.22479 1.81024 8.0954 1.81024 8.63237 2.34721L17.3828 11.0977Z' /%3E%3Cpath fill='currentColor' d='M13.4937 11.0977L17.3828 11.0977L8.63237 19.8481C8.0954 20.3851 7.22479 20.3851 6.68782 19.8481C6.15085 19.3111 6.15085 18.4405 6.68782 17.9036L13.4937 11.0977Z' /%3E%3C/svg%3E");
+}
