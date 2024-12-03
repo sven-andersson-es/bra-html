@@ -54,6 +54,10 @@ h6, .h6 {
 .text-short {
   font-size: 15px;
 }
+.text-fine-print {
+  font-size: 13px;
+  color: #999999;
+}
 /* tablet */
 @media screen and (max-width: 872px) {
   h1, .h1 {

@@ -66,8 +66,16 @@ h5, .h5 {
   font-size: 18px;
   margin-bottom: 2px;
 }
-
-
+.text-long {
+  font-size: 18px;
+}
+.text-short {
+  font-size: 15px;
+}
+.text-fine-print {
+  font-size: 13px;
+  color: #999999;
+}
 .text-bra-green {
   color: var(--bra-green);
 }

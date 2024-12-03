@@ -1,12 +1,20 @@
-Styles for Rich Text Editor in Umbraco
+Styles that should be available Rich Text Editor in "Format" dropdown menu:
 
-Menu "Headers":
-Text header 1 >> html tag: h1
-Text header 2 >> html tag: h2
-Text header 3 >> html tag: h3
-Text header 4 >> html tag: h4
-Text header 5 >> html tag: h5
+Submenu "Paragraphs"
+Long text >> html tag "p", CSS class "text-long"
+Short text >> html tag "p", CSS class "text-short"
+Fine print >> html tag "p", CSS class "text-fine-print"
 
-Menu "Text color":
-BRA Green >> CSS class: text-bra-green
-BRA Dark Green >> CSS class: text-bra-green-dark 
+Submenu "Headers"
+Text header 1 >> html tag "h1"
+Text header 2 >> html tag "h2"
+Text header 3 >> html tag "h3"
+Text header 4 >> html tag "h4"
+Text header 5 >> html tag "h5"
+
+Submenu "Text colors"
+BRA Green >> CSS class "text-bra-green"
+BRA Dark Green >> CSS class "text-bra-green-dark"
+
+
+Stylesheet for RTE is located in "assets/css/rte.css"
