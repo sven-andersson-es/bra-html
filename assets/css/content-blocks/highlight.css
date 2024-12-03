@@ -1,6 +1,6 @@
 /************************************************/
 /* Highlight - content block                    */
-/* Variant: Color = Beige | Green | Light Green */
+/* Variant: Color = sliver | Green | Light Green */
 /************************************************/
 .bl-highlight {
   margin-bottom: var(--blocks-spacing);
@@ -33,12 +33,12 @@
 .bl-highlight--green a:not(:hover) {
   color: white;
 }
-/* variant: beige */
-.bl-highlight--beige {
-  background-color: var(--bra-beige-light);
+/* variant: sliver */
+.bl-highlight--sliver {
+  background-color: var(--bra-sliver-light);
 }
-.bl-highlight--beige .bl-highlight__title,
-.bl-highlight--beige .bl-highlight__button {
+.bl-highlight--sliver .bl-highlight__title,
+.bl-highlight--sliver .bl-highlight__button {
   color: var(--bra-green-dark);
 }
 /* variant: green-light */

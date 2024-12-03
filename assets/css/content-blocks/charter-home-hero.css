@@ -16,7 +16,6 @@
   min-height: 192px;
   margin-top: 34px;
   background-color: var(--image-background-color);
-  border-radius: var(--border-radius-card);
 }
 .bl-charter-home-hero__content {
   grid-area: 1 / 1 / 1 / 1;
@@ -24,7 +23,7 @@
   padding: 55px 41px 47px 41px;
   color: white;
   background-color: var(--bra-green);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-card);
 }
 .bl-charter-home-hero__title {
   color: white;

@@ -5,16 +5,18 @@
   margin-bottom: var(--blocks-spacing);
 }
 .bl-links__title {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   text-align: center;
 }
 .bl-links__text {
-  margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 15px;
 }
 .bl-links__links {
   display: grid;
   grid-gap: var(--grid-gap);
   grid-template-columns: repeat(3, 1fr);
+  margin-top: 45px;
 }
 .bl-links__link {
   display: flex;

@@ -54,37 +54,26 @@
   color: var(--text-color);
 }
 
-.text-bra-beige {
-  color: var(--bra-beige);
+.text-bra-sliver {
+  color: var(--bra-sliver);
 }
-.bg-bra-beige {
-  background-color: var(--bra-beige);
+.bg-bra-sliver {
+  background-color: var(--bra-sliver);
 }
-.text-bg-bra-beige {
-  background-color: var(--bra-beige);
+.text-bg-bra-sliver {
+  background-color: var(--bra-sliver);
   color: var(--text-color);
 }
 
-.text-bra-beige-light {
-  color: var(--bra-beige-light);
+.text-bra-sliver-light {
+  color: var(--bra-sliver-light);
 }
-.bg-bra-beige-light {
-  background-color: var(--bra-beige-light);
+.bg-bra-sliver-light {
+  background-color: var(--bra-sliver-light);
 }
-.text-bg-bra-beige-light {
-  background-color: var(--bra-beige-light);
+.text-bg-bra-sliver-light {
+  background-color: var(--bra-sliver-light);
   color: var(--text-color);
-}
-
-.text-bra-orange {
-  color: var(--bra-orange);
-}
-.bg-bra-orange {
-  background-color: var(--bra-orange);
-}
-.text-bg-bra-orange {
-  background-color: var(--bra-orange);
-  color: white;
 }
 
 .text-bra-grey {

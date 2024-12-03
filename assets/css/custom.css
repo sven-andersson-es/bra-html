@@ -33,7 +33,7 @@ a {
 /* on hover, select */
 a:hover,
 a:focus {
-  color: var(--bra-orange);
+  color: var(--bra-green-dark);
   text-decoration: underline;
 }
 /* on press */
@@ -45,7 +45,7 @@ hr {
   margin: 0;
   border-width: 0 0 1px 0;
   border-style: solid;
-  border-color: var(--bra-beige);
+  border-color: var(--bra-sliver);
   opacity: 1;
 }
 /* define focus style only for keyboard */
@@ -100,6 +100,7 @@ img, svg {
   grid-template-columns: repeat(12, 1fr);
   gap: var(--grid-gap);
   margin-inline: auto;
+  background-color: white;
 }
 .layout-with-left-navigation__left {
   grid-column: span 3;
@@ -113,8 +114,8 @@ img, svg {
   .layout-with-left-navigation {
     display: block;
     max-width: none;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0 0 0 0;
+    background: none;
   }
   .layout-with-left-navigation__left {
     display: none;
@@ -124,16 +125,16 @@ img, svg {
     max-width: 892px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 50px;
     padding-left: 26px;
     padding-right: 26px;
+    background-color: white;
   }
 }
 /* tablet */
 @media screen and (max-width: 872px) {
-  .layout-with-left-navigation {
-    padding-top: 0;
-  }
   .layout-with-left-navigation__right {
+    padding-top: 0;
     padding-left: 0;
     padding-right: 0;
   }
@@ -147,10 +148,14 @@ img, svg {
 
 
 /* Left navigation accordion */
+.accordion--navigation {
+  letter-spacing: -0.02em;
+}
 .left-navigation-accordion-button,
 .left-navigation-accordion-button:not(.collapsed) {
   border-bottom: 2px solid var(--bra-green-dark);
   background-color: transparent;
+  letter-spacing: -0.02em;
 }
 .left-navigation-accordion-button:hover {
   background-color: var(--bra-green-light-25);
@@ -202,7 +207,7 @@ img, svg {
     color: var(--bra-green-light);
   }
   .breadcrumbs a:hover {
-    color: var(--bra-orange);
+    color: var(--bra-green-dark);
   }
   .breadcrumbs__separator {
     margin-inline: 4px;

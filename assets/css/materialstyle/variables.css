@@ -26,7 +26,7 @@
   --bs-text-on-secondary: var(--bra-green-light-25);
   --bs-secondary-border-subtle: #c6c8ca;
 
-  --bs-tertiary: var(--bra-orange);
+  /* --bs-tertiary: var(--bra-silver);
   --bs-tertiary-hover: #F1854C;
   --bs-tertiary-active: #BE521B;
   --bs-tertiary-subtle: #f7d6e6;
@@ -35,7 +35,7 @@
   --bs-tertiary-emphasis: #801f4f;
   --bs-tertiary-emphasis-hover: #60173b;
   --bs-text-on-tertiary: #fff;
-  --bs-tertiary-border-subtle: #efadce;
+  --bs-tertiary-border-subtle: #efadce; */
 
   --bs-success: rgb(5, 127, 101);
   --bs-success-hover: #157347;

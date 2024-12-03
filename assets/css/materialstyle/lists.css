@@ -32,7 +32,7 @@
   --bs-list-group-color: var(--bra-green);
 }
 .list-group--compact .list-group-item {
-  border-bottom-color: var(--bra-beige);
+  border-bottom-color: var(--bra-sliver);
 }
 .list-group--compact .list-group-item:last-child {
   border-bottom-width: 0;

@@ -39,7 +39,7 @@ input[type=checkbox]:checked {
 .umbraco-forms-field.shortanswer,
 .umbraco-forms-field.longanswer {
   border: 1px solid #999999;
-  border-radius: 2px;
+  border-radius: var(--border-radius-button);
   background-color: white;
   transition: var(--button-transition);
   position: relative;
@@ -52,10 +52,12 @@ input[type=checkbox]:checked {
 .umbraco-forms-field.shortanswer .umbraco-forms-label,
 .umbraco-forms-field.longanswer .umbraco-forms-label {
   position: absolute;
-  top: 1px;
-  left: 10px;
+  top: 0;
+  left: 0;
   z-index: 1;
-  pointer-events: none;
+  width: 100%;
+  padding: 3px 0 0 7px;
+  cursor: text;
 }
 .umbraco-forms-field.shortanswer input,
 .umbraco-forms-field.longanswer textarea {
@@ -64,7 +66,8 @@ input[type=checkbox]:checked {
   border: none;
   padding: 0;
   background: transparent;
-  padding: 24px 10px 6px 10px;
+  padding: 0 7px 6px 7px;
+  margin-top: 24px;
 }
 .umbraco-forms-field.shortanswer input:focus,
 .umbraco-forms-field.longanswer textarea:focus {
