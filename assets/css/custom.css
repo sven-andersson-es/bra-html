@@ -95,12 +95,14 @@ img, svg {
 .layout-with-left-navigation {
   width: 100%;
   max-width: 1180px;
-  padding: 50px 26px 0 26px;
+  padding: 50px 26px var(--blocks-spacing) 26px; 26px; 26px; 26px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: var(--grid-gap);
+  gap: var(
+  --grid-gap);
   margin-inline: auto;
   background-color: white;
+  margin-bottom: calc(0px - var(--blocks-spacing));
 }
 .layout-with-left-navigation__left {
   grid-column: span 3;
@@ -174,9 +176,11 @@ img, svg {
 .bl--full-width-bg {
   margin-bottom: var(--blocks-spacing);
 }
-.bl--full-width-bg + .bl--full-width-bg,
+.bl--full-width-bg + .bl--full-width-bg {
+  margin-top: calc(1px - var(--blocks-spacing));
+}
 .bl--full-width-bg + .app-footer {
-  margin-top: calc(0px - var(--blocks-spacing));
+  margin-top: calc(1px - var(--blocks-spacing));
 }
 
 /***********************************************/
@@ -227,10 +231,9 @@ img, svg {
 /* Footer                                      */
 /***********************************************/
 .app-footer {
-  margin-top: auto;
+  margin-top: var(--blocks-spacing);
   background-color: var(--bra-green-dark);
   color: white;
-  border-top: 1px solid var(--background-color);
 }
 .app-footer .container {
   padding-top: 34px;

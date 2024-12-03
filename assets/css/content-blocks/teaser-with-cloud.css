@@ -14,10 +14,9 @@
   background-position: center center;
   background-size: cover;
   box-shadow: var(--box-shadow);
-  min-height: 200px;
 }
 .bl-teaser-with-cloud__image {
-  flex-grow: 1;
+  flex-grow: 0;
   flex-shrink: 0;
   width: 37%;
   background-color: var(--image-background-color);
@@ -25,7 +24,7 @@
   background-size: cover;
 }
 .bl-teaser-with-cloud__main {
-  padding: 28px 48px 8px 48px;
+  padding: 28px 48px 18px 48px;
 }
 .bl-teaser-with-cloud__title {
   margin-bottom: 22px;
@@ -36,7 +35,7 @@
 }
 .bl-teaser-with-cloud__link {
   margin-left: -8px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 /* layout with left navigation */
 .layout-with-left-navigation .bl-teaser-with-cloud__main {

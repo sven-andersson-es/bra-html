@@ -16,7 +16,6 @@
   object-fit: cover;
   object-position: center;
   background-color: var(--image-background-color);
-  border-radius: var(--border-radius-card);
   position: relative;
   z-index: 0;
 }
