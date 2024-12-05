@@ -18,7 +18,10 @@ BRA Green >> CSS class "text-bra-green"
 BRA Dark Green >> CSS class "text-bra-green-dark"
 
 Submenu "Buttons"
-Dark green with arrow >> CSS class "btn btn-secondary btn--arrow"
+Dark green >> CSS class "btn btn-secondary btn--arrow"
+Outlined >> CSS class "btn btn-outline btn--arrow"
+Small outlined >> CSS class "btn btn-outline btn-sm btn--arrow"
+Text button >> CSS class "btn btn-outline-secondary btn-sm btn-text btn--arrow"
 
 
 Stylesheet for RTE is located in "assets/css/rte.css"
