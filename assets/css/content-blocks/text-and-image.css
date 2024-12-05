@@ -13,6 +13,10 @@
 }
 .bl-text-and-image__image {
   display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 558/464;
+  object-fit: cover;
 }
 .bl-text-and-image__title--large {
   font-size: 36px;
@@ -30,7 +34,9 @@
   padding-left: 0px;
   padding-right: 35px;
 }
-.bl-text-and-image__text {}
+.bl-text-and-image__text:last-child {
+  margin-bottom: -1.3em;
+}
 /* tablet */
 @media screen and (max-width: 872px) {
   .bl-text-and-image {
