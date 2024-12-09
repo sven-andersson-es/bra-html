@@ -95,14 +95,15 @@ img, svg {
 .layout-with-left-navigation {
   width: 100%;
   max-width: 1180px;
-  padding: 50px 26px var(--blocks-spacing) 26px; 26px; 26px; 26px;
+  padding: 50px 26px var(--blocks-spacing) 26px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: var(
   --grid-gap);
   margin-inline: auto;
   background-color: white;
-  margin-bottom: calc(0px - var(--blocks-spacing));
+  margin-bottom: calc(0px - var(--blocks-spacing)) !important;
+  flex-grow: 1;
 }
 .layout-with-left-navigation__left {
   grid-column: span 3;
@@ -230,6 +231,11 @@ img, svg {
 /***********************************************/
 /* Footer                                      */
 /***********************************************/
+
+body > div:last-of-type {
+  margin-bottom: auto;
+}
+
 .app-footer {
   margin-top: var(--blocks-spacing);
   background-color: var(--bra-green-dark);
