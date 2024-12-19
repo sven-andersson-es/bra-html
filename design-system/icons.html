@@ -120,8 +120,18 @@
 
       <br>
 
+      <h4 class="h4 mt-5">Instruction how to add icons in SVG format</h4>
+      <p>In order for a SVG file to display in correct size and color it has to meet 3 requirements:</p>
+      <ol>
+        <li>svg element has to have an id="icon" defined like this: <code>&lt;svg id=&quot;icon&quot; </code></li>
+        <li>svg element should have width and height removed: <code>&lt;svg <s>width="24" height="24"</s> </code></li>
+        <li>paths should have defined <code>fill=&quot;currentColor&quot;</code></li>
+      </ol>
+      Example:<br>
+      <code>&lt;svg id=&quot;icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 5.62 11.2&quot;&gt;&lt;path 
+        fill=&quot;currentColor&quot; d=&quot;M2.23,2.81H4.85L5.62,0H3M0,11.2H2.59l1.61-6H1.61Z&quot;/&gt;&lt;/svg&gt;</code>
 
-      <h4 class="h4 mt-5">Instruction how to add icons</h4>
+      <h4 class="h4 mt-5">Instruction how to add icons from iconify</h4>
       <ol>
         <li>Find an icon on <a href="https://icon-sets.iconify.design/material-symbols/" target="_blank">Iconify page</a></li>
         <li>Select an icon and choose the folowing options:

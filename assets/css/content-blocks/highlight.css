@@ -10,14 +10,15 @@
 }
 .bl-highlight__title {
   color: var(--bra-green-dark);
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .bl-highlight__title-icon {
   width: 24px;
   margin-right: 4px;
 }
 .bl-highlight__text {
-  margin-bottom: 30px;
+  margin-bottom: 28px;
+  font-size: 15px;
 }
 .bl-highlight__button {
   margin-bottom: 30px;

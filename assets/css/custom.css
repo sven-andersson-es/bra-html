@@ -64,6 +64,12 @@ ol, ul {
 li {
   margin-left: 1.4em;
 }
+li + li {
+  margin-top: 0.78em;
+}
+.text-short li + li {
+  margin-top: 1.33em;
+}
 img, svg {
   max-width: 100%;
   vertical-align: initial;
