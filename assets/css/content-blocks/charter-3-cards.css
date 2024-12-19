@@ -75,7 +75,7 @@
     flex-grow: 0;
     flex-shrink: 0;
     width: 31%;
-    min-height: 140px;
+    min-height: 120px;
     max-height: 100%;
   }
   .bl-charter-3-cards__main {
@@ -88,6 +88,10 @@
     text-align: left;
   }
   .bl-charter-3-cards__text {
+    margin-bottom: 0;
+    font-size: 13px;
+  }
+  .bl-charter-3-cards__text p:last-child {
     margin-bottom: 0;
   }
   .bl-charter-3-cards__btn {
