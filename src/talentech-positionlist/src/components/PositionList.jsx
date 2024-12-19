@@ -23,8 +23,8 @@ function PositionList() {
 
   let mediaId = "4615";
   let take = "30";
-  let sortby = "ApplicationDue";
-  let sortasc = "1";
+  let sortby = "Created";
+  let sortasc = "0";
   const listRoot = document.getElementById("talentechPositionList");
 
   if (listRoot.getAttribute("data-mediaid")) {
