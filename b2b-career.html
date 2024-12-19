@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>B2B Career</title>
+    <meta name="description" content="" />
+
+    <!-- CSS files -->
+    <link
+      rel="stylesheet"
+      href="./libraries/materialstyle-3.1.1/css/materialstyle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/b2b.css" />
+
+    <link rel="icon" href="./assets/images/favicon.svg" />
+  </head>
+
+  <body>
+    <header class="app-header">
+      <div class="container app-header__container">
+        <button class="btn btn-secondary btn-circle hamburger">
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+        </button>
+
+        <a href="./">
+          <img
+            class="app-header__logo"
+            src="./assets/images/logotype.svg"
+            alt="BRA"
+          />
+        </a>
+
+        <button class="btn btn-secondary btn-circle btn-sm app-header__lang">
+          <svg class="icon">
+            <use href="./assets/icons/material-symbols--language.svg#icon" />
+          </svg>
+        </button>
+      </div>
+      <!-- /app-header__container -->
+    </header>
+    <!-- /app-header -->
+
+    <!-- Content blocks go here -->
+
+    <!-- B2B Landing Page Hero - content block -->
+    <div class="bl-b2b-landing-hero">
+      <img
+        src="./upload/hero-b2b-about-us.jpg"
+        alt=""
+        class="bl-b2b-landing-hero__image"
+      />
+
+      <nav class="breadcrumbs container">
+        <a href="./">Home</a>
+        <span class="breadcrumbs__separator">/</span>
+        <span>About us</span>
+      </nav>
+      <!-- /breadcrumbs -->
+
+      <div class="container bl-b2b-landing-hero__container">
+        <h1 class="bl-b2b-landing-hero__title">Come fly with us</h1>
+        <div class="bl-b2b-landing-hero__text">
+          <!-- Rich Text -->
+          <p>
+            At Braathens, we combine Scandinavian values with a warm, inclusive
+            culture where everyone is important. Together, we are committed to
+            deliver excellence in contract flying and charter operations.
+            Partnering with industry leaders, we’re shaping a sustainable and
+            innovative future in aviation. We are expanding our operations and
+            are now recruiting more colleagues that wants to grow together with
+            us.
+          </p>
+          <p>Ready to take off? Explore our open positions and apply today!</p>
+          <!-- /Rich Text -->
+        </div>
+      </div>
+      <!-- /bl-b2b-landing-hero__container -->
+    </div>
+    <!-- /bl-b2b-landing-hero -->
+    <!-- / B2B Landing Page Hero - content block -->
+
+    <!-- Open Positions List - content block -->
+  <div class="bl-b2b-position-list container">
+    <!-- h3 - editable in Umbraco Block  -->
+    <h2 class="bl-b2b-position-list__title">Open positions</h2>
+    <!-- /h3 - editable in Umbraco Block  -->
+    
+    <!-- talentechPositionList React Component -->
+    <!-- data-mediaid, data-take, data-sortby and data-sortasc editable in Umbraco Block -->
+     <!-- data-mediaid: Set as an id in text input -->
+     <!-- data-take: Set as a number in text input -->
+     <!-- data-sortby: Select in list - Sort by: [Id,Name,ApplicatonDue] -->
+     <!-- data-sortasc: Sort ascending: true(1) or false(0) -->
+    <div id="talentechPositionList" data-mediaid="4615" data-take="30" data-sortby="ApplicationDue" data-sortasc="1"></div>
+    <!-- /talentechPositionList React Component -->
+
+  </div>
+  <script src="./js/talentech-positionlist/talentech-positionlist.js""></script>
+  <!-- / Open Positions List - content block -->
+
+    <footer class="app-footer">
+      <div class="container">
+        <div class="app-footer__columns">
+          <div>
+            <h5 class="app-footer__title">Hjälp &amp; kontakt</h5>
+            <nav class="list-group list-group--compact">
+              <a class="list-group-item" href="#">Vanliga frågor</a>
+              <a class="list-group-item" href="#">Kontakta oss</a>
+              <a class="list-group-item" href="#"
+                >För agenter och återförsäljare</a
+              >
+            </nav>
+          </div>
+
+          <div>
+            <h5 class="app-footer__title">Om BRA</h5>
+            <nav class="list-group list-group--compact">
+              <a class="list-group-item" href="#">Bolagsinformation</a>
+              <a class="list-group-item" href="#">Pressrum</a>
+              <a class="list-group-item" href="#">Jobba med oss</a>
+              <a class="list-group-item" href="#">Visselblåsning</a>
+            </nav>
+          </div>
+
+          <div>
+            <h5 class="app-footer__title">Res med BRA</h5>
+            <nav class="list-group list-group--compact">
+              <a class="list-group-item" href="#">Item 1</a>
+              <a class="list-group-item" href="#">Item 2</a>
+              <a class="list-group-item" href="#">Item 3</a>
+            </nav>
+          </div>
+
+          <div>
+            <h5 class="app-footer__title">Column 4</h5>
+            <nav class="list-group list-group--compact">
+              <a class="list-group-item" href="#">Item 1</a>
+              <a class="list-group-item" href="#">Item 2</a>
+              <a class="list-group-item" href="#">Item 3</a>
+            </nav>
+          </div>
+
+          <div>
+            <h5 class="app-footer__title">Column 5</h5>
+            <nav class="list-group list-group--compact">
+              <a class="list-group-item" href="#">Item 1</a>
+              <a class="list-group-item" href="#">Item 2</a>
+              <a class="list-group-item" href="#">Item 3</a>
+            </nav>
+          </div>
+
+          <div>
+            <h5 class="app-footer__title">Column 6</h5>
+            <nav class="list-group list-group--compact">
+              <a class="list-group-item" href="#">Item 1</a>
+              <a class="list-group-item" href="#">Item 2</a>
+              <a class="list-group-item" href="#">Item 3</a>
+            </nav>
+          </div>
+        </div>
+        <!-- /app-footer__columns -->
+
+        <div class="app-footer__links">
+          BRA Sverige AB | Org.nr: 556966-5994
+          <a href="#">Allmänna villkor</a>
+          <a href="#">Hantering av personuppgifter</a>
+          <a href="#">Cookies</a>
+        </div>
+        <!-- /app-footer__links -->
+      </div>
+      <!-- /container -->
+    </footer>
+
+    <!-- Javascript files -->
+    <script src="./js/top-nav.js"></script>
+    <script src="./libraries/materialstyle-3.1.1/js/materialstyle.min.js"></script>
+  </body>
+</html>
