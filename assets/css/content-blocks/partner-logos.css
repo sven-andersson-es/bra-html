@@ -15,11 +15,11 @@
   text-wrap: balance;
   line-height: 60px;
   text-align: center;
-  margin-inline: -20px;
+  margin-inline: -32px;
 }
 .bl-partner-logos__logo {
   height: 23px;
-  margin: 0 20px;
+  margin: 0 32px;
 }
 /* tablet */
 @media screen and (max-width: 872px) {

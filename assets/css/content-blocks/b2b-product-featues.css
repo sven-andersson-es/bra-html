@@ -8,7 +8,7 @@
 }
 .bl-b2b-product-featues__data-card {
   background-color: white;
-  padding: 40px 46px;
+  padding: 40px 46px 32px 46px;
   border-radius: var(--border-radius-card) 0 0 var(--border-radius-card);
 }
 .bl-b2b-product-featues table {

@@ -187,7 +187,7 @@ img, svg {
   margin-top: calc(1px - var(--blocks-spacing));
 }
 .bl--full-width-bg + .app-footer {
-  margin-top: calc(1px - var(--blocks-spacing));
+  margin-top: 1px;
 }
 
 /***********************************************/

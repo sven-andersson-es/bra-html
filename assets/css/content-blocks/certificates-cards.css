@@ -5,12 +5,22 @@
   margin-bottom: 100px;
 }
 .bl-certificates-cards__title {
-  margin-bottom: 32px;
+  margin-bottom: 22px;
+  text-align: center;
 }
 .bl-certificates-cards__cards {
-  display: grid;
-  grid-gap: var(--grid-gap);
-  grid-template-columns: repeat(4, 1fr);
+  /* display: flex; */
+  /* gap: var(--grid-gap); */
+  /* grid-template-columns: repeat(auto-fill, minmax(max(100px, 200px), 1fr)); */
+  justify-content: center;
+  flex-wrap: wrap;
+  /* grid-auto-flow: column; */
+  text-align: left;
+  text-wrap: balance;
+  display: flex;
+  width: auto;
+  justify-content: flex-start;
+  margin-inline: auto;
 }
 .bl-certificates-cards__card {
   background-color: white;
@@ -18,7 +28,7 @@
   overflow: hidden;
   padding: 20px;
   border: 1px solid #D9D9D9;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   gap: 24px;
   align-items: center;
@@ -26,6 +36,9 @@
   text-decoration: none;
   justify-content: space-between;
   text-align: center;
+  --margin: calc(var(--grid-gap) / 2 - 2px);
+  width: calc(25% - var(--margin) * 2 - 4px);
+  margin: var(--margin);
 }
 .bl-certificates-cards__card:hover,
 .bl-certificates-cards__card:focus {
