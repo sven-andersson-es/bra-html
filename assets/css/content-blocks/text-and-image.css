@@ -7,6 +7,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: var(--blocks-spacing);
+  grid-gap: var(--grid-gap);
 }
 .bl-text-and-image--align-right {
   direction: rtl;
